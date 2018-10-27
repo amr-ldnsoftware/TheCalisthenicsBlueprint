@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/headerLine"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#0066ff" />
+
+        <TextView
+            android:id="@+id/headerLine2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#ff0000" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:contentDescription="header"
+            app:srcCompat="@drawable/homepage_bannertrim" />
+
+        <TextView
+            android:id="@+id/headerLine3"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#ff0000" />
+
+        <TextView
+            android:id="@+id/headerLine4"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="#8c8c8c" />
+
+
+        <TextView
+            android:id="@+id/bodyInfoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.5dp"
+            android:layout_marginRight="10.5dp"
+            android:fontFamily="@font/antic_didone"
+            android:layout_marginTop="7dp"
+            android:textStyle="bold"
+            android:text="In the world of fitness, Calisthenics is a dynamic training method which utilises bodyweight exercises and movements to increase one's strength \u0026 conditioning, as well as their overall well-being."
+            android:textAlignment="viewStart"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/bodyInfoTextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.5dp"
+            android:layout_marginRight="10.5dp"
+            android:fontFamily="@font/antic_didone"
+            android:layout_marginTop="7dp"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:text="The term which is relatively unfamiliar to most people, actually derives from the Ancient Greek words: 'kallos' and 'sthenos' - meaning 'Beautiful Strength'. "
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:id="@+id/bodyInfoTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.5dp"
+            android:layout_marginRight="10.5dp"
+            android:fontFamily="@font/antic_didone"
+            android:layout_marginTop="7dp"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:text="Typical exercises that fall under Calisthenics, include, but are not limited too:"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:id="@+id/bodyInfoTextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.5dp"
+            android:layout_marginRight="10.5dp"
+            android:fontFamily="@font/antic_didone"
+            android:layout_marginTop="7dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:text="                    \u2022   Pull Ups\n                    \u2022   Squats\n                    \u2022   Push Ups\n                    \u2022   Sit Ups\n                    \u2022   Lunges
+"
+            android:textAlignment="viewStart"
+            android:textSize="13sp" />
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#8c8c8c" />
+
+        <ImageView
+            android:id="@+id/imageViewBruceLee"
+            android:layout_width="match_parent"
+            android:layout_height="161dp"
+            android:paddingLeft="7.5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="2dp"
+            app:srcCompat="@drawable/brucelee" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#8c8c8c" />
+
+        <TextView
+            android:id="@+id/bodyInfoTextView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.5dp"
+            android:layout_marginRight="10.5dp"
+            android:fontFamily="@font/antic_didone"
+            android:layout_marginTop="7dp"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:text="For many professional athletes across a variety of sports, Calisthenics plays a vital role in the improvement of one's: strength; endurance; stamina; muscle growth, flexibilty and general fitness goals. "
+            android:textAlignment="viewStart" />
+
+    </LinearLayout>
+</ScrollView>
+

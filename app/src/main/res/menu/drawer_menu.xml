@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <!-- This controls the icon titles and their source file -->
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>
+        <item android:id="@+id/nav_fitnessprograms"
+            android:icon="@drawable/ic_fitnessprograms"
+            android:title="Fitness Programs"/>
+        <item android:id="@+id/nav_exercises"
+            android:icon="@drawable/ic_exercises"
+            android:title="Exercises"/>
+        <item android:id="@+id/nav_mobility"
+            android:icon="@drawable/ic_mobility"
+            android:title="Mobility/Flexibility"/>
+        <item android:id="@+id/nav_diet"
+            android:icon="@drawable/ic_diet"
+            android:title="Diet/Nutrition"/>
+        <item android:id="@+id/nav_myjourney"
+            android:icon="@drawable/ic_myjourneynew"
+            android:title="My Journey"/>
+        <item android:id="@+id/nav_parklocator"
+            android:icon="@drawable/ic_parklocator"
+            android:title="Park Locator"/>
+        <item android:id="@+id/nav_personaltrainers"
+            android:icon="@drawable/ic_personaltrainers"
+            android:title="Personal Trainers"/>
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="About TCB"/>
+            <item android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contact"
+                android:title="Contact"/>
+            <item android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share"/>
+        </menu>
+    </item>
+
+</menu>
