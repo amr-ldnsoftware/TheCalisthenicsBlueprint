@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -62,7 +61,7 @@
             android:paddingEnd="5dp"
             android:paddingStart="10dp"
             android:paddingTop="5dp"
-            android:text="10x 10kg Muscle Ups"
+            android:text="5x 15kg Muscle Ups"
             android:textAlignment="viewStart"
             android:textColor="#ffffff"
             android:textSize="13sp"
@@ -80,7 +79,7 @@
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:paddingTop="5dp"
-            android:text="x1 Set (3 mins rest) "
+            android:text="x3 Sets (3 mins rest inbetween sets) "
             android:textAlignment="center"
             android:textColor="#ffffff"
             android:textSize="12sp"
@@ -120,7 +119,7 @@
             android:paddingEnd="5dp"
             android:paddingStart="10dp"
             android:paddingTop="5dp"
-            android:text="8x 10kg Muscle Ups ---> 15x 10kg Straight Bar Dips ---> 15x 10kg Pull Ups"
+            android:text="5x 10kg Muscle Ups ---> 10x 10kg Straight Bar Dips ---> 10x 10kg Pull Ups"
             android:textAlignment="viewStart"
             android:textColor="#ffffff"
             android:textSize="13sp"
@@ -138,7 +137,7 @@
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:paddingTop="5dp"
-            android:text="x1 Set (3 mins rest) "
+            android:text="x3 Set (3 mins rest) "
             android:textAlignment="center"
             android:textColor="#ffffff"
             android:textSize="12sp"
@@ -209,7 +208,7 @@
             android:paddingEnd="5dp"
             android:paddingStart="10dp"
             android:paddingTop="5dp"
-            android:text="3-5x 10kg Muscle Ups ---> 5x 5kg Muscle Ups ---> 10x 5kg Straight Bar Dips ---> 10x 5kg Pull Ups "
+            android:text="5 Muscle Ups ---> 10 Straight Bar Dips ---> 10 Pull Ups"
             android:textAlignment="viewStart"
             android:textColor="#ffffff"
             android:textSize="13sp"
@@ -228,7 +227,7 @@
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:paddingTop="5dp"
-            android:text="x5 Sets (3-4 mins rest inbetween sets) "
+            android:text="x3 Sets (3 mins rest inbetween sets) "
             android:textAlignment="center"
             android:textColor="#ffffff"
             android:textSize="12sp"
@@ -239,7 +238,7 @@
             android:layout_height="match_parent">
 
             <ImageButton
-                android:id="@+id/mon_weightedmuscleup3"
+                android:id="@+id/mon_muscleup"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_alignParentStart="true"
@@ -249,7 +248,7 @@
                 android:background="#ffffff"
                 android:contentDescription="armVector"
                 android:scaleType="centerCrop"
-                android:src="@drawable/weighted_muscleup"
+                android:src="@drawable/muscleup"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -270,7 +269,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageButton
-                android:id="@+id/mon_weightedpulls2"
+                android:id="@+id/mon_pulls"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_alignParentStart="true"
@@ -280,7 +279,7 @@
                 android:background="#ffffff"
                 android:contentDescription="armVector"
                 android:scaleType="centerCrop"
-                android:src="@drawable/weighted_pulls"
+                android:src="@drawable/pull_ups"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -300,7 +299,7 @@
             android:paddingEnd="5dp"
             android:paddingStart="10dp"
             android:paddingTop="5dp"
-            android:text="Max Front Lever Pull Ups"
+            android:text="5 seconds Front Lever Hold ---> 3 Lever Pull Ups"
             android:textAlignment="viewStart"
             android:textColor="#ffffff"
             android:textSize="13sp"
@@ -319,7 +318,7 @@
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:paddingTop="5dp"
-            android:text="x4 Sets (2 mins rest inbetween sets) "
+            android:text="x5 Sets (2 mins rest inbetween sets) "
             android:textAlignment="center"
             android:textColor="#ffffff"
             android:textSize="12sp"
@@ -330,7 +329,7 @@
             android:layout_height="match_parent">
 
             <ImageButton
-                android:id="@+id/mon_frontleverpullups"
+                android:id="@+id/mon_frontlever"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_alignParentStart="true"
@@ -340,9 +339,84 @@
                 android:background="#ffffff"
                 android:contentDescription="armVector"
                 android:scaleType="centerCrop"
+                android:src="@drawable/frontlever"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/mon_frontleverpullups"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="71dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="armVector"
+                android:scaleType="centerCrop"
                 android:src="@drawable/lever_pullups"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView_MondayWorkout9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="20dp"
+            android:background="#457b9d"
+            android:fontFamily="@font/antic_didone"
+            android:paddingBottom="5dp"
+            android:paddingEnd="5dp"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:text="Max V-Sit Hold"
+            android:textAlignment="viewStart"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_MondayWorkout10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="0dp"
+            android:background="#457b9d"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="x5 Sets (2 mins rest inbetween sets) "
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/mon_vsit"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="armVector"
+                android:scaleType="centerCrop"
+                android:src="@drawable/vsit"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
 
         </android.support.constraint.ConstraintLayout>
 
@@ -390,7 +464,7 @@
 
 
             <CheckBox
-                android:id="@+id/checkBox_adv2wk3_monday"
+                android:id="@+id/checkBox_adv3wk1_monday"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -463,7 +537,7 @@
             android:paddingEnd="5dp"
             android:paddingStart="10dp"
             android:paddingTop="5dp"
-            android:text="7x 130kg Squats"
+            android:text="10x 120kg Squats"
             android:textAlignment="viewStart"
             android:textColor="#f1faee"
             android:textSize="13sp"
@@ -481,7 +555,7 @@
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:paddingTop="5dp"
-            android:text="x4 Sets (3 mins rest inbetween sets) "
+            android:text="x3 Sets (3 mins rest inbetween sets) "
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textColor="#f1faee"
@@ -522,7 +596,7 @@
             android:paddingEnd="5dp"
             android:paddingStart="10dp"
             android:paddingTop="5dp"
-            android:text="10x 100kg Front Squats"
+            android:text="15x 90kg Front Squats"
             android:textAlignment="viewStart"
             android:textColor="#f1faee"
             android:textSize="13sp"
@@ -582,7 +656,7 @@
             android:paddingEnd="5dp"
             android:paddingStart="10dp"
             android:paddingTop="5dp"
-            android:text="Max 70kg Squats ---> Max 20kg Pistol Squats (E/S)"
+            android:text="Max 50kg Bulgarian Split Squats (E/S) ---> Max 50kg Lunges (E/S)"
             android:textAlignment="viewStart"
             android:textColor="#f1faee"
             android:textSize="13sp"
@@ -601,7 +675,7 @@
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:paddingTop="5dp"
-            android:text="x4 Sets (3 mins rest inbetween sets) "
+            android:text="x3 Sets (3 mins rest inbetween sets) "
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textColor="#f1faee"
@@ -613,7 +687,7 @@
             android:layout_height="match_parent">
 
             <ImageButton
-                android:id="@+id/tues_weightedsquats2"
+                android:id="@+id/tues_bulgarian"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_alignParentStart="true"
@@ -623,12 +697,12 @@
                 android:background="#ffffff"
                 android:contentDescription="armVector"
                 android:scaleType="centerCrop"
-                android:src="@drawable/weighted_squats"
+                android:src="@drawable/bulgarian"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageButton
-                android:id="@+id/tues_pistolsquats"
+                android:id="@+id/tues_weightedlunges"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_alignParentStart="true"
@@ -638,7 +712,7 @@
                 android:background="#ffffff"
                 android:contentDescription="armVector"
                 android:scaleType="centerCrop"
-                android:src="@drawable/pistol_squats"
+                android:src="@drawable/weighted_lunges"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -657,7 +731,7 @@
             android:paddingEnd="5dp"
             android:paddingStart="10dp"
             android:paddingTop="5dp"
-            android:text="Max Glute Ham Raises"
+            android:text="Max Wall Sit with 50kg"
             android:textAlignment="viewStart"
             android:textColor="#f1faee"
             android:textSize="13sp"
@@ -665,6 +739,66 @@
 
         <TextView
             android:id="@+id/textView_TuesdayWorkout06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="0dp"
+            android:background="#264673"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="x3 Sets (2 mins rest inbetween sets) "
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#f1faee"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/tues_wallsit"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="armVector"
+                android:scaleType="centerCrop"
+                android:src="@drawable/wallsit"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView_TuesdayWorkout07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="20dp"
+            android:background="#264673"
+            android:fontFamily="@font/antic_didone"
+            android:paddingBottom="5dp"
+            android:paddingEnd="5dp"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:text="Max Glute Ham Raises"
+            android:textAlignment="viewStart"
+            android:textColor="#f1faee"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_TuesdayWorkout08"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="7dp"
@@ -704,6 +838,67 @@
 
         </android.support.constraint.ConstraintLayout>
 
+        <TextView
+            android:id="@+id/textView_TuesdayWorkout09"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="20dp"
+            android:background="#264673"
+            android:fontFamily="@font/antic_didone"
+            android:paddingBottom="5dp"
+            android:paddingEnd="5dp"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:text="Max Handstand Push Ups"
+            android:textAlignment="viewStart"
+            android:textColor="#f1faee"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_TuesdayWorkout10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="0dp"
+            android:background="#264673"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="x5 Sets (2 mins rest inbetween sets) "
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#f1faee"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/tues_handstandpushups"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="armVector"
+                android:scaleType="centerCrop"
+                android:src="@drawable/handstands_pushups"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -718,9 +913,27 @@
                 android:contentDescription="legVector"
                 android:src="@drawable/legs_muscle" />
 
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="48dp"
+                android:contentDescription="armVector"
+                android:src="@drawable/arm_muscle" />
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="32dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="94dp"
+                android:contentDescription="chestVector"
+                android:src="@drawable/chest_muscle" />
+
 
             <CheckBox
-                android:id="@+id/checkBox_adv2wk3_Tuesday"
+                android:id="@+id/checkBox_adv3wk1_Tuesday"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -792,7 +1005,7 @@
             android:paddingEnd="5dp"
             android:paddingStart="10dp"
             android:paddingTop="5dp"
-            android:text="5x 70kg Dips"
+            android:text="6x 70kg Dips"
             android:textAlignment="viewStart"
             android:textColor="#ffffff"
             android:textSize="13sp"
@@ -810,7 +1023,7 @@
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:paddingTop="5dp"
-            android:text="x3 Sets (3 mins rest inbetween sets) "
+            android:text="x4 Sets (3 mins rest inbetween sets) "
             android:textAlignment="center"
             android:textColor="#ffffff"
             android:textSize="12sp"
@@ -851,7 +1064,7 @@
             android:paddingEnd="5dp"
             android:paddingStart="10dp"
             android:paddingTop="5dp"
-            android:text="10x 30kg Dips ---> 10x 30kg Ring Dips"
+            android:text="10x 40kg Dips"
             android:textAlignment="viewStart"
             android:textColor="#ffffff"
             android:textSize="13sp"
@@ -895,20 +1108,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageButton
-                android:id="@+id/wed_ringdips"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="71dp"
-                android:layout_marginTop="4dp"
-                android:background="#ffffff"
-                android:contentDescription="backVector"
-                android:scaleType="centerCrop"
-                android:src="@drawable/ring_dips"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
 
         </android.support.constraint.ConstraintLayout>
 
@@ -926,7 +1125,7 @@
             android:paddingEnd="5dp"
             android:paddingStart="10dp"
             android:paddingTop="5dp"
-            android:text="Max Ring Muscle Ups"
+            android:text="5 Ring Muscle Ups ---> 10 Ring Dips ---> 10 Ring Pull Ups ---> Max L-Sit Hold"
             android:textAlignment="viewStart"
             android:textColor="#ffffff"
             android:textSize="13sp"
@@ -945,7 +1144,7 @@
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:paddingTop="5dp"
-            android:text="x4 Sets (2-3 mins rest inbetween sets) "
+            android:text="x5 Sets (3 mins rest inbetween sets) "
             android:textAlignment="center"
             android:textColor="#ffffff"
             android:textSize="12sp"
@@ -968,6 +1167,51 @@
                 android:contentDescription="armVector"
                 android:scaleType="centerCrop"
                 android:src="@drawable/ring_muscleup"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/wed_ringdips"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="71dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="armVector"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ring_dips"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/wed_ringpullups"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="134dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="armVector"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ring_pull"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/wed_lsit"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="198dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="armVector"
+                android:scaleType="centerCrop"
+                android:src="@drawable/l_sit"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -1046,7 +1290,7 @@
             android:paddingEnd="5dp"
             android:paddingStart="10dp"
             android:paddingTop="5dp"
-            android:text="5 Handstand Push Ups"
+            android:text="Max Front Lever Hold"
             android:textAlignment="viewStart"
             android:textColor="#ffffff"
             android:textSize="13sp"
@@ -1077,7 +1321,7 @@
             android:layout_height="match_parent">
 
             <ImageButton
-                android:id="@+id/wed_handstandpushups"
+                android:id="@+id/wed_frontlever"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_alignParentStart="true"
@@ -1087,7 +1331,67 @@
                 android:background="#ffffff"
                 android:contentDescription="armVector"
                 android:scaleType="centerCrop"
-                android:src="@drawable/handstands_pushups"
+                android:src="@drawable/frontlever"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView_WednesdayWorkout09"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="20dp"
+            android:background="#457b9d"
+            android:fontFamily="@font/antic_didone"
+            android:paddingBottom="5dp"
+            android:paddingEnd="5dp"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:text="Max Back Lever Hold"
+            android:textAlignment="viewStart"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_WednesdayWorkout10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="0dp"
+            android:background="#457b9d"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="x4 Sets (2 mins rest inbetween sets) "
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/wed_backlever"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="armVector"
+                android:scaleType="centerCrop"
+                android:src="@drawable/backlever"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -1126,16 +1430,16 @@
                 android:src="@drawable/chest_muscle" />
 
             <ImageView
-                android:layout_width="35dp"
-                android:layout_height="32dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="94dp"
+                android:layout_marginStart="146dp"
                 android:contentDescription="chestVector"
-                android:src="@drawable/chest_muscle" />
+                android:src="@drawable/core_muscle" />
 
             <CheckBox
-                android:id="@+id/checkBox_adv2wk3_wednesday"
+                android:id="@+id/checkBox_adv3wk1_wednesday"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
