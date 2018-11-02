@@ -40,21 +40,23 @@ public class FitnessProgramsFragment extends Fragment {
 
 
     public void getFitnessCards() {
+            programList.add(new ProgramCardViewItem(R.drawable.warningtriangle, "IMPORTANT INFO", " Workout Essentials and Disclaimer", "", "READ"));
             programList.add(new ProgramCardViewItem(R.drawable.trimmed_logo, "BEGINNER - LEVEL 1", " Fundamentals of Calisthenics", "Introducing the Basic Movements", "Start"));
-            programList.add(new ProgramCardViewItem(R.drawable.trimmed_logo, "BEGINNER - LEVEL 2", " Preparing for the Bodyweight Pull Up", "Introducing Calf Raises and Glute Bridges", "Start"));
-            programList.add(new ProgramCardViewItem(R.drawable.trimmed_logo, "BEGINNER - LEVEL 3", " Building Pull Up Endurance", "Introducing Bar Leg Raises and Hollow Holds", "Start"));
-            programList.add(new ProgramCardViewItem(R.drawable.trimmed_logo, "BEGINNER - LEVEL 4", " Sets of 15 Pull Ups", "Introducing Straight Bar Dips", "Start"));
-            programList.add(new ProgramCardViewItem(R.drawable.trophyblue, "BEGINNER - LEVEL 5", " Weighted Pull Ups and Dips", "Introducing Lever Conditioning", "Start"));
-            programList.add(new ProgramCardViewItem(R.drawable.trimmed_logo2, "INTERMEDIATE - LEVEL 1", " Banded Muscle Ups", "Introducing Russian and Transitional Dips", "Start"));
-            programList.add(new ProgramCardViewItem(R.drawable.trimmed_logo2, "INTERMEDIATE - LEVEL 2", " Fundamentals of Calisthenics", "Introducing the Further Movements", "Start"));
-            programList.add(new ProgramCardViewItem(R.drawable.trimmed_logo2, "INTERMEDIATE - LEVEL 3", " Fundamentals of Calisthenics", "Introducing the Basic Movements", "Start"));
-            programList.add(new ProgramCardViewItem(R.drawable.trimmed_logo2, "INTERMEDIATE - LEVEL 4", " Fundamentals of Calisthenics", "Introducing the Basic Movements", "Start"));
-            programList.add(new ProgramCardViewItem(R.drawable.trophyblue, "INTERMEDIATE - LEVEL 5", " Fundamentals of Calisthenics", "Introducing the Further Movements", "Start"));
-            programList.add(new ProgramCardViewItem(R.drawable.wedge, "ADVANCED - LEVEL 1", " Fundamentals of Calisthenics", "Introducing the Basic Movements", "Start"));
-            programList.add(new ProgramCardViewItem(R.drawable.wedge, "ADVANCED - LEVEL 2", " Fundamentals of Calisthenics", "Introducing the Further Movements", "Start"));
-            programList.add(new ProgramCardViewItem(R.drawable.wedge, "ADVANCED - LEVEL 3", " Fundamentals of Calisthenics", "Introducing the Basic Movements", "Start"));
-            programList.add(new ProgramCardViewItem(R.drawable.wedge, "ADVANCED - LEVEL 4", " Fundamentals of Calisthenics", "Introducing the Basic Movements", "Start"));
-            programList.add(new ProgramCardViewItem(R.drawable.trophyblue, "ADVANCED - LEVEL 5", " Fundamentals of Calisthenics", "Introducing the Further Movements", "Start"));
+            programList.add(new ProgramCardViewItem(R.drawable.trimmed_logo, "BEGINNER - LEVEL 2", " Preparing for the Bodyweight Pull Up", "Calf Raises and Glute Bridges", "Start"));
+            programList.add(new ProgramCardViewItem(R.drawable.trimmed_logo, "BEGINNER - LEVEL 3", " Building Pull Up Endurance", "Bar Leg Raises and Hollow Holds", "Start"));
+            programList.add(new ProgramCardViewItem(R.drawable.trimmed_logo, "BEGINNER - LEVEL 4", " Sets of 15 Pull Ups", "Straight Bar Dips", "Start"));
+            programList.add(new ProgramCardViewItem(R.drawable.trophyblue, "BEGINNER - LEVEL 5", " Weighted Pull Ups and Dips", "Lever Conditioning", "Start"));
+            programList.add(new ProgramCardViewItem(R.drawable.trimmed_logo2, "INTERMEDIATE - LEVEL 1", " Banded Muscle Ups", "Russian and Transitional Dips", "Start"));
+            programList.add(new ProgramCardViewItem(R.drawable.trimmed_logo2, "INTERMEDIATE - LEVEL 2", " Muscle Ups", "Dragon Flags and L-Sit Chin Ups", "Start"));
+            programList.add(new ProgramCardViewItem(R.drawable.trimmed_logo2, "INTERMEDIATE - LEVEL 3", " Muscle Up Endurance", "100kg Squats", "Start"));
+            programList.add(new ProgramCardViewItem(R.drawable.trimmed_logo2, "INTERMEDIATE - LEVEL 4", " Ring Muscle Ups", "Wall Handstand Push Ups", "Start"));
+            programList.add(new ProgramCardViewItem(R.drawable.trophyblue, "INTERMEDIATE - LEVEL 5", " Weighted Muscle Ups", "120kg Squats", "Start"));
+            programList.add(new ProgramCardViewItem(R.drawable.wedge, "ADVANCED - LEVEL 1", " 50kg Pull Ups and 60kg Dips", "Levers, HSPU, GHR and Pistol Squats", "Start"));
+            programList.add(new ProgramCardViewItem(R.drawable.wedge, "ADVANCED - LEVEL 2", " 10x 10kg Muscle Ups", "Lever Pull Ups", "Start"));
+            programList.add(new ProgramCardViewItem(R.drawable.wedge, "ADVANCED - LEVEL 3", " 15kg Muscle Up Circuits", "90 Degree Handstand Push Ups", "Start"));
+            programList.add(new ProgramCardViewItem(R.drawable.wedge, "ADVANCED - LEVEL 4", " 20kg Muscle Up Circuits", "Straddle Planche", "Start"));
+            programList.add(new ProgramCardViewItem(R.drawable.trophyblue, "ADVANCED - LEVEL 5", " 30kg Muscle Up, Weighted Planche", "Maltese and One Arm Pull Ups", "Start"));
+
         }
     }
 

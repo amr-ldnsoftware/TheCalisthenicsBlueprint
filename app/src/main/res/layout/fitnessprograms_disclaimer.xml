@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:id="@+id/textView_ImportantInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:fontFamily="@font/antic_didone"
+            android:text="WORKOUT ESSENTIALS"
+            android:textAlignment="center"
+            android:textColor="#ff0000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="4.5dp"
+            android:background="#666666" />
+
+        <TextView
+            android:id="@+id/textView_Equipment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="17dp"
+            android:fontFamily="@font/antic_didone"
+            android:padding="5dp"
+            android:text="EQUIPMENT REQUIRED:"
+            android:textAlignment="viewStart"
+            android:textColor="#000066"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView_Equipment22xx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:fontFamily="@font/antic_didone"
+            android:padding="5dp"
+            android:text="Red Resistance Band (Width = 1.3cm)"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="end"
+            android:layout_marginStart="275dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/redband" />
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView_Equipment22xx3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:fontFamily="@font/antic_didone"
+                android:padding="5dp"
+                android:text="Black Resistance Band (Width = 2.2cm)"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="32dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="end"
+                android:layout_marginStart="275dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/blackband" />
+
+        </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView_Equipment22xx32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:fontFamily="@font/antic_didone"
+            android:padding="5dp"
+            android:text="Purple Resistance Band (Width = 3.2cm)"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="end"
+            android:layout_marginStart="275dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/purpleband" />
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/textView_Equipment22xx332"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:fontFamily="@font/antic_didone"
+                android:padding="5dp"
+                android:text="Green Resistance Band (Width = 4.5cm)"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="32dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="end"
+                android:layout_marginStart="275dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/greenband" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:background="#595959" />
+
+        <TextView
+            android:id="@+id/textView_Note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/antic_didone"
+            android:padding="5dp"
+            android:text="NOTE:"
+            android:textAlignment="viewStart"
+            android:textColor="#000066"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_Nowte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/antic_didone"
+            android:padding="5dp"
+            android:text="If you break the set, then take 10-20 secs rest and carry on. Always maintain form over quantity."
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:background="#595959" />
+
+
+        <TextView
+            android:id="@+id/textView_abbr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/antic_didone"
+            android:padding="5dp"
+            android:text="ABBREVIATIONS:"
+            android:textAlignment="viewStart"
+            android:textColor="#000066"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_abb3r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:fontFamily="@font/antic_didone"
+            android:padding="5dp"
+            android:text="'E/S' = Each Side"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_abb33r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:fontFamily="@font/antic_didone"
+            android:padding="5dp"
+            android:text="'r' = Red Band"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_abbe33r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:fontFamily="@font/antic_didone"
+            android:padding="5dp"
+            android:text="'b' = Black Band"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_abbe313r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:fontFamily="@font/antic_didone"
+            android:padding="5dp"
+            android:text="'p' = Purple Band"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_abbe313rd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:fontFamily="@font/antic_didone"
+            android:padding="5dp"
+            android:text="'g' = Green Band"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView_abbe313drd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="17dp"
+            android:fontFamily="@font/antic_didone"
+            android:padding="5dp"
+            android:text="'10.10.10. Isometric hold' = 10 seconds chin over bar, 10 seconds head under bar, 10 seconds deadhang"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/divider9"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:background="#595959" />
+
+        <TextView
+            android:id="@+id/textView_abbr2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/antic_didone"
+            android:padding="5dp"
+            android:text="Aim to spend at least 15 minutes to Warm-Up + Stretch before the workout and 15 minutes to Cool Down + Stretch after the workout."
+            android:textAlignment="viewStart"
+            android:textColor="#006622"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="4.5dp"
+            android:background="#666666" />
+
+        <TextView
+            android:id="@+id/textView_ImportantInfo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/antic_didone"
+            android:text="DISCLAIMER!"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/divider222"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="4.5dp"
+            android:background="#ff0000" />
+
+
+        <TextView
+            android:id="@+id/textView_Equipment2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="17dp"
+            android:fontFamily="@font/antic_didone"
+            android:padding="5dp"
+            android:text="The Beginner Program has been written for anyone to undertake - regardless of gender and weight. The minimum age is 15 years old. "
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView_Equipment22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="17dp"
+            android:fontFamily="@font/antic_didone"
+            android:padding="5dp"
+            android:text="However, for the Intermediate and Advanced Programs, this has been designed for people ideally weighing 65kg and above.  "
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_Equipment222"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="17dp"
+            android:fontFamily="@font/antic_didone"
+            android:padding="5dp"
+            android:text="With regards to performing certain intense exercises - such as weighted squats, weighted pull ups etc., you should lower or increase the weight to suit your body mass as necessary. For example, do not attempt 100kg squats if you can barely do 60kg squats."
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_Equipment22w2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="17dp"
+            android:fontFamily="@font/antic_didone"
+            android:padding="5dp"
+            android:text="These workouts are a guideline and will be suitable for some individuals. If they’re not suitable for you, you should make the necessary adjustments and judge the situation accordingly."
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_Equipment22ww2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="17dp"
+            android:fontFamily="@font/antic_didone"
+            android:padding="5dp"
+            android:text="We do not take responsibility for any injuries sustained in the process."
+            android:textAlignment="viewStart"
+            android:textColor="#ff0000"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_Equipment22wew2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="17dp"
+            android:fontFamily="@font/antic_didone"
+            android:padding="5dp"
+            android:text="If you need any assistance, feel free to message us using the Contact Form in the side navigation drawer."
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+

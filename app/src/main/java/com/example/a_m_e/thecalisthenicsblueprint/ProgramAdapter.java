@@ -48,34 +48,36 @@ public class ProgramAdapter extends RecyclerView.Adapter<ProgramAdapter.ExampleV
                 public void onClick(View v) {
                     final Intent intent;
                     if (getAdapterPosition() == 0) {
-                        intent = new Intent(itemView.getContext(), BegLevel1.class);
+                        intent = new Intent(itemView.getContext(), Fitnessprograms_Disclaimer.class);
                     } else if (getAdapterPosition() == 1) {
-                        intent = new Intent(itemView.getContext(), BegLevel2.class);
+                        intent = new Intent(itemView.getContext(), BegLevel1.class);
                     } else if (getAdapterPosition() == 2) {
-                            intent = new Intent(itemView.getContext(), BegLevel3.class);
+                        intent = new Intent(itemView.getContext(), BegLevel2.class);
                     } else if (getAdapterPosition() == 3) {
-                        intent = new Intent(itemView.getContext(), BegLevel4.class);
+                        intent = new Intent(itemView.getContext(), BegLevel3.class);
                     } else if (getAdapterPosition() == 4) {
-                        intent = new Intent(itemView.getContext(), BegLevel5.class);
+                        intent = new Intent(itemView.getContext(), BegLevel4.class);
                     } else if (getAdapterPosition() == 5) {
-                        intent = new Intent(itemView.getContext(), IntLevel1.class);
+                        intent = new Intent(itemView.getContext(), BegLevel5.class);
                     } else if (getAdapterPosition() == 6) {
-                        intent = new Intent(itemView.getContext(), IntLevel2.class);
+                        intent = new Intent(itemView.getContext(), IntLevel1.class);
                     } else if (getAdapterPosition() == 7) {
-                        intent = new Intent(itemView.getContext(), IntLevel3.class);
+                        intent = new Intent(itemView.getContext(), IntLevel2.class);
                     } else if (getAdapterPosition() == 8) {
-                        intent = new Intent(itemView.getContext(), IntLevel4.class);
+                        intent = new Intent(itemView.getContext(), IntLevel3.class);
                     } else if (getAdapterPosition() == 9) {
-                        intent = new Intent(itemView.getContext(), IntLevel5.class);
+                        intent = new Intent(itemView.getContext(), IntLevel4.class);
                     } else if (getAdapterPosition() == 10) {
-                        intent = new Intent(itemView.getContext(), AdvLevel1.class);
+                        intent = new Intent(itemView.getContext(), IntLevel5.class);
                     } else if (getAdapterPosition() == 11) {
-                        intent = new Intent(itemView.getContext(), AdvLevel2.class);
+                        intent = new Intent(itemView.getContext(), AdvLevel1.class);
                     } else if (getAdapterPosition() == 12) {
-                        intent = new Intent(itemView.getContext(), AdvLevel3.class);
+                        intent = new Intent(itemView.getContext(), AdvLevel2.class);
                     } else if (getAdapterPosition() == 13) {
-                        intent = new Intent(itemView.getContext(), AdvLevel4.class);
+                        intent = new Intent(itemView.getContext(), AdvLevel3.class);
                     } else if (getAdapterPosition() == 14) {
+                        intent = new Intent(itemView.getContext(), AdvLevel4.class);
+                    } else if (getAdapterPosition() == 15) {
                         intent = new Intent(itemView.getContext(), AdvLevel5.class);
                     } else
                         intent = new Intent(itemView.getContext(),BegLevel1.class);
@@ -102,50 +104,86 @@ public class ProgramAdapter extends RecyclerView.Adapter<ProgramAdapter.ExampleV
 
         //Setting the background colour for the textviews in the CardViews
         if(position==0){
-            holder.mTextView1.setBackgroundColor(Color.parseColor("#4d94ff"));
-            holder.mTextView1.setTextSize((float) 17.2);
+            holder.mTextView1.setTextColor(Color.parseColor("#ff0000"));
+            holder.mTextView1.setBackgroundColor(Color.parseColor("#ffffff"));
+            holder.mTextView1.setTextSize((float) 17.4);
+            holder.mButtonStart.setBackgroundResource(R.drawable.button_design_disclaimer);
+            holder.mButtonStart.setTextSize((float) 16.4);
         } else if(position==1) {
+            holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
             holder.mTextView1.setBackgroundColor(Color.parseColor("#4d94ff"));
             holder.mTextView1.setTextSize((float) 17.2);
+            holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==2) {
+            holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
             holder.mTextView1.setBackgroundColor(Color.parseColor("#4d94ff"));
             holder.mTextView1.setTextSize((float) 17.2);
+            holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==3) {
+            holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
             holder.mTextView1.setBackgroundColor(Color.parseColor("#4d94ff"));
             holder.mTextView1.setTextSize((float) 17.2);
+            holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==4) {
+            holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
             holder.mTextView1.setBackgroundColor(Color.parseColor("#4d94ff"));
             holder.mTextView1.setTextSize((float) 17.2);
+            holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==5) {
-            holder.mTextView1.setBackgroundColor(Color.parseColor("#ffc266"));
-            holder.mTextView1.setTextSize((float) 13.8);
+            holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
+            holder.mTextView1.setBackgroundColor(Color.parseColor("#4d94ff"));
+            holder.mTextView1.setTextSize((float) 17.2);
+            holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==6) {
+            holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
             holder.mTextView1.setBackgroundColor(Color.parseColor("#ffc266"));
             holder.mTextView1.setTextSize((float) 13.8);
+            holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==7) {
+            holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
             holder.mTextView1.setBackgroundColor(Color.parseColor("#ffc266"));
             holder.mTextView1.setTextSize((float) 13.8);
+            holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==8) {
+            holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
             holder.mTextView1.setBackgroundColor(Color.parseColor("#ffc266"));
             holder.mTextView1.setTextSize((float) 13.8);
+            holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==9) {
+            holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
             holder.mTextView1.setBackgroundColor(Color.parseColor("#ffc266"));
             holder.mTextView1.setTextSize((float) 13.8);
+            holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==10) {
-            holder.mTextView1.setBackgroundColor(Color.parseColor("#ff4d4d"));
-            holder.mTextView1.setTextSize((float) 16.4);
+            holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
+            holder.mTextView1.setBackgroundColor(Color.parseColor("#ffc266"));
+            holder.mTextView1.setTextSize((float) 13.8);
+            holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==11) {
+            holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
             holder.mTextView1.setBackgroundColor(Color.parseColor("#ff4d4d"));
             holder.mTextView1.setTextSize((float) 16.4);
+            holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==12) {
+            holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
             holder.mTextView1.setBackgroundColor(Color.parseColor("#ff4d4d"));
             holder.mTextView1.setTextSize((float) 16.4);
+            holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==13) {
+            holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
             holder.mTextView1.setBackgroundColor(Color.parseColor("#ff4d4d"));
             holder.mTextView1.setTextSize((float) 16.4);
+            holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==14) {
+            holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
             holder.mTextView1.setBackgroundColor(Color.parseColor("#ff4d4d"));
             holder.mTextView1.setTextSize((float) 16.4);
+            holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
+        } else if(position==15) {
+            holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
+            holder.mTextView1.setBackgroundColor(Color.parseColor("#ff4d4d"));
+            holder.mTextView1.setTextSize((float) 16.4);
+            holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         }
 
 
