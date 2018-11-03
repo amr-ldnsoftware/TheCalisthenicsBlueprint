@@ -116,6 +116,8 @@ public class IntLevel1Week1 extends Fragment implements CompoundButton.OnChecked
         ImageButton sun_weightedsquats = view.findViewById(R.id.sun_weightedsquats);
         ImageButton sun_assistedpistol = view.findViewById(R.id.sun_assistedpistol);
         ImageButton sun_lunges = view.findViewById(R.id.sun_lunges);
+        ImageButton sun_weightedsquats2 = view.findViewById(R.id.sun_weightedsquats2);
+        ImageButton sun_weightedsquats3 = view.findViewById(R.id.sun_weightedsquats3);
 
 
         mon_bandedmuscleups.setOnClickListener(new View.OnClickListener() {
@@ -442,7 +444,21 @@ public class IntLevel1Week1 extends Fragment implements CompoundButton.OnChecked
             }
         });
 
+        sun_weightedsquats2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Weighted_Squats.class);
+                startActivity(intent);
+            }
+        });
 
+        sun_weightedsquats3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Weighted_Squats.class);
+                startActivity(intent);
+            }
+        });
 
 
 

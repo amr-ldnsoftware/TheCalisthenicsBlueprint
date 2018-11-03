@@ -87,6 +87,9 @@ public class BegLevel1Week2 extends Fragment implements CompoundButton.OnChecked
         ImageButton tues_broadjumps = view.findViewById(R.id.leapfrogsicon);
         ImageButton tues_plank = view.findViewById(R.id.plankicon2);
         ImageButton tues_sideplank = view.findViewById(R.id.sideplank);
+        ImageButton tues_bandpullsicon = view.findViewById(R.id.tues_bandpullsicon);
+
+
         ImageButton wed_mob = view.findViewById(R.id.stretchicon);
         ImageButton wed_foam = view.findViewById(R.id.foamicon);
         ImageButton thurs_bandpulls = view.findViewById(R.id.bandpullsicon2);
@@ -185,6 +188,15 @@ public class BegLevel1Week2 extends Fragment implements CompoundButton.OnChecked
                 startActivity(intent);
             }
         });
+
+        tues_bandpullsicon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Bandpulls.class);
+                startActivity(intent);
+            }
+        });
+
 
         tues_lunges.setOnClickListener(new View.OnClickListener() {
             @Override

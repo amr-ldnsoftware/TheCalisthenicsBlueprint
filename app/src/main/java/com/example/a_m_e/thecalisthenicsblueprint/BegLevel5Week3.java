@@ -76,9 +76,13 @@ public class BegLevel5Week3 extends Fragment implements CompoundButton.OnChecked
         ImageButton mon_diamondpushes = view.findViewById(R.id.diamond_pushupsicon);
         ImageButton mon_pushups = view.findViewById(R.id.pushupicon);
         ImageButton mon_deadhang = view.findViewById(R.id.deadhangicon);
+        ImageButton mon_pullups2222 = view.findViewById(R.id.pullups222);
+        ImageButton iso2222 = view.findViewById(R.id.iso2222);
 
         ImageButton tues_weightedsquats = view.findViewById(R.id.weightedsquats);
         ImageButton tues_wallsit = view.findViewById(R.id.wallsiticon);
+        ImageButton tues_weightedsquats22 = view.findViewById(R.id.weightedsquats22);
+        ImageButton tues_weightedsquats222 = view.findViewById(R.id.weightedsquats222);
 
         ImageButton wed_mob = view.findViewById(R.id.stretchicon);
         ImageButton wed_foam = view.findViewById(R.id.foamicon);
@@ -130,7 +134,20 @@ public class BegLevel5Week3 extends Fragment implements CompoundButton.OnChecked
             }
         });
 
-
+        mon_pullups2222.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Normal_Pullup.class);
+                startActivity(intent);
+            }
+        });
+        iso2222.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Isometrics.class);
+                startActivity(intent);
+            }
+        });
         mon_dips.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -190,7 +207,21 @@ public class BegLevel5Week3 extends Fragment implements CompoundButton.OnChecked
                 startActivity(intent);
             }
         });
+        tues_weightedsquats22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Weighted_Squats.class);
+                startActivity(intent);
+            }
+        });
 
+        tues_weightedsquats222.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Weighted_Squats.class);
+                startActivity(intent);
+            }
+        });
         wed_mob.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

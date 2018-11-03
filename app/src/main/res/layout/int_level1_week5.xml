@@ -146,7 +146,28 @@
             android:textSize="12sp"
             android:textStyle="italic" />
 
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+            <ImageButton
+                android:id="@+id/mon_bandedmuscleup2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="armVector"
+                android:scaleType="centerCrop"
+                android:src="@drawable/banded_muscleup"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        </android.support.constraint.ConstraintLayout>
         <TextView
             android:id="@+id/textView_MondayWorkout5"
             android:layout_width="match_parent"
@@ -1038,7 +1059,28 @@
             android:textSize="12sp"
             android:textStyle="italic" />
 
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+            <ImageButton
+                android:id="@+id/thurs_bandedmuscleup2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="armVector"
+                android:scaleType="centerCrop"
+                android:src="@drawable/banded_muscleup"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        </android.support.constraint.ConstraintLayout>
         <TextView
             android:id="@+id/textView_ThursdayWorkout5"
             android:layout_width="match_parent"
@@ -1077,7 +1119,28 @@
             android:textSize="12sp"
             android:textStyle="italic" />
 
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+            <ImageButton
+                android:id="@+id/thurs_bandedmuscleup3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="armVector"
+                android:scaleType="centerCrop"
+                android:src="@drawable/banded_muscleup"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        </android.support.constraint.ConstraintLayout>
         <TextView
             android:id="@+id/textView_ThursdayWorkout7"
             android:layout_width="match_parent"
@@ -1563,7 +1626,26 @@
             android:textColor="#ffffff"
             android:textSize="12sp"
             android:textStyle="italic" />
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+            <ImageButton
+                android:id="@+id/sat_bandedmuscleup2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="armVector"
+                android:scaleType="centerCrop"
+                android:src="@drawable/banded_muscleup"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
 
         <TextView
             android:id="@+id/textView_SatWorkout5"
@@ -1602,7 +1684,26 @@
             android:textSize="12sp"
             android:textStyle="italic" />
 
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+            <ImageButton
+                android:id="@+id/sat_bandedmuscleup3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="armVector"
+                android:scaleType="centerCrop"
+                android:src="@drawable/banded_muscleup"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
 
         <TextView
             android:id="@+id/textView_SatWorkout7"

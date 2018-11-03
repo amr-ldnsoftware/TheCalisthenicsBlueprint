@@ -69,6 +69,7 @@ public class IntLevel1Week5 extends Fragment implements CompoundButton.OnChecked
         ImageButton mon_crushers = view.findViewById(R.id.mon_crushers);
         ImageButton mon_russianpush = view.findViewById(R.id.mon_russianpush);
         ImageButton mon_lsit = view.findViewById(R.id.mon_lsit);
+        ImageButton mon_bandedmuscleups2 = view.findViewById(R.id.mon_bandedmuscleup2);
 
 
         ImageButton tues_weightedsquats = view.findViewById(R.id.tues_weightedsquats);
@@ -86,11 +87,15 @@ public class IntLevel1Week5 extends Fragment implements CompoundButton.OnChecked
         ImageButton thurs_toestobar = view.findViewById(R.id.thurs_toestobar);
         ImageButton thurs_barlegraises = view.findViewById(R.id.thurs_barlegraises);
         ImageButton thurs_barkneeraises = view.findViewById(R.id.thurs_barkneeraises);
+        ImageButton thurs_bandmuscleups2 = view.findViewById(R.id.thurs_bandedmuscleup2);
+        ImageButton thurs_bandmuscleups3 = view.findViewById(R.id.thurs_bandedmuscleup3);
 
 
         ImageButton fri_stretchicon2 = view.findViewById(R.id.stretchicon2);
         ImageButton fri_foamicon2 = view.findViewById(R.id.foamicon2);
 
+        ImageButton sat_bandedmuscleup2 = view.findViewById(R.id.sat_bandedmuscleup2);
+        ImageButton sat_bandedmuscleup3 = view.findViewById(R.id.sat_bandedmuscleup3);
 
         ImageButton sat_bandedmuscleup = view.findViewById(R.id.sat_bandedmuscleup);
         ImageButton sat_weightedsquats = view.findViewById(R.id.sat_weightedsquats);
@@ -102,7 +107,13 @@ public class IntLevel1Week5 extends Fragment implements CompoundButton.OnChecked
         ImageButton sun_foamicon2 = view.findViewById(R.id.foamicon3);
 
 
-
+        mon_bandedmuscleups2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Banded_Muscleup.class);
+                startActivity(intent);
+            }
+        });
 
         mon_bandedmuscleups.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -225,7 +236,13 @@ public class IntLevel1Week5 extends Fragment implements CompoundButton.OnChecked
                 startActivity(intent);
             }
         });
-
+        thurs_bandmuscleups2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Banded_Muscleup.class);
+                startActivity(intent);
+            }
+        });
         thurs_barkneeraises.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -233,7 +250,13 @@ public class IntLevel1Week5 extends Fragment implements CompoundButton.OnChecked
                 startActivity(intent);
             }
         });
-
+        thurs_bandmuscleups3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Banded_Muscleup.class);
+                startActivity(intent);
+            }
+        });
         thurs_barlegraises.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -290,7 +313,13 @@ public class IntLevel1Week5 extends Fragment implements CompoundButton.OnChecked
                 startActivity(intent);
             }
         });
-
+        sat_bandedmuscleup2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Banded_Muscleup.class);
+                startActivity(intent);
+            }
+        });
         sat_isometrics.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -298,7 +327,13 @@ public class IntLevel1Week5 extends Fragment implements CompoundButton.OnChecked
                 startActivity(intent);
             }
         });
-
+        sat_bandedmuscleup3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Banded_Muscleup.class);
+                startActivity(intent);
+            }
+        });
         sat_pulls.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

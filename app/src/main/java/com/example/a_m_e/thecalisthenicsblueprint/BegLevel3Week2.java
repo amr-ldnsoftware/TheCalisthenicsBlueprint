@@ -72,6 +72,9 @@ public class BegLevel3Week2 extends Fragment implements CompoundButton.OnChecked
         ImageButton mon_pullups = view.findViewById(R.id.pullups);
         ImageButton mon_iso = view.findViewById(R.id.isoicon);
         ImageButton mon_dips = view.findViewById(R.id.dips);
+        ImageButton mon_pullups2 = view.findViewById(R.id.pullups2);
+        ImageButton mon_iso20 = view.findViewById(R.id.isoicon20);
+        ImageButton mon_dips20 = view.findViewById(R.id.dips20);
         ImageButton mon_pushups = view.findViewById(R.id.pushupicon);
         ImageButton mon_deadhang= view.findViewById(R.id.deadhangicon);
         ImageButton mon_diamonds= view.findViewById(R.id.diamond_pushupsicon);
@@ -128,6 +131,22 @@ public class BegLevel3Week2 extends Fragment implements CompoundButton.OnChecked
             }
         });
 
+        mon_pullups2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Normal_Pullup.class);
+                startActivity(intent);
+            }
+        });
+
+        mon_dips20.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Dips.class);
+                startActivity(intent);
+            }
+        });
+
         mon_pushups.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -145,6 +164,14 @@ public class BegLevel3Week2 extends Fragment implements CompoundButton.OnChecked
         });
 
         mon_iso.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Isometrics.class);
+                startActivity(intent);
+            }
+        });
+
+        mon_iso20.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), Youtube_Isometrics.class);

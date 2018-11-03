@@ -81,6 +81,8 @@ public class BegLevel4Week2 extends Fragment implements CompoundButton.OnChecked
 
         ImageButton tues_weightedsquats = view.findViewById(R.id.weightedsquats);
         ImageButton tues_onelegcalfraises = view.findViewById(R.id.onelegcalfraise);
+        ImageButton tues_weightedsquats2 = view.findViewById(R.id.weightedsquats2);
+        ImageButton tues_weightedsquats3 = view.findViewById(R.id.weightedsquats3);
 
         ImageButton wed_mob = view.findViewById(R.id.stretchicon);
         ImageButton wed_foam = view.findViewById(R.id.foamicon);
@@ -207,6 +209,21 @@ public class BegLevel4Week2 extends Fragment implements CompoundButton.OnChecked
         });
 
         tues_weightedsquats.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Weighted_Squats.class);
+                startActivity(intent);
+            }
+        });
+        tues_weightedsquats2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Weighted_Squats.class);
+                startActivity(intent);
+            }
+        });
+
+        tues_weightedsquats3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), Youtube_Weighted_Squats.class);

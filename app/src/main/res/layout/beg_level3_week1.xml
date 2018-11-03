@@ -159,7 +159,43 @@
             android:textSize="12sp"
             android:textStyle="italic" />
 
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+            <ImageButton
+                android:id="@+id/pullups2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="armVector"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pull_ups"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/isoicon2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="71dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="backVector"
+                android:scaleType="centerCrop"
+                android:src="@drawable/isometric"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        </android.support.constraint.ConstraintLayout>
 
         <TextView
             android:id="@+id/textView_MondayWorkout5"
@@ -186,7 +222,6 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="7dp"
             android:layout_marginRight="7dp"
-            android:layout_marginBottom="5dp"
             android:background="#457b9d"
             android:fontFamily="sans-serif"
             android:paddingBottom="5dp"
@@ -199,7 +234,43 @@
             android:textSize="12sp"
             android:textStyle="italic" />
 
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+            <ImageButton
+                android:id="@+id/pullups3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="armVector"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pull_ups"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/isoicon3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="71dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="backVector"
+                android:scaleType="centerCrop"
+                android:src="@drawable/isometric"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        </android.support.constraint.ConstraintLayout>
 
         <TextView
             android:id="@+id/textView_MondayWorkout7"
@@ -279,19 +350,10 @@
         </android.support.constraint.ConstraintLayout>
 
 
-        <View
-            android:id="@+id/divider_monTues2"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="17dp"
-            android:layout_marginRight="17dp"
-            android:layout_marginTop="30.5dp"
-            android:background="#457b9d" />
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="35dp">
 
             <ImageView
                 android:layout_width="30dp"
@@ -526,19 +588,12 @@
 
         </android.support.constraint.ConstraintLayout>
 
-        <View
-            android:id="@+id/divider_TuesWed2"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="17dp"
-            android:layout_marginRight="17dp"
-            android:layout_marginTop="30.5dp"
-            android:background="#457b9d" />
+
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="35dp">
 
             <ImageView
                 android:layout_width="35dp"
@@ -894,20 +949,13 @@
 
         </android.support.constraint.ConstraintLayout>
 
-        <View
-            android:id="@+id/divider_WedThurs2"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="17dp"
-            android:layout_marginRight="17dp"
-            android:layout_marginTop="30.5dp"
-            android:background="#457b9d" />
+
 
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="35dp">
 
             <ImageView
                 android:layout_width="30dp"
@@ -1221,6 +1269,43 @@
             android:textSize="12sp"
             android:textStyle="italic" />
 
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/chinups2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="armVector"
+                android:scaleType="centerCrop"
+                android:src="@drawable/chinups"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/dips2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="71dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="backVector"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dips"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        </android.support.constraint.ConstraintLayout>
 
 
         <TextView
@@ -1261,6 +1346,43 @@
             android:textSize="12sp"
             android:textStyle="italic" />
 
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/chinups3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="armVector"
+                android:scaleType="centerCrop"
+                android:src="@drawable/chinups"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/dips3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="71dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:contentDescription="backVector"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dips"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        </android.support.constraint.ConstraintLayout>
 
 
         <TextView
@@ -1352,19 +1474,11 @@
 
         </android.support.constraint.ConstraintLayout>
 
-        <View
-            android:id="@+id/divider_FriSat2"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="17dp"
-            android:layout_marginRight="17dp"
-            android:layout_marginTop="30.5dp"
-            android:background="#457b9d" />
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="35dp">
 
             <ImageView
                 android:layout_width="30dp"
@@ -1658,19 +1772,12 @@
 
 
 
-        <View
-            android:id="@+id/divider_SatSun2"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="17dp"
-            android:layout_marginRight="17dp"
-            android:layout_marginTop="30.5dp"
-            android:background="#457b9d" />
+
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="35dp">
 
 
             <ImageView

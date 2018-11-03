@@ -71,6 +71,7 @@ public class BegLevel3Week5 extends Fragment implements CompoundButton.OnChecked
         ratingBar.setStepSize(1f);
 
         ImageButton mon_pullups = view.findViewById(R.id.pullups);
+        ImageButton mon_iso20 = view.findViewById(R.id.isoicon20);
         ImageButton mon_iso = view.findViewById(R.id.isoicon);
         ImageButton mon_dips = view.findViewById(R.id.dips);
         ImageButton mon_pushups = view.findViewById(R.id.pushupicon);
@@ -134,6 +135,14 @@ public class BegLevel3Week5 extends Fragment implements CompoundButton.OnChecked
         });
 
         mon_iso.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Isometrics.class);
+                startActivity(intent);
+            }
+        });
+
+        mon_iso20.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), Youtube_Isometrics.class);

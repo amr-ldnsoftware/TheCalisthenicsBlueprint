@@ -39,7 +39,7 @@
         </RelativeLayout>
 
 
-        <View
+        <TextView
             android:id="@+id/divider10"
             android:layout_width="match_parent"
             android:layout_height="1.5dp"
@@ -338,19 +338,10 @@
 
         </android.support.constraint.ConstraintLayout>
 
-        <View
-            android:id="@+id/divider_monTues1"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="17dp"
-            android:layout_marginRight="17dp"
-            android:layout_marginTop="30.5dp"
-            android:background="#457b9d" />
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="35dp">
 
             <ImageView
                 android:layout_width="30dp"
@@ -409,7 +400,7 @@
         </RelativeLayout>
 
 
-        <View
+        <TextView
             android:id="@+id/divider_monTues"
             android:layout_width="match_parent"
             android:layout_height="2dp"
@@ -445,7 +436,7 @@
         </RelativeLayout>
 
 
-        <View
+        <TextView
             android:id="@+id/divider13"
             android:layout_width="match_parent"
             android:layout_height="1.5dp"
@@ -695,19 +686,10 @@
 
         </android.support.constraint.ConstraintLayout>
 
-        <View
-            android:id="@+id/divider_monTues2"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="17dp"
-            android:layout_marginRight="17dp"
-            android:layout_marginTop="30.5dp"
-            android:background="#457b9d" />
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="35dp">
 
             <ImageView
                 android:layout_width="35dp"
@@ -750,7 +732,7 @@
 
         </RelativeLayout>
 
-        <View
+        <TextView
             android:id="@+id/divider_TuesWed"
             android:layout_width="match_parent"
             android:layout_height="2dp"
@@ -787,7 +769,7 @@
         </RelativeLayout>
 
 
-        <View
+        <TextView
             android:id="@+id/divider19"
             android:layout_width="match_parent"
             android:layout_height="1.5dp"
@@ -852,7 +834,7 @@
 
         </android.support.constraint.ConstraintLayout>
 
-        <View
+        <TextView
             android:id="@+id/divider_WedThurs"
             android:layout_width="match_parent"
             android:layout_height="2dp"
@@ -889,7 +871,7 @@
         </RelativeLayout>
 
 
-        <View
+        <TextView
             android:id="@+id/divider25"
             android:layout_width="match_parent"
             android:layout_height="1.5dp"
@@ -1137,19 +1119,10 @@
 
         </android.support.constraint.ConstraintLayout>
 
-        <View
-            android:id="@+id/divider_monTues3"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="17dp"
-            android:layout_marginRight="17dp"
-            android:layout_marginTop="30.5dp"
-            android:background="#457b9d" />
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="35dp">
 
             <ImageView
                 android:layout_width="30dp"
@@ -1208,7 +1181,7 @@
 
         </RelativeLayout>
 
-        <View
+        <TextView
             android:id="@+id/divider_ThursFri"
             android:layout_width="match_parent"
             android:layout_height="2dp"
@@ -1244,7 +1217,7 @@
         </RelativeLayout>
 
 
-        <View
+        <TextView
             android:id="@+id/divider31"
             android:layout_width="match_parent"
             android:layout_height="1.5dp"
@@ -1538,19 +1511,10 @@
 
         </android.support.constraint.ConstraintLayout>
 
-        <View
-            android:id="@+id/divider_monTues4"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="17dp"
-            android:layout_marginRight="17dp"
-            android:layout_marginTop="30.5dp"
-            android:background="#457b9d" />
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="35dp">
 
             <ImageView
                 android:layout_width="35dp"
@@ -1595,7 +1559,7 @@
         </RelativeLayout>
 
 
-        <View
+        <TextView
             android:id="@+id/divider_FriSat"
             android:layout_width="match_parent"
             android:layout_height="2dp"
@@ -1632,7 +1596,7 @@
         </RelativeLayout>
 
 
-        <View
+        <TextView
             android:id="@+id/divider37"
             android:layout_width="match_parent"
             android:layout_height="1.5dp"
@@ -1719,7 +1683,7 @@
             android:textStyle="bold|italic" />
 
 
-        <View
+        <TextView
             android:id="@+id/divider_SatSun"
             android:layout_width="match_parent"
             android:layout_height="2dp"
@@ -1756,7 +1720,7 @@
         </RelativeLayout>
 
 
-        <View
+        <TextView
             android:id="@+id/divider39"
             android:layout_width="match_parent"
             android:layout_height="1.5dp"
@@ -1821,7 +1785,7 @@
 
         </android.support.constraint.ConstraintLayout>
 
-        <View
+        <TextView
             android:id="@+id/divider_Sun"
             android:layout_width="match_parent"
             android:layout_height="2dp"

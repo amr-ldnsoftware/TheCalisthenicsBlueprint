@@ -2153,5 +2153,23 @@
             android:textStyle="bold"
             android:textSize="12sp" />
 
+        <TextView
+            android:id="@+id/textView_End_BeginnerLevel2Week2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="30.5dp"
+            android:fontFamily="@font/cambo"
+            android:paddingBottom="5dp"
+            android:paddingEnd="5dp"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:text="CONGRATULATIONS ON COMPLETING THE INTERMEDIATE PROGRAM!"
+            android:textAlignment="center"
+            android:textColor="#ff0000"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
     </LinearLayout>
 </ScrollView>

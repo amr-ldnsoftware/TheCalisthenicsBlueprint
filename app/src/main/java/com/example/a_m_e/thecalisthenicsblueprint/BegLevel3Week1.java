@@ -77,6 +77,10 @@ public class BegLevel3Week1 extends Fragment implements CompoundButton.OnChecked
         ImageButton mon_iso = view.findViewById(R.id.isoicon);
         ImageButton mon_deadhang= view.findViewById(R.id.deadhangicon);
         ImageButton mon_diamonds= view.findViewById(R.id.diamond_pushupsicon);
+        ImageButton mon_pullups2 = view.findViewById(R.id.pullups2);
+        ImageButton mon_pullups3 = view.findViewById(R.id.pullups3);
+        ImageButton mon_iso2 = view.findViewById(R.id.isoicon2);
+        ImageButton mon_iso3 = view.findViewById(R.id.isoicon3);
 
 
         ImageButton tues_weightedsquats = view.findViewById(R.id.weightedsquats);
@@ -95,6 +99,10 @@ public class BegLevel3Week1 extends Fragment implements CompoundButton.OnChecked
 
         ImageButton fri_chinups = view.findViewById(R.id.chinups);
         ImageButton fri_dips = view.findViewById(R.id.dips);
+        ImageButton fri_chinups2 = view.findViewById(R.id.chinups2);
+        ImageButton fri_dips2 = view.findViewById(R.id.dips2);
+        ImageButton fri_chinups3 = view.findViewById(R.id.chinups3);
+        ImageButton fri_dips3 = view.findViewById(R.id.dips3);
         ImageButton fri_diamonds = view.findViewById(R.id.diamond_pushups2);
         ImageButton fri_deadhang = view.findViewById(R.id.deadhangicon2);
         ImageButton fri_widepushups = view.findViewById(R.id.widepushupicon2);
@@ -118,6 +126,22 @@ public class BegLevel3Week1 extends Fragment implements CompoundButton.OnChecked
             }
         });
 
+        mon_pullups2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Normal_Pullup.class);
+                startActivity(intent);
+            }
+        });
+
+        mon_pullups3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Normal_Pullup.class);
+                startActivity(intent);
+            }
+        });
+
         mon_deadhang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -127,6 +151,22 @@ public class BegLevel3Week1 extends Fragment implements CompoundButton.OnChecked
         });
 
         mon_iso.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Isometrics.class);
+                startActivity(intent);
+            }
+        });
+
+        mon_iso2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Isometrics.class);
+                startActivity(intent);
+            }
+        });
+
+        mon_iso3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), Youtube_Isometrics.class);
@@ -243,6 +283,22 @@ public class BegLevel3Week1 extends Fragment implements CompoundButton.OnChecked
             }
         });
 
+        fri_chinups2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Normal_Chinup.class);
+                startActivity(intent);
+            }
+        });
+
+        fri_chinups3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Normal_Chinup.class);
+                startActivity(intent);
+            }
+        });
+
         fri_deadhang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -260,6 +316,22 @@ public class BegLevel3Week1 extends Fragment implements CompoundButton.OnChecked
         });
 
         fri_dips.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Dips.class);
+                startActivity(intent);
+            }
+        });
+
+        fri_dips2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Dips.class);
+                startActivity(intent);
+            }
+        });
+
+        fri_dips3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), Youtube_Dips.class);

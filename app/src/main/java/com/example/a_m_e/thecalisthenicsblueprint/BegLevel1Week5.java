@@ -100,6 +100,7 @@ public class BegLevel1Week5 extends Fragment implements CompoundButton.OnChecked
         ImageButton fri_calfraises = view.findViewById(R.id.calfraisesicon2);
 
         ImageButton sat_bandpulls = view.findViewById(R.id.bandpullicon3);
+        ImageButton sat_bandpulls4 = view.findViewById(R.id.bandpullicon4);
         ImageButton sat_deadhang = view.findViewById(R.id.deadhangicon2);
         ImageButton sat_widepushup = view.findViewById(R.id.widepushupicon2);
         ImageButton sat_situps = view.findViewById(R.id.situpsicon);
@@ -320,6 +321,14 @@ public class BegLevel1Week5 extends Fragment implements CompoundButton.OnChecked
         });
 
         sat_bandpulls.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Bandpulls.class);
+                startActivity(intent);
+            }
+        });
+
+        sat_bandpulls4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), Youtube_Bandpulls.class);

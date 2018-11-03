@@ -186,7 +186,25 @@
             android:textSize="12sp"
             android:textStyle="italic" />
 
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageButton
+            android:id="@+id/isoicon20"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:background="#ffffff"
+            android:contentDescription="backVector"
+            android:scaleType="centerCrop"
+            android:src="@drawable/isometric"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
+        </android.support.constraint.ConstraintLayout>
 
         <TextView
             android:id="@+id/textView_MondayWorkout5"
@@ -325,19 +343,10 @@
 
         </android.support.constraint.ConstraintLayout>
 
-        <View
-            android:id="@+id/divider_monTues2"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="17dp"
-            android:layout_marginRight="17dp"
-            android:layout_marginTop="30.5dp"
-            android:background="#457b9d" />
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="35dp">
 
             <ImageView
                 android:layout_width="30dp"
@@ -659,19 +668,12 @@
 
         </android.support.constraint.ConstraintLayout>
 
-        <View
-            android:id="@+id/divider_TuesWed2"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="17dp"
-            android:layout_marginRight="17dp"
-            android:layout_marginTop="30.5dp"
-            android:background="#457b9d" />
+
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="35dp">
 
             <ImageView
                 android:layout_width="35dp"
@@ -1149,20 +1151,12 @@
 
         </android.support.constraint.ConstraintLayout>
 
-        <View
-            android:id="@+id/divider_ThursFri2"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="17dp"
-            android:layout_marginRight="17dp"
-            android:layout_marginTop="30.5dp"
-            android:background="#457b9d" />
 
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="35dp">
 
             <ImageView
                 android:layout_width="30dp"
@@ -1503,19 +1497,11 @@
 
         </android.support.constraint.ConstraintLayout>
 
-        <View
-            android:id="@+id/divider_FriSat2"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="17dp"
-            android:layout_marginRight="17dp"
-            android:layout_marginTop="30.5dp"
-            android:background="#457b9d" />
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="35dp">
 
             <ImageView
                 android:layout_width="35dp"
@@ -1835,19 +1821,12 @@
         </android.support.constraint.ConstraintLayout>
 
 
-        <View
-            android:id="@+id/divider_SatSun2"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="17dp"
-            android:layout_marginRight="17dp"
-            android:layout_marginTop="30.5dp"
-            android:background="#457b9d" />
+
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="35dp">
 
 
             <ImageView

@@ -69,6 +69,9 @@ public class BegLevel4Week4 extends Fragment implements CompoundButton.OnChecked
 
 
         ImageButton mon_pullups = view.findViewById(R.id.pullups);
+        ImageButton mon_pullups20 = view.findViewById(R.id.pullups21);
+        ImageButton mon_pullups3 = view.findViewById(R.id.pullups3);
+
         ImageButton mon_weightedpushups = view.findViewById(R.id.weighted_pushups);
         ImageButton mon_pushups = view.findViewById(R.id.pushupicon);
 
@@ -111,6 +114,22 @@ public class BegLevel4Week4 extends Fragment implements CompoundButton.OnChecked
 
 
         mon_pullups.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Normal_Pullup.class);
+                startActivity(intent);
+            }
+        });
+
+        mon_pullups3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Normal_Pullup.class);
+                startActivity(intent);
+            }
+        });
+
+        mon_pullups20.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), Youtube_Normal_Pullup.class);

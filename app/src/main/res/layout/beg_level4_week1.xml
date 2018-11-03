@@ -391,21 +391,10 @@
         </android.support.constraint.ConstraintLayout>
 
 
-        <View
-            android:id="@+id/divider_monTues2"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="17dp"
-            android:layout_marginRight="17dp"
-            android:layout_marginTop="30.5dp"
-            android:background="#457b9d" />
-
-
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="35dp">
 
             <ImageView
                 android:layout_width="30dp"
@@ -758,19 +747,12 @@
 
         </android.support.constraint.ConstraintLayout>
 
-        <View
-            android:id="@+id/divider_TuesWed2"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="17dp"
-            android:layout_marginRight="17dp"
-            android:layout_marginTop="30.5dp"
-            android:background="#457b9d" />
+
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="35dp">
 
             <ImageView
                 android:layout_width="35dp"
@@ -1081,19 +1063,12 @@
         </android.support.constraint.ConstraintLayout>
 
 
-        <View
-            android:id="@+id/divider_WedThurs2"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="17dp"
-            android:layout_marginRight="17dp"
-            android:layout_marginTop="30.5dp"
-            android:background="#457b9d" />
+
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="35dp">
 
             <ImageView
                 android:layout_width="30dp"
@@ -1532,20 +1507,10 @@
 
 
 
-
-        <View
-            android:id="@+id/divider_FriSat2"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="17dp"
-            android:layout_marginRight="17dp"
-            android:layout_marginTop="30.5dp"
-            android:background="#457b9d" />
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="35dp">
 
 
 
@@ -1839,20 +1804,12 @@
 
 
 
-        <View
-            android:id="@+id/divider_SatSun2"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="17dp"
-            android:layout_marginRight="17dp"
-            android:layout_marginTop="30.5dp"
-            android:background="#457b9d" />
 
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="35dp">
 
 
             <ImageView
