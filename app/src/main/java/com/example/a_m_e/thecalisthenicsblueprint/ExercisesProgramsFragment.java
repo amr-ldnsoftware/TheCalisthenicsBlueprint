@@ -44,11 +44,11 @@ public class ExercisesProgramsFragment extends Fragment {
         exerciseList.add(new ExercisesCardViewItem(R.drawable.dips_exercise, "DIPS", "Bar and Ring variations", "Explore"));
         exerciseList.add(new ExercisesCardViewItem(R.drawable.pushups_exercises, "PUSH UPS", "Floor, Bar and Ring variations", "Explore"));
         exerciseList.add(new ExercisesCardViewItem(R.drawable.core_exercises, "CORE", "Floor, Bar and Ring variations", "Explore"));
-        exerciseList.add(new ExercisesCardViewItem(R.drawable.squats_exercises, "LEGS", "Non/Weighted variations", "Explore"));
+        exerciseList.add(new ExercisesCardViewItem(R.drawable.squats_exercises, "LEGS", "Bodyweight and Weighted variations", "Explore"));
         exerciseList.add(new ExercisesCardViewItem(R.drawable.muscleup_main, "MUSCLE UPS", "Bar and Ring variations", "Explore"));
-        exerciseList.add(new ExercisesCardViewItem(R.drawable.flag_exercises, "HUMAN FLAG", "Bar and Ring variations", "Explore"));
+        exerciseList.add(new ExercisesCardViewItem(R.drawable.flag_exercises, "HUMAN FLAG", "Different variations", "Explore"));
         exerciseList.add(new ExercisesCardViewItem(R.drawable.levers_exercise, "LEVERS", "Front and Back variations", "Explore"));
-        exerciseList.add(new ExercisesCardViewItem(R.drawable.handstands_exercises, "HANDSTANDS", "Several variations", "Explore"));
+        exerciseList.add(new ExercisesCardViewItem(R.drawable.handstands_exercises, "HANDSTANDS", "Different variations", "Explore"));
         exerciseList.add(new ExercisesCardViewItem(R.drawable.planche_exercises, "PLANCHE/MALTESE", "Straddle and Full variations", "Explore"));
     }
 }

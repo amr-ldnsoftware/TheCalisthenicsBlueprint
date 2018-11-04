@@ -336,18 +336,13 @@
             android:textSize="12sp"
             android:textStyle="bold" />
 
-
-
-
-
-
         <TextView
             android:id="@+id/divider9"
             android:layout_width="match_parent"
-            android:layout_height="1dp"
+            android:layout_height="3dp"
             android:layout_marginLeft="17dp"
             android:layout_marginRight="17dp"
-            android:background="#595959" />
+            android:background="#003311" />
 
         <TextView
             android:id="@+id/textView_abbr2"
