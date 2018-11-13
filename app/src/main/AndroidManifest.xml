@@ -223,11 +223,6 @@
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".Youtube_Gripswitch"
-            android:label="normalpullup"
-            android:theme="@style/AppTheme.NoActionBar" />
-
-        <activity
             android:name=".Youtube_Lsit_Chinup"
             android:label="chinuppullup"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -484,11 +479,6 @@
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".Youtube_Archer_Ringdips"
-            android:label="normalpullup"
-            android:theme="@style/AppTheme.NoActionBar" />
-
-        <activity
             android:name=".Youtube_Weighted_Dips"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -636,11 +626,6 @@
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".Youtube_Xgrip_Flag"
-            android:label="normalpullup"
-            android:theme="@style/AppTheme.NoActionBar" />
-
-        <activity
             android:name=".Youtube_Flag_Pullups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -712,16 +697,6 @@
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".Youtube_Handstand_Parallettes"
-            android:label="normalpullup"
-            android:theme="@style/AppTheme.NoActionBar" />
-
-        <activity
-            android:name=".Youtube_SB_Handstand"
-            android:label="normalpullup"
-            android:theme="@style/AppTheme.NoActionBar" />
-
-        <activity
             android:name=".Youtube_Tigerbend_Handstands"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -749,11 +724,6 @@
 
         <activity
             android:name=".Youtube_Maltese"
-            android:label="normalpullup"
-            android:theme="@style/AppTheme.NoActionBar" />
-
-        <activity
-            android:name=".Youtube_Straddle_Maltese"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
 

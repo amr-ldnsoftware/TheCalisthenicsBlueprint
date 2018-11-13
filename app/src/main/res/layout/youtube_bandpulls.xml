@@ -217,27 +217,31 @@
 
             <TextView
                 android:id="@+id/textView11"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Keep your legs shoulder width apart."
+                android:text="\u2022 First, select a resistance band that's suitable for your specific workout. Ensure both feet are pressing down on the band. Begin by grabbing the bar in a dead hang position, with the palms of your hands facing away from you at roughly shoulder width apart."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
                 android:layout_marginEnd="8dp"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+
 
             <TextView
                 android:id="@+id/textView12"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="8dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Keep your back straight and always look forward."
+                android:text="\u2022 There should preferably be a small gap between your feet and the floor in the dead hang position. Your thumbs should also be placed around the bar and not parallel to it"
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
@@ -248,14 +252,16 @@
 
             <TextView
                 android:id="@+id/textView13"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Knees should point slightly outwards and core should be kept tight."
+                android:text="\u2022 Ensure your core is tight and your feet are pointing forward. Maintain a straight posture and do not cross your legs."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
+                android:layout_marginEnd="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -263,13 +269,15 @@
 
             <TextView
                 android:id="@+id/textView14"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Lower your body and aim to have your hips below your knees."
+                android:layout_marginTop="10dp"
+                android:text="\u2022 Depress and retract your scapula, and begin pulling yoursef up by engaging your back and bicep muscles."
                 android:textColor="#333333"
                 android:textSize="12sp"
+                android:layout_marginEnd="8dp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -278,12 +286,13 @@
 
             <TextView
                 android:id="@+id/textView15"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Once you are as low as possible, drive up by pushing through the heels."
+                android:text="\u2022 At the top, ensure your chin goes over the bar."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
@@ -294,16 +303,35 @@
 
             <TextView
                 android:id="@+id/textView16"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Repeat accordingly and always maintain strict form."
+                android:text="\u2022 Descend in a controlled manner until your arms are locked out and you're back in a dead hang position."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/trirong_light"
+                android:text="\u2022 Repeat as necessary. Alternate the grip to perform Chin Ups. Do not kip or swing to achieve the full range of motion."
+                android:textColor="#333333"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView16" />
         </android.support.constraint.ConstraintLayout>
     </LinearLayout>
 

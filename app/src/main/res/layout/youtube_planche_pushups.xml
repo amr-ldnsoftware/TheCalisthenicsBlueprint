@@ -200,7 +200,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="None"
+                android:text="Optional: Parallettes"
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
@@ -227,27 +227,29 @@
 
             <TextView
                 android:id="@+id/textView11"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Keep your legs shoulder width apart."
+                android:text="\u2022 Start by engaging your body in to a full planche, with your hands either gripping on to parallettes or on the floor."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
                 android:layout_marginEnd="8dp"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
             <TextView
                 android:id="@+id/textView12"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="8dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Keep your back straight and always look forward."
+                android:text="\u2022 Hold the pose for one second. Your hips and legs should be parallel to the ground, with your shoulders leaning forward."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
@@ -258,14 +260,16 @@
 
             <TextView
                 android:id="@+id/textView13"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Knees should point slightly outwards and core should be kept tight."
+                android:text="\u2022 Begin to descend until your chest is almost touching the floor. Keep your elbows by your side and avoid flaring them out."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
+                android:layout_marginEnd="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -273,47 +277,37 @@
 
             <TextView
                 android:id="@+id/textView14"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Lower your body and aim to have your hips below your knees."
+                android:layout_marginTop="10dp"
+                android:text="\u2022 As you ascend back up, ensure your body is still parallel to the floor and do not bend your hips. At the top, your arms should be locked out."
                 android:textColor="#333333"
                 android:textSize="12sp"
+                android:layout_marginEnd="8dp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
+
             <TextView
-                android:id="@+id/textView15"
-                android:layout_width="wrap_content"
+                android:id="@+id/textView17a"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Once you are as low as possible, drive up by pushing through the heels."
+                android:text="\u2022 Repeat as necessary."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView14" />
-
-            <TextView
-                android:id="@+id/textView16"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Repeat accordingly and always maintain strict form."
-                android:textColor="#333333"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView15" />
         </android.support.constraint.ConstraintLayout>
 
     </LinearLayout>

@@ -207,60 +207,49 @@
 
             <TextView
                 android:id="@+id/textView11"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Keep your legs shoulder width apart."
+                android:text="\u2022 Stand in front of a pole, doorframe or any other sturdy, vertical object that allows you to reach your opposite leg around it."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
                 android:layout_marginEnd="8dp"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
+
             <TextView
-                android:id="@+id/textView12"
-                android:layout_width="wrap_content"
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="8dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="@font/trirong_light"
-                android:background="#ffffff"
-                android:text="\u2022 Keep your back straight and always look forward."
+                android:text="\u2022 Grasp the object with your hands and lower yourself down to the bottom of the pistol position with the heel of your squatting leg remaining flat on the floor."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
+                android:layout_marginEnd="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
             <TextView
-                android:id="@+id/textView13"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Knees should point slightly outwards and core should be kept tight."
-                android:textColor="#333333"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView12" />
-
-            <TextView
                 android:id="@+id/textView14"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Lower your body and aim to have your hips below your knees."
+                android:layout_marginTop="10dp"
+                android:text="\u2022 From here, lightly use your arms for assistance to pull yourself back to the top and keep your balance."
                 android:textColor="#333333"
                 android:textSize="12sp"
+                android:layout_marginEnd="8dp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -269,12 +258,13 @@
 
             <TextView
                 android:id="@+id/textView15"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Once you are as low as possible, drive up by pushing through the heels."
+                android:text="\u2022 Focus on doing as much of the work as possible with your leg, only using your arms to make up the difference."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
@@ -283,18 +273,38 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
+
             <TextView
-                android:id="@+id/textView16"
-                android:layout_width="wrap_content"
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Repeat accordingly and always maintain strict form."
+                android:text="\u2022 You may need to use your arms a lot at first, but as your legs get stronger, you'll rely on your upper body less and less."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+            <TextView
+                android:id="@+id/textView17a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/trirong_light"
+                android:text="\u2022 Repeat as necessary."
+                android:textColor="#333333"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView17" />
         </android.support.constraint.ConstraintLayout>
 
     </LinearLayout>

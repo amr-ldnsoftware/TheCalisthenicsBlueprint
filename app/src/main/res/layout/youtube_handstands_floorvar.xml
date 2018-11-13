@@ -20,7 +20,7 @@
             android:background="#66c2ff"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:title="HANDSTANDS (FLOOR)"
+            app:title="HANDSTANDS"
             app:titleTextAppearance="@style/TabToolbar.TitleText"
             app:titleTextColor="@android:color/white">
 
@@ -207,27 +207,29 @@
 
             <TextView
                 android:id="@+id/textView11"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Keep your legs shoulder width apart."
+                android:text="\u2022 Stand up straight with your feet comfortably apart. This is your starting position. Your feet, knees, torso and head should all be aligned and completely vertical. Hold your arms comfortably at your side. You can also start with your arms straight above your head."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
                 android:layout_marginEnd="8dp"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
             <TextView
                 android:id="@+id/textView12"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="8dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Keep your back straight and always look forward."
+                android:text="\u2022 Kick with your dominant leg. Then as you kick don't fall into a lunge, both legs should be straight, It shouldn't be very deep but should give you enough power to kick up. Make sure to kick and lunge straight forward, and not to one side or the other. Stepping to the side will cause your body to twist when you go into the handstand, making it much harder to balance."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
@@ -238,14 +240,16 @@
 
             <TextView
                 android:id="@+id/textView13"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Knees should point slightly outwards and core should be kept tight."
+                android:text="\u2022 Tip your body forward. Don't fall into a lunge, you will just hurt your back, as you approach the ground, let your legs start to straighten as your hands meet the ground. Hold your arms straight and move your head toward the ground. Move with a bit of force in a natural, forward motion over your lunged leg. This will allow for a balanced system over your lunged leg, where gravity actually aids in the handstand, rather than restricting it."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
+                android:layout_marginEnd="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -253,13 +257,15 @@
 
             <TextView
                 android:id="@+id/textView14"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Lower your body and aim to have your hips below your knees."
+                android:layout_marginTop="10dp"
+                android:text="\u2022 Keep your arms straight as your hands approach the ground. Your shoulders should be tight in toward your neck, as though you were shrugging. Don't let your shoulders sag upwards or your elbows bend, which puts you at greater risk for injury."
                 android:textColor="#333333"
                 android:textSize="12sp"
+                android:layout_marginEnd="8dp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -268,12 +274,13 @@
 
             <TextView
                 android:id="@+id/textView15"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Once you are as low as possible, drive up by pushing through the heels."
+                android:text="\u2022 Straighten your legs and torso toward the sky. The act of stepping forward, tipping over, striking the ground with your hands and lifting your legs should be one smooth, fluid motion that ends in a handstand. Keep your head tucked in and your legs tightly together."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
@@ -282,18 +289,38 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
+
             <TextView
-                android:id="@+id/textView16"
-                android:layout_width="wrap_content"
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Repeat accordingly and always maintain strict form."
+                android:text="\u2022 Balance your weight on your hands. Keep your weight between your palms and your first knuckles. Adjust your hands to balance your weight by moving it toward your fingers; you're more likely to loose balance if your roll it back toward your wrists."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+            <TextView
+                android:id="@+id/textView17a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/trirong_light"
+                android:text="\u2022 When you are ready to come down, split your legs and drop your dominant leg to the ground."
+                android:textColor="#333333"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView17" />
         </android.support.constraint.ConstraintLayout>
 
     </LinearLayout>

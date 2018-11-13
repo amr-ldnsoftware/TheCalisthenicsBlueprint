@@ -89,9 +89,9 @@
                 android:id="@+id/chinup_textview"
                 android:layout_width="0dp"
                 android:layout_height="31dp"
-                android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="2dp"
+                android:layout_marginEnd="8dp"
                 android:background="@drawable/button_design_musclesworked"
                 android:fontFamily="@font/antic_didone"
                 android:gravity="center"
@@ -101,7 +101,6 @@
                 android:textSize="12sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toStartOf="@+id/pull_closegrip_textview"
-                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/pullup_normal_textview"
                 app:layout_constraintTop_toBottomOf="@+id/chin_ups"
                 app:layout_constraintWidth_percent="0.3" />
@@ -637,19 +636,19 @@
                 app:layout_constraintTop_toBottomOf="@+id/highpull_textview"
                 app:layout_constraintVertical_bias="0.0"
                 app:layout_constraintWidth_percent="0.3"
-                app:srcCompat="@drawable/back_muscle" />
+                app:srcCompat="@drawable/archer_ringdips" />
 
             <TextView
                 android:id="@+id/archer_textview"
                 android:layout_width="0dp"
                 android:layout_height="31dp"
-                android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="2dp"
+                android:layout_marginEnd="8dp"
                 android:background="@drawable/button_design_musclesworked"
                 android:fontFamily="@font/antic_didone"
                 android:gravity="center"
-                android:text="Archer Pull Up"
+                android:text="Archer Ring Pull Up"
                 android:textAlignment="center"
                 android:textColor="@android:color/white"
                 android:textSize="12sp"
@@ -691,7 +690,7 @@
                 app:layout_constraintWidth_percent="0.3" />
 
             <ImageButton
-                android:id="@+id/grip_switch_pulls"
+                android:id="@+id/ring_pullups"
                 android:layout_width="0dp"
                 android:layout_height="93dp"
                 android:layout_marginStart="8dp"
@@ -701,7 +700,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/typewriter_textview"
                 app:layout_constraintWidth_percent="0.3"
-                app:srcCompat="@drawable/back_muscle" />
+                app:srcCompat="@drawable/ring_pull" />
 
             <TextView
                 android:id="@+id/gripswitch_textview"
@@ -713,7 +712,7 @@
                 android:background="@drawable/button_design_musclesworked"
                 android:fontFamily="@font/antic_didone"
                 android:gravity="center"
-                android:text="Grip Switch"
+                android:text="Ring Pull/Chin Up"
                 android:textAlignment="center"
                 android:textColor="@android:color/white"
                 android:textSize="12sp"
@@ -721,20 +720,20 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/grip_switch_pulls"
+                app:layout_constraintTop_toBottomOf="@+id/ring_pullups"
                 app:layout_constraintWidth_percent="0.3" />
 
             <ImageButton
                 android:id="@+id/lsit_chinups"
                 android:layout_width="0dp"
                 android:layout_height="93dp"
-                android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="40dp"
+                android:layout_marginEnd="8dp"
                 android:background="#ffffff"
                 android:scaleType="fitCenter"
-                app:layout_constraintEnd_toStartOf="@+id/widegrip_chinups"
-                app:layout_constraintStart_toEndOf="@+id/grip_switch_pulls"
+                app:layout_constraintEnd_toStartOf="@+id/scapula_pullups"
+                app:layout_constraintStart_toEndOf="@+id/ring_pullups"
                 app:layout_constraintTop_toBottomOf="@+id/archer_textview"
                 app:layout_constraintWidth_percent="0.3"
                 app:srcCompat="@drawable/lsit_chinup" />
@@ -743,9 +742,9 @@
                 android:id="@+id/sitchin_textview"
                 android:layout_width="0dp"
                 android:layout_height="31dp"
-                android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="2dp"
+                android:layout_marginEnd="8dp"
                 android:background="@drawable/button_design_musclesworked"
                 android:fontFamily="@font/antic_didone"
                 android:gravity="center"
@@ -755,7 +754,7 @@
                 android:textSize="12sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toStartOf="@+id/scapula_textview"
-                app:layout_constraintHorizontal_bias="0.166"
+                app:layout_constraintHorizontal_bias="0.489"
                 app:layout_constraintStart_toEndOf="@+id/gripswitch_textview"
                 app:layout_constraintTop_toBottomOf="@+id/lsit_chinups"
                 app:layout_constraintWidth_percent="0.3" />
@@ -829,13 +828,13 @@
                 android:id="@+id/onearm_pullup"
                 android:layout_width="0dp"
                 android:layout_height="93dp"
-                android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="40dp"
+                android:layout_marginEnd="8dp"
                 android:background="#ffffff"
                 android:scaleType="fitCenter"
-                app:layout_constraintEnd_toStartOf="@+id/ring_pullups"
-                app:layout_constraintStart_toEndOf="@+id/weighted_pullups"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/sitchin_textview"
                 app:layout_constraintWidth_percent="0.3"
                 app:srcCompat="@drawable/onearmpull" />
@@ -844,9 +843,9 @@
                 android:id="@+id/onearm_textview"
                 android:layout_width="0dp"
                 android:layout_height="31dp"
-                android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="2dp"
+                android:layout_marginEnd="8dp"
                 android:background="@drawable/button_design_musclesworked"
                 android:fontFamily="@font/antic_didone"
                 android:gravity="center"
@@ -855,41 +854,12 @@
                 android:textColor="@android:color/white"
                 android:textSize="12sp"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toStartOf="@+id/ringpull_textview"
-                app:layout_constraintStart_toEndOf="@+id/weighted_textview"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/onearm_pullup"
                 app:layout_constraintWidth_percent="0.3" />
 
-            <ImageButton
-                android:id="@+id/ring_pullups"
-                android:layout_width="0dp"
-                android:layout_height="93dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginTop="40dp"
-                android:background="#ffffff"
-                android:scaleType="fitCenter"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/scapula_textview"
-                app:layout_constraintWidth_percent="0.3"
-                app:srcCompat="@drawable/ring_pull" />
 
-            <TextView
-                android:id="@+id/ringpull_textview"
-                android:layout_width="0dp"
-                android:layout_height="31dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginTop="2dp"
-                android:background="@drawable/button_design_musclesworked"
-                android:fontFamily="@font/antic_didone"
-                android:gravity="center"
-                android:text="Ring Pull/Chin Up"
-                android:textAlignment="center"
-                android:textColor="@android:color/white"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/ring_pullups"
-                app:layout_constraintWidth_percent="0.3" />
 
 
         </android.support.constraint.ConstraintLayout>

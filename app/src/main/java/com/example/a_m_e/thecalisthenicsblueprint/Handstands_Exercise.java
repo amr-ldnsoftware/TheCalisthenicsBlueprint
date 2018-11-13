@@ -21,8 +21,6 @@ public class Handstands_Exercise extends AppCompatActivity {
 
         ImageButton floor_handstands = findViewById(R.id.handstands_floor_imagebutton);
         ImageButton wall_assisted_handstands = findViewById(R.id.wall_assisted_handstands_imagebutton);
-        ImageButton parall_handstands = findViewById(R.id.handtsands_parrallettes_imagebutton);
-        ImageButton sb_handstands = findViewById(R.id.sb_handstands_imagebutton);
         ImageButton handstand_pushups = findViewById(R.id.handstand_pushups_imagebutton);
         ImageButton tigerbend = findViewById(R.id.tiger_bend_imagebutton);
         ImageButton ninety_deg_handstand = findViewById(R.id.ninety_degree_imagebutton);
@@ -45,21 +43,6 @@ public class Handstands_Exercise extends AppCompatActivity {
             }
         });
 
-        parall_handstands.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Youtube_Handstand_Parallettes.class);
-                startActivity(intent);
-            }
-        });
-
-        sb_handstands.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Youtube_SB_Handstand.class);
-                startActivity(intent);
-            }
-        });
 
         handstand_pushups.setOnClickListener(new View.OnClickListener() {
             @Override

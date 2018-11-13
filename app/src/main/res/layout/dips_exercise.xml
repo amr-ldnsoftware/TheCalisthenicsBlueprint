@@ -374,7 +374,7 @@
                 app:layout_constraintWidth_percent="0.3" />
 
             <ImageButton
-                android:id="@+id/archerring_dips_imagebutton"
+                android:id="@+id/ring_dips_imagebutton"
                 android:layout_width="0dp"
                 android:layout_height="93dp"
                 android:layout_marginStart="8dp"
@@ -384,7 +384,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/bandpulls_textview3"
                 app:layout_constraintWidth_percent="0.3"
-                app:srcCompat="@drawable/archer_ringdips" />
+                app:srcCompat="@drawable/ring_dips" />
 
             <TextView
                 android:id="@+id/austa_textview"
@@ -396,7 +396,7 @@
                 android:background="@drawable/button_design_musclesworked"
                 android:fontFamily="@font/antic_didone"
                 android:gravity="center"
-                android:text="Archer Ring Dips"
+                android:text="Ring Dips"
                 android:textAlignment="center"
                 android:textColor="@android:color/white"
                 android:textSize="12sp"
@@ -404,22 +404,22 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/archerring_dips_imagebutton"
+                app:layout_constraintTop_toBottomOf="@+id/ring_dips_imagebutton"
                 app:layout_constraintWidth_percent="0.3" />
 
             <ImageButton
                 android:id="@+id/weighted_dips_imagebutton"
                 android:layout_width="0dp"
                 android:layout_height="93dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="40dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
                 android:background="#ffffff"
                 android:scaleType="fitCenter"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/ring_dips_imagebutton"
-                app:layout_constraintStart_toEndOf="@+id/archerring_dips_imagebutton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/deadhang_textview"
                 app:layout_constraintVertical_bias="0.0"
                 app:layout_constraintWidth_percent="0.3"
@@ -429,9 +429,9 @@
                 android:id="@+id/negative_textview"
                 android:layout_width="0dp"
                 android:layout_height="31dp"
-                android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="2dp"
+                android:layout_marginEnd="8dp"
                 android:background="@drawable/button_design_musclesworked"
                 android:fontFamily="@font/antic_didone"
                 android:gravity="center"
@@ -440,44 +440,11 @@
                 android:textColor="@android:color/white"
                 android:textSize="12sp"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toStartOf="@+id/neutral_textview"
-                app:layout_constraintStart_toEndOf="@+id/austa_textview"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/weighted_dips_imagebutton"
                 app:layout_constraintWidth_percent="0.3" />
 
-            <ImageButton
-                android:id="@+id/ring_dips_imagebutton"
-                android:layout_width="0dp"
-                android:layout_height="93dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginTop="40dp"
-                android:background="#ffffff"
-                android:scaleType="fitCenter"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/isometric_textview"
-                app:layout_constraintVertical_bias="0.0"
-                app:layout_constraintWidth_percent="0.3"
-                app:srcCompat="@drawable/ring_dips" />
-
-            <TextView
-                android:id="@+id/neutral_textview"
-                android:layout_width="0dp"
-                android:layout_height="31dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginTop="2dp"
-                android:background="@drawable/button_design_musclesworked"
-                android:fontFamily="@font/antic_didone"
-                android:gravity="center"
-                android:text="Ring Dips"
-                android:textAlignment="center"
-                android:textColor="@android:color/white"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/ring_dips_imagebutton"
-                app:layout_constraintWidth_percent="0.3" />
 
 
 

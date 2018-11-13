@@ -34,7 +34,6 @@ public class Pullups_Exercise extends AppCompatActivity {
         ImageButton type_writers = findViewById(R.id.type_writers);
         ImageButton archer = findViewById(R.id.archer_pullups);
         ImageButton clapping = findViewById(R.id.clapping_pullups);
-        ImageButton gripswitch = findViewById(R.id.grip_switch_pulls);
         ImageButton l_sit_chinup = findViewById(R.id.lsit_chinups);
         ImageButton scapula = findViewById(R.id.scapula_pullups);
         ImageButton weighted_pulls = findViewById(R.id.weighted_pullups);
@@ -187,13 +186,6 @@ public class Pullups_Exercise extends AppCompatActivity {
             }
         });
 
-        gripswitch.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Youtube_Gripswitch.class);
-                startActivity(intent);
-            }
-        });
 
         l_sit_chinup.setOnClickListener(new View.OnClickListener() {
             @Override

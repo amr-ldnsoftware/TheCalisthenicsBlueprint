@@ -21,7 +21,6 @@ public class Humanflag_Exercise extends AppCompatActivity {
         ImageButton humanflag = findViewById(R.id.human_flag_imagebutton);
         ImageButton kneetuck_flag = findViewById(R.id.kneetuck_flag_imagebutton);
         ImageButton negative_flag = findViewById(R.id.negtive_flag_imagebutton);
-        ImageButton xgrip_flag = findViewById(R.id.xgrip_flag_imagebutton);
         ImageButton flag_pullups = findViewById(R.id.flag_pullups_imagebutton);
 
 
@@ -50,13 +49,7 @@ public class Humanflag_Exercise extends AppCompatActivity {
             }
         });
 
-        xgrip_flag.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Youtube_Xgrip_Flag.class);
-                startActivity(intent);
-            }
-        });
+
 
         flag_pullups.setOnClickListener(new View.OnClickListener() {
             @Override

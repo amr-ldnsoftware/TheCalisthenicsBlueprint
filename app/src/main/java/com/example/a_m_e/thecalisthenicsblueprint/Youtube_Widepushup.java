@@ -30,7 +30,7 @@ public class Youtube_Widepushup extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("nEQQle9-0NA");
+                youTubePlayer.loadVideo("BSjvuJLj4KE");
             }
 
             @Override

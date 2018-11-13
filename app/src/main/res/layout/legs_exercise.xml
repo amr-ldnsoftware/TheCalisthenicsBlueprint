@@ -684,6 +684,36 @@
                 app:layout_constraintTop_toBottomOf="@+id/oneleg_calfraises_imagebutton"
                 app:layout_constraintWidth_percent="0.3" />
 
+            <ImageButton
+                android:id="@+id/boxjumps_imagebutton"
+                android:layout_width="0dp"
+                android:layout_height="93dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="40dp"
+                android:background="#ffffff"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/oneleg_glutebridge_textview"
+                app:layout_constraintWidth_percent="0.3"
+                app:srcCompat="@drawable/boxjumps" />
+
+            <TextView
+                android:id="@+id/oneleg_glutebridge_textview2"
+                android:layout_width="0dp"
+                android:layout_height="31dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/button_design_musclesworked"
+                android:fontFamily="@font/antic_didone"
+                android:gravity="center"
+                android:text="Box Jumps"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/boxjumps_imagebutton"
+                app:layout_constraintWidth_percent="0.3" />
 
 
         </android.support.constraint.ConstraintLayout>

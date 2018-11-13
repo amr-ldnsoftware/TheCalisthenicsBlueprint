@@ -37,6 +37,8 @@ public class Legs_Exercise extends AppCompatActivity {
         ImageButton oneleg_glutebridges = findViewById(R.id.one_leg_glutebridge_imagebutton);
         ImageButton calfraises = findViewById(R.id.calfraises_imagebutton);
         ImageButton oneleg_calfraises = findViewById(R.id.oneleg_calfraises_imagebutton);
+        ImageButton boxjumps = findViewById(R.id.boxjumps_imagebutton);
+
 
 
         squats.setOnClickListener(new View.OnClickListener() {
@@ -179,6 +181,15 @@ public class Legs_Exercise extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), Youtube_Oneleg_CalfRaises.class);
+                startActivity(intent);
+            }
+        });
+
+
+        boxjumps.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_BoxJumps.class);
                 startActivity(intent);
             }
         });

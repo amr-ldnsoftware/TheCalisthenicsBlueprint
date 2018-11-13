@@ -22,7 +22,6 @@ public class Planche_Exercise extends AppCompatActivity {
         ImageButton straddle_planche = findViewById(R.id.straddle_planche_imagebutton);
         ImageButton planche_tucks = findViewById(R.id.planche_tucks_imagebutton);
         ImageButton maltese = findViewById(R.id.maltese_imagebutton);
-        ImageButton straddle_maltese = findViewById(R.id.straddle_maltese_imagebutton);
         ImageButton planche_pushups = findViewById(R.id.planche_pushups_imagebutton);
 
 
@@ -59,13 +58,6 @@ public class Planche_Exercise extends AppCompatActivity {
             }
         });
 
-        straddle_maltese.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Youtube_Straddle_Maltese.class);
-                startActivity(intent);
-            }
-        });
 
         planche_pushups.setOnClickListener(new View.OnClickListener() {
             @Override

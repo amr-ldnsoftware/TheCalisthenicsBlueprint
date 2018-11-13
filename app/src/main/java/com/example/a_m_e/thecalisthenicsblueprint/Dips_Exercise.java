@@ -27,7 +27,6 @@ public class Dips_Exercise extends AppCompatActivity {
         ImageButton trans_dips = findViewById(R.id.trans_dips_imagebutton);
         ImageButton koreandips = findViewById(R.id.korean_dips_imagebutton);
         ImageButton kneetuck_dips = findViewById(R.id.kneetuck_dips_imagebutton);
-        ImageButton archer_ringdips = findViewById(R.id.archerring_dips_imagebutton);
         ImageButton weighted_dips = findViewById(R.id.weighted_dips_imagebutton);
         ImageButton ring_dips = findViewById(R.id.ring_dips_imagebutton);
 
@@ -106,13 +105,6 @@ public class Dips_Exercise extends AppCompatActivity {
             }
         });
 
-        archer_ringdips.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Youtube_Archer_Ringdips.class);
-                startActivity(intent);
-            }
-        });
 
         weighted_dips.setOnClickListener(new View.OnClickListener() {
             @Override
