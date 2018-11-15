@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f2f2f2"
-    tools:context=".Youtube_Bulgarian">
+    tools:context=".Youtube_Frontlever">
 
     <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
             android:background="#66c2ff"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:title="BULGARIAN SPLIT SQUATS"
+            app:title="FRONT LEVER"
             app:titleTextAppearance="@style/TabToolbar.TitleText"
             app:titleTextColor="@android:color/white">
 
@@ -29,7 +29,7 @@
 
 
         <com.google.android.youtube.player.YouTubePlayerView
-            android:id="@+id/bulgarian_youtubePlay"
+            android:id="@+id/frontlever_youtubePlay"
             android:layout_width="match_parent"
             android:layout_height="300dp" />
 
@@ -39,7 +39,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button_play_bulgarian"
+                android:id="@+id/button_play_frontlever"
                 android:layout_width="wrap_content"
                 android:layout_height="35dp"
                 android:layout_alignParentStart="true"
@@ -100,13 +100,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="16dp"
-                android:background="@drawable/button_design_exercises"
+                android:background="@drawable/button_design_advanced_exercises"
                 android:fontFamily="@font/trirong_light"
                 android:paddingLeft="20dp"
                 android:paddingTop="5dp"
                 android:paddingRight="20dp"
                 android:paddingBottom="5dp"
-                android:text="BEGINNER"
+                android:text="ADVANCED"
                 android:textColor="#ffffff"
                 android:textSize="10sp"
                 android:textStyle="bold"
@@ -119,8 +119,18 @@
                 android:layout_height="27dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                android:src="@drawable/legs_muscle"
+                android:src="@drawable/core_muscle"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/back_muscle"
+                app:layout_constraintStart_toEndOf="@+id/imageView"
                 app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
             <TextView
@@ -148,7 +158,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="None"
+                android:text="Dragon Flags, Straddle Levers, Advanced Lever Tucks, lever Tuck Holds, Banded Levers"
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
@@ -180,7 +190,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="Elevated platform"
+                android:text="Access to a Pull Up Bar, or a set of Rings"
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
@@ -212,7 +222,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Find yourself a step, bench or any other contraption that you can rest a foot on, it needs to be about knee height."
+                android:text="\u2022 Assume an inverted hang position on a pull-up bar or gym rings, with your hands at shoulder width apart. Consciously squeeze the rings or bar and push down throughout the hold to engage the upper body muscles and create tension to sustain the hold."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
@@ -229,7 +239,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="8dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Get into a forward lunge position with torso upright, core braced and hips square to your body, with your back foot elevated on the bench. Your leading leg should be half a metre or so in front of bench."
+                android:text="\u2022 Lower the body slowly down until completely horizontal (your body facing upwards). Flex the back and chest muscles and maintain strong tension throughout. The midsection should be tight and engaged and shoulders in a natural position. Squeeze the glutes and leg muscles, stretching the body out and pointing the toes to keep the body in a straight line and parallel to the ground."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
@@ -245,7 +255,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Lower until your front thigh is almost horizontal, keeping your knee in line with your foot. Don't let your front knee travel beyond your toes."
+                android:text="\u2022 Maintain the hold as long as good form will allow. Do not continue once your hips begin to bend."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
@@ -254,41 +264,6 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView12" />
-
-            <TextView
-                android:id="@+id/textView14"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:fontFamily="@font/trirong_light"
-                android:layout_marginTop="10dp"
-                android:text="\u2022 Look straight in front of you at a fixed point."
-                android:textColor="#333333"
-                android:textSize="12sp"
-                android:layout_marginEnd="8dp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView13" />
-
-            <TextView
-                android:id="@+id/textView15"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginTop="10dp"
-                android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Drive up through your front heel back to the starting position, again keeping your movements measured."
-                android:textColor="#333333"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView14" />
-
 
 
             <TextView
@@ -299,13 +274,13 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="8dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Complete the required amount of repetitions and repeat for the opposite leg."
+                android:text="\u2022 Repeat as necessary."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView15" />
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
         </android.support.constraint.ConstraintLayout>
 
     </LinearLayout>

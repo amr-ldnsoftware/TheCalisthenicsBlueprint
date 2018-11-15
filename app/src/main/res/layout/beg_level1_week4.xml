@@ -1758,14 +1758,7 @@
         </android.support.constraint.ConstraintLayout>
 
 
-        <TextView
-            android:id="@+id/divider38"
-            android:layout_width="match_parent"
-            android:layout_height="0.5dp"
-            android:layout_marginLeft="80dp"
-            android:layout_marginRight="80dp"
-            android:layout_marginTop="4.5dp"
-            android:background="#1d3557" />
+
 
         <TextView
             android:id="@+id/textView_SundayWorkout2"

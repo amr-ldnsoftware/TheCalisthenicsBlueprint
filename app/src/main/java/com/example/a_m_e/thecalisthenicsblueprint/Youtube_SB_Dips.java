@@ -29,7 +29,7 @@ public class Youtube_SB_Dips extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("nEQQle9-0NA");
+                youTubePlayer.loadVideo("sm8I-EvQS70");
             }
 
             @Override
