@@ -78,7 +78,6 @@ public class IntLevel1Week5 extends Fragment implements CompoundButton.OnChecked
         ImageButton tues_onecalfraise = view.findViewById(R.id.tues_onecalfraise);
 
 
-        ImageButton wed_stretchicon = view.findViewById(R.id.stretchicon);
         ImageButton wed_foamicon = view.findViewById(R.id.foamicon);
 
         ImageButton thurs_bandmuscleups = view.findViewById(R.id.thurs_bandedmuscleup);
@@ -91,7 +90,6 @@ public class IntLevel1Week5 extends Fragment implements CompoundButton.OnChecked
         ImageButton thurs_bandmuscleups3 = view.findViewById(R.id.thurs_bandedmuscleup3);
 
 
-        ImageButton fri_stretchicon2 = view.findViewById(R.id.stretchicon2);
         ImageButton fri_foamicon2 = view.findViewById(R.id.foamicon2);
 
         ImageButton sat_bandedmuscleup2 = view.findViewById(R.id.sat_bandedmuscleup2);
@@ -103,7 +101,6 @@ public class IntLevel1Week5 extends Fragment implements CompoundButton.OnChecked
         ImageButton sat_pulls = view.findViewById(R.id.sat_pulls);
         ImageButton sat_isometrics = view.findViewById(R.id.sat_isometrics);
 
-        ImageButton sun_stretchicon2 = view.findViewById(R.id.stretchicon3);
         ImageButton sun_foamicon2 = view.findViewById(R.id.foamicon3);
 
 
@@ -221,13 +218,6 @@ public class IntLevel1Week5 extends Fragment implements CompoundButton.OnChecked
             }
         });
 
-        wed_stretchicon.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Youtube_Mobility.class);
-                startActivity(intent);
-            }
-        });
 
         thurs_bandmuscleups.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -298,13 +288,7 @@ public class IntLevel1Week5 extends Fragment implements CompoundButton.OnChecked
             }
         });
 
-        fri_stretchicon2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Youtube_Mobility.class);
-                startActivity(intent);
-            }
-        });
+
 
         sat_bandedmuscleup.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -366,13 +350,6 @@ public class IntLevel1Week5 extends Fragment implements CompoundButton.OnChecked
             }
         });
 
-        sun_stretchicon2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Youtube_Mobility.class);
-                startActivity(intent);
-            }
-        });
 
 
 

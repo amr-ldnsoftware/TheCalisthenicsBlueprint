@@ -89,7 +89,6 @@ public class IntLevel4Week4 extends Fragment implements CompoundButton.OnChecked
         ImageButton wed_lsit = view.findViewById(R.id.wed_lsit);
         ImageButton wed_wallhandstand = view.findViewById(R.id.wed_wallhandstand);
 
-        ImageButton thurs_mobility = view.findViewById(R.id.stretchicon);
         ImageButton thurs_foamrolling = view.findViewById(R.id.foamicon);
 
         ImageButton fri_weightedpulls = view.findViewById(R.id.fri_weightedpulls);
@@ -106,7 +105,6 @@ public class IntLevel4Week4 extends Fragment implements CompoundButton.OnChecked
         ImageButton sat_frontsquats = view.findViewById(R.id.sat_frontsquats);
         ImageButton sat_squats = view.findViewById(R.id.sat_squats);
 
-        ImageButton sun_mobility = view.findViewById(R.id.stretchicon2);
         ImageButton sun_foamrolling = view.findViewById(R.id.foamicon2);
 
 
@@ -287,13 +285,7 @@ public class IntLevel4Week4 extends Fragment implements CompoundButton.OnChecked
             }
         });
 
-        thurs_mobility.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Youtube_Mobility.class);
-                startActivity(intent);
-            }
-        });
+
 
         fri_backextensions.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -399,13 +391,7 @@ public class IntLevel4Week4 extends Fragment implements CompoundButton.OnChecked
             }
         });
 
-        sun_mobility.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Youtube_Mobility.class);
-                startActivity(intent);
-            }
-        });
+
 
         complete_workout_monday71.setOnCheckedChangeListener(this);
         complete_workout_tuesday71.setOnCheckedChangeListener(this);

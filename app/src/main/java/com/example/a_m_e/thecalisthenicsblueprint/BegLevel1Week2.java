@@ -90,7 +90,6 @@ public class BegLevel1Week2 extends Fragment implements CompoundButton.OnChecked
         ImageButton tues_bandpullsicon = view.findViewById(R.id.tues_bandpullsicon);
 
 
-        ImageButton wed_mob = view.findViewById(R.id.stretchicon);
         ImageButton wed_foam = view.findViewById(R.id.foamicon);
         ImageButton thurs_bandpulls = view.findViewById(R.id.bandpullsicon2);
         ImageButton thurs_pushup = view.findViewById(R.id.pushupicon2);
@@ -100,7 +99,6 @@ public class BegLevel1Week2 extends Fragment implements CompoundButton.OnChecked
         ImageButton fri_jumpingsquats = view.findViewById(R.id.jumpingsquatsicon2);
         ImageButton fri_lunges = view.findViewById(R.id.lungesicon2);
         ImageButton fri_leapfrogs = view.findViewById(R.id.leapfrogsicon2);
-        ImageButton sat_mobility = view.findViewById(R.id.stretchicon2);
         ImageButton sat_foam = view.findViewById(R.id.foamicon2);
         ImageButton sun_situps = view.findViewById(R.id.situpsicon2);
         ImageButton sun_romantwists = view.findViewById(R.id.romantwistsicon2);
@@ -255,13 +253,6 @@ public class BegLevel1Week2 extends Fragment implements CompoundButton.OnChecked
             }
         });
 
-        wed_mob.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Youtube_Mobility.class);
-                startActivity(intent);
-            }
-        });
 
         wed_foam.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -335,13 +326,6 @@ public class BegLevel1Week2 extends Fragment implements CompoundButton.OnChecked
             }
         });
 
-        sat_mobility.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Youtube_Mobility.class);
-                startActivity(intent);
-            }
-        });
 
         sat_foam.setOnClickListener(new View.OnClickListener() {
             @Override

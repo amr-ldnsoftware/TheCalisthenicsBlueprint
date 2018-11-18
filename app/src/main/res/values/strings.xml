@@ -37,5 +37,10 @@
     <string name="title_activity_adv_level5" />
     <string name="title_activity_adv_level6" />
     <string name="title_activity_adv_level7" />
+
+    <string name="linktowiki">
+        <a href="http://www.wikipedia.com">check me out</a>
+    </string>
+
     <string name="mark_workout_as_complete">Mark Workout as Complete</string>
 </resources>

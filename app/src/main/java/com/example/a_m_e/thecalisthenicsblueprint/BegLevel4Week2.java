@@ -84,7 +84,6 @@ public class BegLevel4Week2 extends Fragment implements CompoundButton.OnChecked
         ImageButton tues_weightedsquats2 = view.findViewById(R.id.weightedsquats2);
         ImageButton tues_weightedsquats3 = view.findViewById(R.id.weightedsquats3);
 
-        ImageButton wed_mob = view.findViewById(R.id.stretchicon);
         ImageButton wed_foam = view.findViewById(R.id.foamicon);
 
         ImageButton thurs_chinups = view.findViewById(R.id.chinups);
@@ -109,7 +108,6 @@ public class BegLevel4Week2 extends Fragment implements CompoundButton.OnChecked
         ImageButton sat_widepushup = view.findViewById(R.id.widepushupicon);
         ImageButton sat_dips = view.findViewById(R.id.dips3);
 
-        ImageButton sun_mobility = view.findViewById(R.id.stretchicon2);
         ImageButton sun_foam = view.findViewById(R.id.foamicon2);
 
 
@@ -231,13 +229,7 @@ public class BegLevel4Week2 extends Fragment implements CompoundButton.OnChecked
             }
         });
 
-        wed_mob.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Youtube_Mobility.class);
-                startActivity(intent);
-            }
-        });
+
 
         wed_foam.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -399,13 +391,7 @@ public class BegLevel4Week2 extends Fragment implements CompoundButton.OnChecked
             }
         });
 
-        sun_mobility.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Youtube_Mobility.class);
-                startActivity(intent);
-            }
-        });
+
 
         sun_foam.setOnClickListener(new View.OnClickListener() {
             @Override

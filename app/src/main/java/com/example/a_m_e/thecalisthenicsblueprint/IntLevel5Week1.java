@@ -116,7 +116,6 @@ public class IntLevel5Week1 extends Fragment implements CompoundButton.OnChecked
         ImageButton sat_onelegcalfraises = view.findViewById(R.id.sat_onelegcalfraises);
         ImageButton sat_ghr = view.findViewById(R.id.sat_ghr);
 
-        ImageButton sun_mobility = view.findViewById(R.id.stretchicon);
         ImageButton sun_foamrolling = view.findViewById(R.id.foamicon);
 
 
@@ -458,13 +457,6 @@ public class IntLevel5Week1 extends Fragment implements CompoundButton.OnChecked
             }
         });
 
-        sun_mobility.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Youtube_Mobility.class);
-                startActivity(intent);
-            }
-        });
 
 
 

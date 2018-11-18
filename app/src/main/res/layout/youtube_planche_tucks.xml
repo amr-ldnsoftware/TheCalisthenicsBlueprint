@@ -40,16 +40,14 @@
 
             <Button
                 android:id="@+id/button_play_planchetucks"
-                android:layout_width="wrap_content"
-                android:layout_height="35dp"
+                android:layout_width="66dp"
+                android:layout_height="47dp"
+                android:background="@drawable/youtube_logo_new"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="8dp"
-                android:background="@drawable/button_design_youtube"
-                android:fontFamily="serif"
-                android:text="PLAY"
                 android:textColor="@android:color/white"
                 android:textSize="18sp"
                 android:textStyle="bold"
@@ -64,9 +62,9 @@
             android:id="@+id/divider10"
             android:layout_width="match_parent"
             android:layout_height="2.5dp"
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="80dp"
             android:layout_marginTop="10dp"
-            android:layout_marginRight="40dp"
+            android:layout_marginRight="80dp"
             android:layout_marginBottom="8dp"
             android:background="#cc2900" />
 

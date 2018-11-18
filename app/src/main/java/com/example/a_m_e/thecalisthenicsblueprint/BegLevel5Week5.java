@@ -84,7 +84,6 @@ public class BegLevel5Week5 extends Fragment implements CompoundButton.OnChecked
         ImageButton tues_onelegcalf = view.findViewById(R.id.onelegcalfraise);
         ImageButton tues_squats = view.findViewById(R.id.squatsicon);
 
-        ImageButton wed_mob = view.findViewById(R.id.stretchicon);
         ImageButton wed_foam = view.findViewById(R.id.foamicon);
 
         ImageButton thurs_weightedpulls = view.findViewById(R.id.weighted_pullups);
@@ -100,7 +99,6 @@ public class BegLevel5Week5 extends Fragment implements CompoundButton.OnChecked
         ImageButton isoicon20 = view.findViewById(R.id.isoicon20);
         ImageButton closegrip_chins = view.findViewById(R.id.closegrip_chins);
 
-        ImageButton fri_mob = view.findViewById(R.id.stretchicon2);
         ImageButton fri_foam = view.findViewById(R.id.foamicon2);
 
         ImageButton sat_weightedsquats2 = view.findViewById(R.id.weightedsquats2);
@@ -110,7 +108,6 @@ public class BegLevel5Week5 extends Fragment implements CompoundButton.OnChecked
         ImageButton sat_jumpingsquats = view.findViewById(R.id.jumpingsquatsicon2);
         ImageButton sat_jumpinglunges = view.findViewById(R.id.jumpinglungesicon);
 
-        ImageButton sun_mob = view.findViewById(R.id.stretchicon3);
         ImageButton sun_foam = view.findViewById(R.id.foamicon3);
 
 
@@ -235,13 +232,6 @@ public class BegLevel5Week5 extends Fragment implements CompoundButton.OnChecked
             }
         });
 
-        wed_mob.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Youtube_Mobility.class);
-                startActivity(intent);
-            }
-        });
 
         wed_foam.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -348,13 +338,7 @@ public class BegLevel5Week5 extends Fragment implements CompoundButton.OnChecked
             }
         });
 
-        fri_mob.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Youtube_Mobility.class);
-                startActivity(intent);
-            }
-        });
+
 
         fri_foam.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -416,13 +400,7 @@ public class BegLevel5Week5 extends Fragment implements CompoundButton.OnChecked
             }
         });
 
-        sun_mob.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Youtube_Mobility.class);
-                startActivity(intent);
-            }
-        });
+
 
         sun_foam.setOnClickListener(new View.OnClickListener() {
             @Override

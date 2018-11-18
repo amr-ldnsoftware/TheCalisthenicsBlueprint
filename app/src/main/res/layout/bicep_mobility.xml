@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f2f2f2"
-    tools:context=".Youtube_Frontlever">
+    tools:context=".biceps_mobility">
+
+
 
     <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
@@ -20,268 +22,193 @@
             android:background="#66c2ff"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:title="FRONT LEVER"
+            app:title="BICEP STRETCHES"
             app:titleTextAppearance="@style/TabToolbar.TitleText"
             app:titleTextColor="@android:color/white">
 
         </android.support.v7.widget.Toolbar>
 
-
-
-        <com.google.android.youtube.player.YouTubePlayerView
-            android:id="@+id/frontlever_youtubePlay"
+        <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="300dp" />
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="50dp">
 
+            <ImageView
+                android:id="@+id/bicep_mob_image"
+                android:layout_width="151dp"
+                android:layout_height="259dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/biceps_trimmed"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/bicepmoreinfo_stretch"
+                android:layout_width="83dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="8dp"
+                android:onClick="anatomyinfo"
+                android:background="@drawable/button_design_exercises2"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="ANATOMY"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bicepmoreinfo_anatomy" />
+
+            <Button
+                android:id="@+id/bicepmoreinfo_anatomy"
+                android:layout_width="83dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:onClick="stretchinfo"
+                android:background="@drawable/button_design_musclesworked2"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="stretching"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/bicepmoreinfo_extravideos"
+                android:layout_width="83dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="8dp"
+                android:onClick="extravideos"
+                android:background="@drawable/button_design_advanced_exercises2"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="EXTRA VIDEOS"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bicepmoreinfo_stretch" />
+
+            <TextView
+                android:id="@+id/biceptext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="12dp"
+                android:fontFamily="@font/trirong_light"
+                android:text="The anatomical name for the main biceps muscle is biceps brachii, which is in Latin. Translated to English, biceps means “two-headed” and brachii means “of the arm.”"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bicep_mob_image" />
+
+
+
+            <TextView
+                android:id="@+id/biceptext2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="12dp"
+                android:fontFamily="@font/trirong_light"
+                android:text="The two heads (i.e. distinct collections of muscle fibers) of the biceps anatomy vary in length, and so, they are known as the short and long biceps heads. They connect to different places on the shoulder/scapula region, but have a common insertion point on the elbow tendon."
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/biceptext" />
+
+
+            <TextView
+                android:id="@+id/biceptext3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="12dp"
+                android:fontFamily="@font/trirong_light"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:padding="5dp"
+                android:background="@drawable/button_design_videoshownbelow"
+                android:text="Example bicep stretches are shown in the video below:"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/biceptext2" />
+
+
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/bicepmobility_youtubePlay"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="120dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/biceptext2"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </android.support.constraint.ConstraintLayout>
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button_play_frontlever"
-                android:layout_width="wrap_content"
-                android:layout_height="35dp"
+                android:id="@+id/button_play_bicepmobility"
+                android:layout_width="66dp"
+                android:layout_height="47dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginEnd="8dp"
-                android:background="@drawable/button_design_youtube"
-                android:fontFamily="serif"
-                android:text="PLAY"
-                android:textColor="@android:color/white"
+                android:background="@drawable/youtube_logo_new"
                 android:textSize="18sp"
                 android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="20dp"
+                android:text="Video Credit: Anabolic Aliens (5 Minute Bicep Static Stretching Routine)"
+                android:textSize="10sp"
+                android:textStyle="italic"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toBottomOf="@id/button_play_bicepmobility"
+                app:layout_constraintVertical_bias="0.0" />
+
 
         </android.support.constraint.ConstraintLayout>
 
+
+        <!-- For setting website links from txtviews
         <TextView
-            android:id="@+id/divider10"
-            android:layout_width="match_parent"
-            android:layout_height="2.5dp"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginBottom="8dp"
-            android:background="#cc2900" />
-
-        <android.support.constraint.ConstraintLayout
-            android:layout_width="match_parent"
+            android:id="@+id/website"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp">
+            android:text="@string/linktowiki" />
+        -->
 
 
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="32dp"
-                android:background="@drawable/button_design_musclesworked"
-                android:fontFamily="@font/trirong_light"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="Muscles Worked:"
-                android:textAllCaps="true"
-                android:textColor="#ffffff"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/textView5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                android:layout_marginEnd="16dp"
-                android:background="@drawable/button_design_advanced_exercises"
-                android:fontFamily="@font/trirong_light"
-                android:paddingLeft="20dp"
-                android:paddingTop="5dp"
-                android:paddingRight="20dp"
-                android:paddingBottom="5dp"
-                android:text="ADVANCED"
-                android:textColor="#ffffff"
-                android:textSize="10sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="27dp"
-                android:layout_height="27dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:src="@drawable/core_muscle"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView4" />
-
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="27dp"
-                android:layout_height="27dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:src="@drawable/back_muscle"
-                app:layout_constraintStart_toEndOf="@+id/imageView"
-                app:layout_constraintTop_toBottomOf="@+id/textView4" />
-
-            <TextView
-                android:id="@+id/textView6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="32dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:fontFamily="@font/trirong_light"
-                android:background="@drawable/button_design_musclesworked"
-                android:text="prerequisites:"
-                android:textAllCaps="true"
-                android:textColor="#ffffff"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
-            <TextView
-                android:id="@+id/textView7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="8dp"
-                android:fontFamily="@font/trirong_light"
-                android:text="Dragon Flags, Straddle Levers, Advanced Lever Tucks, lever Tuck Holds, Banded Levers"
-                android:textColor="#333333"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
-            <TextView
-                android:id="@+id/textView8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="32dp"
-                android:background="@drawable/button_design_musclesworked"
-                android:fontFamily="@font/trirong_light"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="Equipment Required:"
-                android:textAllCaps="true"
-                android:textColor="#ffffff"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
-            <TextView
-                android:id="@+id/textView9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="8dp"
-                android:fontFamily="@font/trirong_light"
-                android:text="Access to a Pull Up Bar, or a set of Rings"
-                android:textColor="#333333"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView8" />
-
-            <TextView
-                android:id="@+id/textView10"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="32dp"
-                android:background="@drawable/button_design_musclesworked"
-                android:fontFamily="@font/trirong_light"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="Technique focal points"
-                android:textAllCaps="true"
-                android:textColor="#ffffff"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView9" />
-
-            <TextView
-                android:id="@+id/textView11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="8dp"
-                android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Assume an inverted hang position on a pull-up bar or gym rings, with your hands at shoulder width apart. Consciously squeeze the rings or bar and push down throughout the hold to engage the upper body muscles and create tension to sustain the hold."
-                android:textColor="#333333"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                android:layout_marginEnd="8dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView10" />
-
-            <TextView
-                android:id="@+id/textView12"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="8dp"
-                android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Lower the body slowly down until completely horizontal (your body facing upwards). Flex the back and chest muscles and maintain strong tension throughout. The midsection should be tight and engaged and shoulders in a natural position. Squeeze the glutes and leg muscles, stretching the body out and pointing the toes to keep the body in a straight line and parallel to the ground."
-                android:textColor="#333333"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView11" />
-
-            <TextView
-                android:id="@+id/textView13"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Maintain the hold as long as good form will allow. Do not continue once your hips begin to bend."
-                android:textColor="#333333"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                android:layout_marginEnd="8dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
 
-            <TextView
-                android:id="@+id/textView17a"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="8dp"
-                android:fontFamily="@font/trirong_light"
-                android:text="\u2022 Repeat as necessary."
-                android:textColor="#333333"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView13" />
-        </android.support.constraint.ConstraintLayout>
+
 
     </LinearLayout>
 

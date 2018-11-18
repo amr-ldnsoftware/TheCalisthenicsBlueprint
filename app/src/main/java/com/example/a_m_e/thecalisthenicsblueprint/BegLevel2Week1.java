@@ -90,10 +90,9 @@ public class BegLevel2Week1 extends Fragment implements CompoundButton.OnChecked
         ImageButton wed_sideplank = view.findViewById(R.id.sideplank);
         ImageButton wed_barkneeraises = view.findViewById(R.id.barknee);
 
-        ImageButton thurs_mob = view.findViewById(R.id.stretchicon);
         ImageButton thurs_foam = view.findViewById(R.id.foamicon);
 
-        ImageButton fri_bandpulls = view.findViewById(R.id.bandpullsicon2);
+        ImageButton fri_bandpulls = view.findViewById(R.id.bandpullsicon6);
         ImageButton fri_isoholds = view.findViewById(R.id.isoicon);
         ImageButton fri_dips = view.findViewById(R.id.dips);
         ImageButton fri_pushups = view.findViewById(R.id.pushupicon);
@@ -107,7 +106,6 @@ public class BegLevel2Week1 extends Fragment implements CompoundButton.OnChecked
         ImageButton sat_calfraises = view.findViewById(R.id.calfraisesicon2);
         ImageButton sat_bulgarian = view.findViewById(R.id.bulgarianicon);
 
-        ImageButton sun_mobility = view.findViewById(R.id.stretchicon2);
         ImageButton sun_foam = view.findViewById(R.id.foamicon2);
 
 
@@ -232,13 +230,6 @@ public class BegLevel2Week1 extends Fragment implements CompoundButton.OnChecked
         });
 
 
-        thurs_mob.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Youtube_Mobility.class);
-                startActivity(intent);
-            }
-        });
 
         thurs_foam.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -340,14 +331,6 @@ public class BegLevel2Week1 extends Fragment implements CompoundButton.OnChecked
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), Youtube_Bulgarian.class);
-                startActivity(intent);
-            }
-        });
-
-        sun_mobility.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Youtube_Mobility.class);
                 startActivity(intent);
             }
         });

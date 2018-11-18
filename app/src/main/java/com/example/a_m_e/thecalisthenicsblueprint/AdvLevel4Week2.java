@@ -102,7 +102,6 @@ public class AdvLevel4Week2 extends Fragment implements CompoundButton.OnChecked
         ImageButton wed_planchetuck = view.findViewById(R.id.wed_planchetuck);
         ImageButton wed_dips = view.findViewById(R.id.wed_dips);
 
-        ImageButton thurs_mobility = view.findViewById(R.id.stretchicon);
         ImageButton thurs_foamrolling = view.findViewById(R.id.foamicon);
 
         ImageButton fri_weightedpulls = view.findViewById(R.id.fri_weightedpulls);
@@ -343,13 +342,7 @@ public class AdvLevel4Week2 extends Fragment implements CompoundButton.OnChecked
             }
         });
 
-        thurs_mobility.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Youtube_Mobility.class);
-                startActivity(intent);
-            }
-        });
+
 
         fri_frontlever.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -1,143 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#ffffff">
 
-
-    <LinearLayout
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
-
-
-        <TextView
-            android:id="@+id/headerLine"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:background="#0066ff" />
-
-        <TextView
-            android:id="@+id/headerLine2"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:background="#ff0000" />
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp">
 
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="match_parent"
-            android:layout_height="107dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
             android:contentDescription="header"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/homepage_bannertrim" />
 
         <TextView
-            android:id="@+id/headerLine3"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:background="#ff0000" />
+            android:id="@+id/divider10"
+            android:layout_width="0dp"
+            app:layout_constraintWidth_percent="0.95"
+            android:layout_height="2.5dp"
+            android:background="#cc2900"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
-        <TextView
-            android:id="@+id/headerLine4"
-            android:layout_width="match_parent"
-            android:layout_height="6dp"
-            android:background="#8c8c8c" />
-
-
-        <TextView
-            android:id="@+id/bodyInfoTextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10.5dp"
-            android:layout_marginRight="10.5dp"
-            android:fontFamily="@font/antic_didone"
-            android:layout_marginTop="7dp"
-            android:textStyle="bold"
-            android:text="In the world of fitness, Calisthenics is a dynamic training method which utilises bodyweight exercises and movements to increase one's strength \u0026 conditioning, as well as their overall well-being."
-            android:textAlignment="viewStart"
-            android:textSize="13sp" />
-
-        <TextView
-            android:id="@+id/bodyInfoTextView1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10.5dp"
-            android:layout_marginRight="10.5dp"
-            android:fontFamily="@font/antic_didone"
-            android:layout_marginTop="7dp"
-            android:textStyle="bold"
-            android:textSize="13sp"
-            android:text="The term which is relatively unfamiliar to most people, actually derives from the Ancient Greek words: 'kallos' and 'sthenos' - meaning 'Beautiful Strength'. "
-            android:textAlignment="viewStart" />
-
-        <TextView
-            android:id="@+id/bodyInfoTextView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10.5dp"
-            android:layout_marginRight="10.5dp"
-            android:fontFamily="@font/antic_didone"
-            android:layout_marginTop="7dp"
-            android:textStyle="bold"
-            android:textSize="13sp"
-            android:text="Typical exercises that fall under Calisthenics, include, but are not limited too:"
-            android:textAlignment="viewStart" />
-
-        <TextView
-            android:id="@+id/bodyInfoTextView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10.5dp"
-            android:layout_marginRight="10.5dp"
-            android:fontFamily="@font/antic_didone"
-            android:layout_marginTop="7dp"
-            android:textStyle="bold"
-            android:layout_marginBottom="8dp"
-            android:text="                    \u2022   Pull Ups\n                    \u2022   Squats\n                    \u2022   Push Ups\n                    \u2022   Sit Ups\n                    \u2022   Lunges
-"
-            android:textAlignment="viewStart"
-            android:textSize="13sp" />
-
-        <View
-            android:id="@+id/divider1"
-            android:layout_width="match_parent"
-            android:layout_height="0.5dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:background="#8c8c8c" />
 
         <ImageView
-            android:id="@+id/imageViewBruceLee"
-            android:layout_width="match_parent"
-            android:layout_height="161dp"
-            android:paddingLeft="7.5dp"
-            android:paddingTop="5dp"
-            android:paddingBottom="2dp"
-            app:srcCompat="@drawable/brucelee" />
+            android:id="@+id/sun"
+            android:layout_width="81dp"
+            android:layout_height="0dp"
+            android:layout_below="@id/imageView4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/sun"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.15"
+            app:layout_constraintHorizontal_bias="0.179"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
-        <View
-            android:id="@+id/divider3"
+        <com.cunoraz.continuouscrollable.ContinuousScrollableImageView
+            android:id="@+id/clouds"
             android:layout_width="match_parent"
-            android:layout_height="0.5dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:background="#8c8c8c" />
+            android:layout_height="0dp"
+            android:layout_below="@+id/sun"
+            app:direction="left"
+            app:duration="8000"
+            app:imageSrc="@drawable/clouds"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.15"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sun" />
 
-        <TextView
-            android:id="@+id/bodyInfoTextView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10.5dp"
-            android:layout_marginRight="10.5dp"
-            android:fontFamily="@font/antic_didone"
-            android:layout_marginTop="7dp"
-            android:textStyle="bold"
-            android:textSize="13sp"
-            android:text="For many professional athletes across a variety of sports, Calisthenics plays a vital role in the improvement of one's: strength; endurance; stamina; muscle growth, flexibilty and general fitness goals. "
-            android:textAlignment="viewStart" />
+        <ImageView
+            android:id="@+id/park"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/park"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent="1" />
 
-    </LinearLayout>
-</ScrollView>
+        <ImageView
+            android:id="@+id/pullupcartoon"
+            android:layout_width="170dp"
+            android:layout_height="223dp"
+            android:layout_marginBottom="60dp"
+            android:src="@drawable/pullup_cartoon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.4"
+            app:layout_constraintHorizontal_bias="0.734"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</RelativeLayout>
 

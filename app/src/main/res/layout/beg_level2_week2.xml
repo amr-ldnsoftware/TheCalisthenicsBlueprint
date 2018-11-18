@@ -1372,7 +1372,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="7dp"
             android:layout_marginRight="7dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="20dp"
             android:background="#264673"
             android:fontFamily="@font/antic_didone"
             android:paddingBottom="5dp"

@@ -782,6 +782,61 @@
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
 
+        <activity
+            android:name=".triceps_mobility"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".pectorals_mobility"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".shoulders_mobility"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".scapula_mobility"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".lats_mobility"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".neck_mobility"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+        android:name=".abdominals_mobility"
+        android:label="normalpullup"
+        android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".quads_mobility"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".hamstrings_mobility"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".calves_mobility"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".glutes_mobility"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

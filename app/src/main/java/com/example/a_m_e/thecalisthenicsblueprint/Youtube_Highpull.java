@@ -23,8 +23,8 @@ public class Youtube_Highpull  extends YouTubeBaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.youtube_highpulls);
 
-        button = findViewById(R.id.button_play_squat);
-        youTubePlayerView = findViewById(R.id.squat_youtubePlay);
+        button = findViewById(R.id.button_play_highpulls);
+        youTubePlayerView = findViewById(R.id.highpulls_youtubePlay);
 
         onInitializedListener = new YouTubePlayer.OnInitializedListener() {
             @Override

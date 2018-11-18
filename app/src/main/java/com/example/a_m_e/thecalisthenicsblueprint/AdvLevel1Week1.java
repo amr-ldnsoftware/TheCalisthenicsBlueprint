@@ -90,7 +90,6 @@ public class AdvLevel1Week1 extends Fragment implements CompoundButton.OnChecked
         ImageButton thurs_lsit = view.findViewById(R.id.thurs_lsit);
         ImageButton thurs_toestobar = view.findViewById(R.id.thurs_toestobar);
 
-        ImageButton fri_mobility = view.findViewById(R.id.stretchicon);
         ImageButton fri_foamrolling = view.findViewById(R.id.foamicon);
 
         ImageButton sat_pulls = view.findViewById(R.id.sat_pulls);
@@ -102,7 +101,6 @@ public class AdvLevel1Week1 extends Fragment implements CompoundButton.OnChecked
         ImageButton sat_lsit = view.findViewById(R.id.sat_lsit);
         ImageButton sat_toestobar = view.findViewById(R.id.sat_toestobar);
 
-        ImageButton sun_mobility = view.findViewById(R.id.stretchicon2);
         ImageButton sun_foamrolling = view.findViewById(R.id.foamicon2);
 
 
@@ -285,13 +283,6 @@ public class AdvLevel1Week1 extends Fragment implements CompoundButton.OnChecked
             }
         });
 
-        fri_mobility.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Youtube_Mobility.class);
-                startActivity(intent);
-            }
-        });
 
         sat_frontlever.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -363,14 +354,6 @@ public class AdvLevel1Week1 extends Fragment implements CompoundButton.OnChecked
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), Youtube_Foamroll.class);
-                startActivity(intent);
-            }
-        });
-
-        sun_mobility.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Youtube_Mobility.class);
                 startActivity(intent);
             }
         });
