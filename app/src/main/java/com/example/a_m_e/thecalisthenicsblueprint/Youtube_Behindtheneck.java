@@ -30,7 +30,7 @@ public class Youtube_Behindtheneck extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("nEQQle9-0NA");
+                youTubePlayer.loadVideo("J_sH6GiIjp0");
             }
 
             @Override

@@ -29,7 +29,7 @@ public class Youtube_Slow_Pushups extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("0zcrqzEIZsc");
+                youTubePlayer.loadVideo("oYMnXge778c");
             }
 
             @Override

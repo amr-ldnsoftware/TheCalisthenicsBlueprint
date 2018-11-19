@@ -30,7 +30,7 @@ public class Youtube_Pike_Pushups extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("_ExLV1CjhoU");
+                youTubePlayer.loadVideo("oRVKXwd1Sj8");
             }
 
             @Override

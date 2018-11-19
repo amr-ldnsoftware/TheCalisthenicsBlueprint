@@ -31,7 +31,7 @@ public class Youtube_Wallsit extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("FjL-GYKucL8");
+                youTubePlayer.loadVideo("wPRIgHWuUtU");
             }
 
             @Override

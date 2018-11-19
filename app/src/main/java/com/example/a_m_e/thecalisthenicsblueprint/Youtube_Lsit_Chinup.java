@@ -29,7 +29,7 @@ public class Youtube_Lsit_Chinup extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("wrb72ivOVJU");
+                youTubePlayer.loadVideo("0TuSrii20Uc");
             }
 
             @Override

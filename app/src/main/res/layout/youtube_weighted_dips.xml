@@ -20,7 +20,7 @@
             android:background="#66c2ff"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:title="WEIGHTED DIPS (BAR/RING)"
+            app:title="WEIGHTED DIPS"
             app:titleTextAppearance="@style/TabToolbar.TitleText"
             app:titleTextColor="@android:color/white">
 

@@ -29,7 +29,7 @@ public class Youtube_Neutral extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("yn5iQsDP_FU");
+                youTubePlayer.loadVideo("dFJ0W1ZAgzQ");
             }
 
             @Override

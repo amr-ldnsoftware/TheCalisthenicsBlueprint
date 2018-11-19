@@ -29,7 +29,7 @@ public class Youtube_Raised_Decline_Pushups extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("0mCrXlvlPzc");
+                youTubePlayer.loadVideo("jY2b3bU2li4");
             }
 
             @Override

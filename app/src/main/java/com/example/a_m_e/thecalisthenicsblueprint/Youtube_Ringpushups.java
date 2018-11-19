@@ -29,7 +29,7 @@ public class Youtube_Ringpushups extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("1wLZ-ZEouFs");
+                youTubePlayer.loadVideo("oiw05q9YrFU");
             }
 
             @Override

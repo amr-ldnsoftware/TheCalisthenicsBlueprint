@@ -435,7 +435,7 @@
                 android:background="@drawable/button_design_musclesworked"
                 android:fontFamily="@font/antic_didone"
                 android:gravity="center"
-                android:text="Weighted Dips (Bar/Ring)"
+                android:text="Weighted Dips"
                 android:textAlignment="center"
                 android:textColor="@android:color/white"
                 android:textSize="12sp"

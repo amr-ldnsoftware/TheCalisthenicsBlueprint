@@ -30,7 +30,7 @@ public class Youtube_Normal_Closegrip_Pull extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("nEQQle9-0NA");
+                youTubePlayer.loadVideo("Kq5Rpt_JE3M");
             }
 
             @Override

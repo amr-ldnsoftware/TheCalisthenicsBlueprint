@@ -29,7 +29,7 @@ public class Youtube_Ring_Dips extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("NiNUhIaR3sc");
+                youTubePlayer.loadVideo("w6rPFuvLNk8");
             }
 
             @Override

@@ -28,7 +28,7 @@ public class Youtube_Normal_Closegrip_Chin extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("nEQQle9-0NA");
+                youTubePlayer.loadVideo("3HLHNw__kb8");
             }
 
             @Override

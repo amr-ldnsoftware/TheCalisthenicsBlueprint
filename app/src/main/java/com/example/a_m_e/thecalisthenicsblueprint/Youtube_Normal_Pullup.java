@@ -30,7 +30,7 @@ public class Youtube_Normal_Pullup extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("F44oVW4Y3Gg");
+                youTubePlayer.loadVideo("aMi1UniTuRY");
             }
 
             @Override

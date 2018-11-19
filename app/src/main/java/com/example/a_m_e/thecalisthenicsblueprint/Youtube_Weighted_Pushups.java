@@ -30,7 +30,7 @@ public class Youtube_Weighted_Pushups extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("i7kyh87vh_A");
+                youTubePlayer.loadVideo("gs7mprXODEs");
             }
 
             @Override

@@ -30,7 +30,7 @@ public class Youtube_Bar_Legraises extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("nEQQle9-0NA");
+                youTubePlayer.loadVideo("0v1-i4QiMpI");
             }
 
             @Override
