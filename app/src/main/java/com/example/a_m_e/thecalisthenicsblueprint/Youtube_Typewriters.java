@@ -30,7 +30,7 @@ public class Youtube_Typewriters extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("nEQQle9-0NA");
+                youTubePlayer.loadVideo("XK1Te_eXKd8");
             }
 
             @Override

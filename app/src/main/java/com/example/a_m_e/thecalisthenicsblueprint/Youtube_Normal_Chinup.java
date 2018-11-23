@@ -29,7 +29,7 @@ public class Youtube_Normal_Chinup extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("-7JFRvwufIw");
+                youTubePlayer.loadVideo("UfhT0OSUU0w");
             }
 
             @Override

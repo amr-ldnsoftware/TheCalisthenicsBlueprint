@@ -26,7 +26,6 @@ public class Dips_Exercise extends AppCompatActivity {
         ImageButton impossible_dips = findViewById(R.id.impossible_dips_imagebutton);
         ImageButton trans_dips = findViewById(R.id.trans_dips_imagebutton);
         ImageButton koreandips = findViewById(R.id.korean_dips_imagebutton);
-        ImageButton kneetuck_dips = findViewById(R.id.kneetuck_dips_imagebutton);
         ImageButton weighted_dips = findViewById(R.id.weighted_dips_imagebutton);
         ImageButton ring_dips = findViewById(R.id.ring_dips_imagebutton);
 
@@ -93,14 +92,6 @@ public class Dips_Exercise extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), Youtube_Korean_Dips.class);
-                startActivity(intent);
-            }
-        });
-
-        kneetuck_dips.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Youtube_Knee_Tuck_Dips.class);
                 startActivity(intent);
             }
         });

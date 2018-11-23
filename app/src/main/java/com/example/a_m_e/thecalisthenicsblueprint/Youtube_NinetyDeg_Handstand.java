@@ -30,7 +30,7 @@ public class Youtube_NinetyDeg_Handstand extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("nEQQle9-0NA");
+                youTubePlayer.loadVideo("Uo6gnORv-98");
             }
 
             @Override

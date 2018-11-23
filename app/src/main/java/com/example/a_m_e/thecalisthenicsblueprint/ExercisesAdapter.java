@@ -1,7 +1,6 @@
 package com.example.a_m_e.thecalisthenicsblueprint;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -90,34 +89,34 @@ public class ExercisesAdapter extends RecyclerView.Adapter<ExercisesAdapter.Exam
 
         //Setting the background colour for the textviews in the CardViews
         if(position==0){
-            holder.mTextView1_exercises.setBackgroundColor(Color.parseColor("#ff704d"));
+            holder.mTextView1_exercises.setBackgroundResource(R.drawable.rounded_corner_cardview);
             holder.mTextView1_exercises.setTextSize((float) 17.2);
         } else if(position==1) {
-            holder.mTextView1_exercises.setBackgroundColor(Color.parseColor("#ff704d"));
+            holder.mTextView1_exercises.setBackgroundResource(R.drawable.rounded_corner_cardview);
             holder.mTextView1_exercises.setTextSize((float) 17.2);
         } else if(position==2) {
-            holder.mTextView1_exercises.setBackgroundColor(Color.parseColor("#ff704d"));
+            holder.mTextView1_exercises.setBackgroundResource(R.drawable.rounded_corner_cardview);
             holder.mTextView1_exercises.setTextSize((float) 17.2);
         } else if(position==3) {
-            holder.mTextView1_exercises.setBackgroundColor(Color.parseColor("#ff704d"));
+            holder.mTextView1_exercises.setBackgroundResource(R.drawable.rounded_corner_cardview);
             holder.mTextView1_exercises.setTextSize((float) 17.2);
         } else if(position==4) {
-            holder.mTextView1_exercises.setBackgroundColor(Color.parseColor("#ff704d"));
+            holder.mTextView1_exercises.setBackgroundResource(R.drawable.rounded_corner_cardview);
             holder.mTextView1_exercises.setTextSize((float) 17.2);
         } else if(position==5) {
-            holder.mTextView1_exercises.setBackgroundColor(Color.parseColor("#ff704d"));
+            holder.mTextView1_exercises.setBackgroundResource(R.drawable.rounded_corner_cardview);
             holder.mTextView1_exercises.setTextSize((float) 17.2);
         } else if(position==6) {
-            holder.mTextView1_exercises.setBackgroundColor(Color.parseColor("#ff704d"));
+            holder.mTextView1_exercises.setBackgroundResource(R.drawable.rounded_corner_cardview);
             holder.mTextView1_exercises.setTextSize((float) 17.2);
         } else if(position==7) {
-            holder.mTextView1_exercises.setBackgroundColor(Color.parseColor("#ff704d"));
+            holder.mTextView1_exercises.setBackgroundResource(R.drawable.rounded_corner_cardview);
             holder.mTextView1_exercises.setTextSize((float) 17.2);
         } else if(position==8) {
-            holder.mTextView1_exercises.setBackgroundColor(Color.parseColor("#ff704d"));
+            holder.mTextView1_exercises.setBackgroundResource(R.drawable.rounded_corner_cardview);
             holder.mTextView1_exercises.setTextSize((float) 17.2);
         } else if(position==9) {
-            holder.mTextView1_exercises.setBackgroundColor(Color.parseColor("#ff704d"));
+            holder.mTextView1_exercises.setBackgroundResource(R.drawable.rounded_corner_cardview);
             holder.mTextView1_exercises.setTextSize((float) 17.2);
         }
 

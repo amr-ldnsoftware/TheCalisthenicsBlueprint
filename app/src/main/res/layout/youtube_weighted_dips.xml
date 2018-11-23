@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f2f2f2"
+    android:background="#ffffff"
     tools:context=".Youtube_Weighted_Dips">
 
     <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -79,7 +79,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/button_design_musclesworked"
                 android:fontFamily="@font/trirong_light"
                 android:paddingLeft="10dp"

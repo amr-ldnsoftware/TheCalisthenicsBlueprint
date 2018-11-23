@@ -30,7 +30,7 @@ public class Youtube_Frontlever extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("nEQQle9-0NA");
+                youTubePlayer.loadVideo("abT3pEtoBh4");
             }
 
             @Override

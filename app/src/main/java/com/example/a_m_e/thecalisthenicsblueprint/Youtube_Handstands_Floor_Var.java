@@ -31,7 +31,7 @@ public class Youtube_Handstands_Floor_Var extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("nEQQle9-0NA");
+                youTubePlayer.loadVideo("ctunmnwbbSI");
             }
 
             @Override

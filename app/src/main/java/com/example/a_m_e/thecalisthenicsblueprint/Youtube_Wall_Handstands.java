@@ -30,7 +30,7 @@ public class Youtube_Wall_Handstands extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("nEQQle9-0NA");
+                youTubePlayer.loadVideo("H2KSIMwNOfA");
             }
 
             @Override

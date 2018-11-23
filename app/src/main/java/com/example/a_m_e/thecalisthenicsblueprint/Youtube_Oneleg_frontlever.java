@@ -29,7 +29,7 @@ public class Youtube_Oneleg_frontlever extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("nEQQle9-0NA");
+                youTubePlayer.loadVideo("HzcWRdP78Wo");
             }
 
             @Override

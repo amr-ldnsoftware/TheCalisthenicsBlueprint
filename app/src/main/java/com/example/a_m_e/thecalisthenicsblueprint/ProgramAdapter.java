@@ -111,77 +111,77 @@ public class ProgramAdapter extends RecyclerView.Adapter<ProgramAdapter.ExampleV
             holder.mButtonStart.setTextSize((float) 16.4);
         } else if(position==1) {
             holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
-            holder.mTextView1.setBackgroundColor(Color.parseColor("#4d94ff"));
-            holder.mTextView1.setTextSize((float) 17.2);
+            holder.mTextView1.setBackgroundResource(R.drawable.rounded_corner_beginnerfit_cardview);
+            holder.mTextView1.setTextSize((float) 16.4);
             holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==2) {
             holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
-            holder.mTextView1.setBackgroundColor(Color.parseColor("#4d94ff"));
-            holder.mTextView1.setTextSize((float) 17.2);
+            holder.mTextView1.setBackgroundResource(R.drawable.rounded_corner_beginnerfit_cardview);
+            holder.mTextView1.setTextSize((float) 16.4);
             holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==3) {
             holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
-            holder.mTextView1.setBackgroundColor(Color.parseColor("#4d94ff"));
-            holder.mTextView1.setTextSize((float) 17.2);
+            holder.mTextView1.setBackgroundResource(R.drawable.rounded_corner_beginnerfit_cardview);
+            holder.mTextView1.setTextSize((float) 16.4);
             holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==4) {
             holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
-            holder.mTextView1.setBackgroundColor(Color.parseColor("#4d94ff"));
-            holder.mTextView1.setTextSize((float) 17.2);
+            holder.mTextView1.setBackgroundResource(R.drawable.rounded_corner_beginnerfit_cardview);
+            holder.mTextView1.setTextSize((float) 16.4);
             holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==5) {
             holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
-            holder.mTextView1.setBackgroundColor(Color.parseColor("#4d94ff"));
-            holder.mTextView1.setTextSize((float) 17.2);
+            holder.mTextView1.setBackgroundResource(R.drawable.rounded_corner_beginnerfit_cardview);
+            holder.mTextView1.setTextSize((float) 16.4);
             holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==6) {
             holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
-            holder.mTextView1.setBackgroundColor(Color.parseColor("#ffc266"));
+            holder.mTextView1.setBackgroundResource(R.drawable.rounded_corner_intermediatefit_cardview);
             holder.mTextView1.setTextSize((float) 13.8);
             holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==7) {
             holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
-            holder.mTextView1.setBackgroundColor(Color.parseColor("#ffc266"));
+            holder.mTextView1.setBackgroundResource(R.drawable.rounded_corner_intermediatefit_cardview);
             holder.mTextView1.setTextSize((float) 13.8);
             holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==8) {
             holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
-            holder.mTextView1.setBackgroundColor(Color.parseColor("#ffc266"));
+            holder.mTextView1.setBackgroundResource(R.drawable.rounded_corner_intermediatefit_cardview);
             holder.mTextView1.setTextSize((float) 13.8);
             holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==9) {
             holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
-            holder.mTextView1.setBackgroundColor(Color.parseColor("#ffc266"));
+            holder.mTextView1.setBackgroundResource(R.drawable.rounded_corner_intermediatefit_cardview);
             holder.mTextView1.setTextSize((float) 13.8);
             holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==10) {
             holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
-            holder.mTextView1.setBackgroundColor(Color.parseColor("#ffc266"));
+            holder.mTextView1.setBackgroundResource(R.drawable.rounded_corner_intermediatefit_cardview);
             holder.mTextView1.setTextSize((float) 13.8);
             holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==11) {
             holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
-            holder.mTextView1.setBackgroundColor(Color.parseColor("#ff4d4d"));
+            holder.mTextView1.setBackgroundResource(R.drawable.rounded_corner_advancedfit_cardview);
             holder.mTextView1.setTextSize((float) 16.4);
             holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==12) {
             holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
-            holder.mTextView1.setBackgroundColor(Color.parseColor("#ff4d4d"));
+            holder.mTextView1.setBackgroundResource(R.drawable.rounded_corner_advancedfit_cardview);
             holder.mTextView1.setTextSize((float) 16.4);
             holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==13) {
             holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
-            holder.mTextView1.setBackgroundColor(Color.parseColor("#ff4d4d"));
+            holder.mTextView1.setBackgroundResource(R.drawable.rounded_corner_advancedfit_cardview);
             holder.mTextView1.setTextSize((float) 16.4);
             holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==14) {
             holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
-            holder.mTextView1.setBackgroundColor(Color.parseColor("#ff4d4d"));
+            holder.mTextView1.setBackgroundResource(R.drawable.rounded_corner_advancedfit_cardview);
             holder.mTextView1.setTextSize((float) 16.4);
             holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         } else if(position==15) {
             holder.mTextView1.setTextColor(Color.parseColor("#ffffff"));
-            holder.mTextView1.setBackgroundColor(Color.parseColor("#ff4d4d"));
+            holder.mTextView1.setBackgroundResource(R.drawable.rounded_corner_advancedfit_cardview);
             holder.mTextView1.setTextSize((float) 16.4);
             holder.mButtonStart.setBackgroundResource(R.drawable.button_design);
         }

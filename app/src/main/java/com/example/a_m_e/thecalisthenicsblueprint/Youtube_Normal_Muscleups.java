@@ -29,7 +29,7 @@ public class Youtube_Normal_Muscleups extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("nEQQle9-0NA");
+                youTubePlayer.loadVideo("89v8LYbgg5M");
             }
 
             @Override

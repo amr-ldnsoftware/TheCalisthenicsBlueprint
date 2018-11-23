@@ -470,11 +470,6 @@
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".Youtube_Knee_Tuck_Dips"
-            android:label="normalpullup"
-            android:theme="@style/AppTheme.NoActionBar" />
-
-        <activity
             android:name=".Youtube_Weighted_Dips"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -662,11 +657,6 @@
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".Youtube_Advanced_Levertucks"
-            android:label="normalpullup"
-            android:theme="@style/AppTheme.NoActionBar" />
-
-        <activity
             android:name=".Youtube_Icecream_Makers"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -832,6 +822,224 @@
             android:name=".glutes_mobility"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Vegan_Protein_Sources"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Herbal_Powders"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Hemp_Powder"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Pumpkin_Seed_Powder"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Chia_Seed_Powder"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Pea_Protein_Powder"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Rice_Protein_Powder"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Walnut_Flour"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Herbal_Teas"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".BMI_Calculator"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Spirilunia"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+        android:name=".Chlorella"
+        android:label="normalpullup"
+        android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Wheat_Grass"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Barley_Grass"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Cacao"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Milk_Thistle"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Acerola_Cherry"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+        <activity
+            android:name=".Siberian_Ginseng"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Black_maca"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Dong_Quai"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Purpose_root"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Ginkgo"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Maitake_Mushroom"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Nettle_Root"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Ashwaghanda"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Neem"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Shatvari"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Triphala"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Peppermint_Tea"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Damiana"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Dandelion"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Chamomile"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+        <activity
+            android:name=".Elderberry"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Velarian"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Lemon_Ver"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Liqurice"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Matcha"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Pau"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Raspberry"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Hemp_Leaf"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Hawthorn_Berries"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Hibiscus"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Lavender"
+            android:label="normalpullup"
+            android:theme="@style/AppTheme.NoActionBar" />
+
 
         <meta-data
             android:name="preloaded_fonts"

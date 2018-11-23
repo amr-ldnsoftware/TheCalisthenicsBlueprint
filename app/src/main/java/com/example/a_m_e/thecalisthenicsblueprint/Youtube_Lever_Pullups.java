@@ -29,7 +29,7 @@ public class Youtube_Lever_Pullups extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("nEQQle9-0NA");
+                youTubePlayer.loadVideo("f11zpBgLWhQ");
             }
 
             @Override

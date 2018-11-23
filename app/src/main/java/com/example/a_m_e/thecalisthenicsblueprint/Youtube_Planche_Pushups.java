@@ -30,7 +30,7 @@ public class Youtube_Planche_Pushups extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("nEQQle9-0NA");
+                youTubePlayer.loadVideo("C9yattH2D2U");
             }
 
             @Override

@@ -31,7 +31,7 @@ public class Youtube_Side_Kneeraises extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("Y7DFGMsokSw");
+                youTubePlayer.loadVideo("pBYTV2yN-cg");
             }
 
             @Override

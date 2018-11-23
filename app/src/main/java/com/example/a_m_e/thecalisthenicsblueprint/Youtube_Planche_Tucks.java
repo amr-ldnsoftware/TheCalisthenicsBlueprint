@@ -29,7 +29,7 @@ public class Youtube_Planche_Tucks extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("nEQQle9-0NA");
+                youTubePlayer.loadVideo("iT1q1Ff02mk");
             }
 
             @Override

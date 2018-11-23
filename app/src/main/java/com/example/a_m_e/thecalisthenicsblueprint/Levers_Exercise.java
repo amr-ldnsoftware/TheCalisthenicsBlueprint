@@ -25,7 +25,6 @@ public class Levers_Exercise extends AppCompatActivity {
         ImageButton bandedlevers = findViewById(R.id.banded_levers_imagebutton);
         ImageButton lever_raises = findViewById(R.id.lever_raises_imagebuttonon);
         ImageButton oneleg_frontlever = findViewById(R.id.one_leg_frontlever_imagebutton);
-        ImageButton advanced_levertucks = findViewById(R.id.advanced_levertuck_imagebutton);
         ImageButton icecream_makers = findViewById(R.id.iccream_makers_imagebutton);
         ImageButton straddle_lever = findViewById(R.id.straddle_levers_imagebutton);
         ImageButton lever_pullups = findViewById(R.id.lever_pullups_imagebutton);
@@ -87,14 +86,6 @@ public class Levers_Exercise extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), Youtube_Oneleg_frontlever.class);
-                startActivity(intent);
-            }
-        });
-
-        advanced_levertucks.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Youtube_Advanced_Levertucks.class);
                 startActivity(intent);
             }
         });

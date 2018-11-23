@@ -84,7 +84,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 getSupportActionBar().setTitle("MOBILITY & STRETCHING");
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new Youtube_Mobility()).commit();
-
+                break;
+            case R.id.nav_diet:
+                getSupportActionBar().setTitle("HEALTH & NUTRITION");
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new Health_Nutrition_ProgramsFragment()).commit();
                 break;
         }
 

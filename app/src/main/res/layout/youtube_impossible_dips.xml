@@ -68,6 +68,15 @@
             android:layout_marginBottom="8dp"
             android:background="#cc2900" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Video Credit: Pilous (IMPOSSIBLE DIP Tutorial - EFFECTIVE Training &amp; Progression)"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -79,7 +88,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/button_design_musclesworked"
                 android:fontFamily="@font/trirong_light"
                 android:paddingLeft="10dp"

@@ -29,7 +29,7 @@ public class Youtube_Spiderman_Pushups extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("E6LcFRevPHY");
+                youTubePlayer.loadVideo("fKBeHALPsSU");
             }
 
             @Override

@@ -50,7 +50,7 @@
             android:layout_marginStart="4dp"
             android:layout_marginTop="3dp"
             android:layout_toEndOf="@+id/cardImageView_exercises"
-            android:background="#ff704d"
+            android:background="@drawable/rounded_corner_cardview"
             android:fontFamily="@font/antic_didone"
             android:padding="5dp"
             android:text="Pull Ups"

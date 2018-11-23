@@ -30,7 +30,7 @@ public class Youtube_Weightedpulls extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("H3DQaBbephU");
+                youTubePlayer.loadVideo("2rIcDuYi278");
             }
 
             @Override
