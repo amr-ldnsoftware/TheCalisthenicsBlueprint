@@ -17,10 +17,13 @@ public class Youtube_Aussie extends YouTubeBaseActivity {
     Button button;
     YouTubePlayer.OnInitializedListener onInitializedListener;
 
+
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.youtube_aussie);
+
 
         button = findViewById(R.id.button_play_aussiepulls);
         youTubePlayerView = findViewById(R.id.aussiepulls_youtubePlay);
@@ -60,7 +63,6 @@ public class Youtube_Aussie extends YouTubeBaseActivity {
         });
 
     }
-
 
 
 

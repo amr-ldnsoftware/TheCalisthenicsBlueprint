@@ -28,186 +28,54 @@
 
         </android.support.v7.widget.Toolbar>
 
-        <android.support.constraint.ConstraintLayout
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:layout_editor_absoluteY="50dp">
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/hibicus_tea"/>
 
-            <ImageView
-                android:id="@+id/bicep_mob_image"
-                android:layout_width="89dp"
-                android:layout_height="200dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:src="@drawable/hamstrings_trimmed"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/pectoralsmoreinfo_anatomy"
-                android:layout_width="83dp"
-                android:layout_height="32dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginEnd="8dp"
-                android:onClick="anatomyinfo_ham"
-                android:background="@drawable/button_design_exercises2"
-                android:paddingLeft="4dp"
-                android:paddingRight="4dp"
-                android:text="ANATOMY"
-                android:textColor="#ffffff"
-                android:textSize="10sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/pectoralsmoreinfo_stretches" />
-
-            <Button
-                android:id="@+id/pectoralsmoreinfo_stretches"
-                android:layout_width="83dp"
-                android:layout_height="32dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:onClick="stretchinfo_ham"
-                android:background="@drawable/button_design_musclesworked2"
-                android:paddingLeft="4dp"
-                android:paddingRight="4dp"
-                android:text="stretching"
-                android:textColor="#ffffff"
-                android:textSize="10sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/pectoralsmoreinfo_extravideos"
-                android:layout_width="83dp"
-                android:layout_height="32dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginEnd="8dp"
-                android:onClick="extravideos_ham"
-                android:background="@drawable/button_design_advanced_exercises2"
-                android:paddingLeft="4dp"
-                android:paddingRight="4dp"
-                android:text="EXTRA VIDEOS"
-                android:textColor="#ffffff"
-                android:textSize="10sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/pectoralsmoreinfo_anatomy" />
-
-            <TextView
-                android:id="@+id/biceptext"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="12dp"
-                android:fontFamily="@font/trirong_light"
-                android:text="The muscles in the posterior compartment of the thigh are collectively known as the hamstrings. They consist of the biceps femoris, semitendinosus and semimembranosus, which form prominent tendons medially and laterally at the back of the knee."
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/bicep_mob_image" />
-
-
-
-            <TextView
-                android:id="@+id/biceptext2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="12dp"
-                android:fontFamily="@font/trirong_light"
-                android:text="As a group, these muscles act to extend at the hip, and flex at the knee. They are innervated by the sciatic nerve."
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/biceptext" />
-
-
-            <TextView
-                android:id="@+id/biceptext3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="40dp"
-                android:layout_marginEnd="12dp"
-                android:fontFamily="@font/trirong_light"
-                android:textStyle="bold"
-                android:textColor="#ffffff"
-                android:padding="5dp"
-                android:background="@drawable/button_design_videoshownbelow"
-                android:text="Example hamstrings stretches are shown in the video below:"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/biceptext2" />
-
-
-
-            <com.google.android.youtube.player.YouTubePlayerView
-                android:id="@+id/hamstringsmobility_youtubePlay"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginTop="120dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/biceptext2"
-                app:layout_constraintVertical_bias="1.0" />
-
-        </android.support.constraint.ConstraintLayout>
-
-        <android.support.constraint.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <Button
-                android:id="@+id/button_play_hamstringsmobility"
-                android:layout_width="66dp"
-                android:layout_height="47dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="8dp"
-                android:background="@drawable/youtube_logo_new"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="20dp"
-                android:text="Video Credit: Yoga With Adriene (Yoga For Hamstrings | Yoga With Adriene)"
-                android:textSize="10sp"
-                android:textStyle="italic"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/button_play_hamstringsmobility"
-                app:layout_constraintVertical_bias="0.0" />
-
-
-        </android.support.constraint.ConstraintLayout>
-
-
-        <!-- For setting website links from txtviews
         <TextView
-            android:id="@+id/website"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/linktowiki" />
-        -->
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/brawler"
+            android:text="Latin Name: Hibiscus sabdariffa"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/brawler"
+            android:text="Also known as: Ambashthaki, Bissap, Gongura, Groseille de Guinée, Guinea Sorrel, Hibisco, Hibiscus Calyx, Hibiscus sabdariffa, Jamaica Sorrel, Karkade, Karkadé, Oseille de Guinée, Oseille Rouge, Pulicha Keerai, Red Sorrel, Red Tea, Rosa de Jamaica, Roselle, Sour Tea, Su."
+            android:textSize="12sp"
+            android:textStyle="italic" />
 
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/brawler"
+            android:text="There seems to be a correlation throughout the world with the Hibiscus flower and feminine energy. In Hawaii/Polynesia if the woman wears a Hibiscus flower over her left ear then it means that she is in a relationship while wearing the flower over the right ear means that she is available or open to a relationship. In India the Hibiscus Flower is traditionally used as an offering to goddesses and traditional Southern Indian iconography of the Goddess Kali features Hibiscus flowers heavily. A variation in Greek mythology shows Hibiscus being a potent symbol of beauty where the god Adonis is transformed into a Hibiscus flower and then fought over by the goddesses Aphrodite and Persephone."
+            android:textSize="12sp"/>
 
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/brawler"
+            android:text="Several studies have found that Hibiscus flowers have high vitamin C as well as possessing chemicals that lower blood pressure. In blind tests hibiscus flower tea worked just as well as prescription drugs in about 4 weeks for those with moderate to high blood pressure. The fruit acids present in the Hibiscus flower have proven to be a mild laxative decreasing spams in the stomach whilst also having an antibiotic action that helps rid the intestine of worms and foreign bacteria. Other tests have revealed that Hibiscus could have the ability to reduce the absorption of alcohol and help with alcohol poisoning."
+            android:textSize="12sp"/>
 
 
     </LinearLayout>

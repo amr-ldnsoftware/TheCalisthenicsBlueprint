@@ -1,56 +1,23 @@
 package com.example.a_m_e.thecalisthenicsblueprint;
 
-import android.content.Intent;
-import android.net.Uri;
+import android.app.Dialog;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.Button;
+import android.widget.TextView;
 
-import com.google.android.youtube.player.YouTubeBaseActivity;
-import com.google.android.youtube.player.YouTubeInitializationResult;
-import com.google.android.youtube.player.YouTubePlayer;
-import com.google.android.youtube.player.YouTubePlayerView;
-
-public class Black_maca extends YouTubeBaseActivity {
-
-    YouTubePlayerView youTubePlayerView;
-    Button button;
-    YouTubePlayer.OnInitializedListener onInitializedListener;
+public class Black_maca extends AppCompatActivity {
+    Dialog dialog;
 
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.black_maca);
+        dialog = new Dialog(this);
 
-        button = findViewById(R.id.button_play_hamstringsmobility);
-        youTubePlayerView = findViewById(R.id.hamstringsmobility_youtubePlay);
-
-        //textView = findViewById(R.id.website);       for making textviews open websites
-        //textView.setMovementMethod(LinkMovementMethod.getInstance());
-
-
-        onInitializedListener = new YouTubePlayer.OnInitializedListener() {
-            @Override
-            public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
-
-                youTubePlayer.loadVideo("-Mirm7LKvKk");
-            }
-
-            @Override
-            public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
-
-            }
-        };
-
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                youTubePlayerView.initialize(YoutubeConfig.getApiKey(), onInitializedListener);
-            }
-        });
 
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -66,26 +33,35 @@ public class Black_maca extends YouTubeBaseActivity {
 
     }
 
-    public void stretchinfo_ham(View view) {
-        Intent stretch_intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://yurielkaim.com/3-great-stretches-tight-hamstrings/"));
-        startActivity(stretch_intent);
+    public void ShowPopup_maca (View v) {
+        TextView closetext;
+        dialog.setContentView(R.layout.popup_maca_powder_macros);
+        closetext = dialog.findViewById(R.id.exit_popup_macapowder);
+
+        closetext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
+
+        dialog.show();
     }
 
-    public void anatomyinfo_ham(View view) {
-        Intent anatomy_intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.yoganatomy.com/hamstrings-group-muscles-yoga-anatomy/"));
-        startActivity(anatomy_intent);
+
+    public void ShowPopupNutrition_maca (View v) {
+        TextView closetext;
+        dialog.setContentView(R.layout.popup_maca_powder_nutrition);
+        closetext = dialog.findViewById(R.id.exit_popup_maca_nutrition);
+
+        closetext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
+
+        dialog.show();
     }
-
-    public void extravideos_ham(View view) {
-        Intent videos_intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=aVsCcH_U_kc"));
-        startActivity(videos_intent);
-    }
-
-
 }
-
-//public void browsermethod(View view) {
-//Intent brow_intent = new Intent(Intent.ACTION_VIEW,Uri.parse("http://google.com"));
-//startActivity(brow_intent);
-//}
 

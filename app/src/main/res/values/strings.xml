@@ -37,6 +37,7 @@
     <string name="title_activity_adv_level5" />
     <string name="title_activity_adv_level6" />
     <string name="title_activity_adv_level7" />
+    <string name="google_maps_api_key">AIzaSyC1x1x-ohMoRpSI1VZq74d1z5Rwu9PAmLM</string>
 
     <string name="linktowiki">
         <a href="http://www.wikipedia.com">check me out</a>

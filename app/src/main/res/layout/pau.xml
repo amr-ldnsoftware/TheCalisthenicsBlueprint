@@ -28,186 +28,65 @@
 
         </android.support.v7.widget.Toolbar>
 
-        <android.support.constraint.ConstraintLayout
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:layout_editor_absoluteY="50dp">
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/paudarco"/>
 
-            <ImageView
-                android:id="@+id/bicep_mob_image"
-                android:layout_width="89dp"
-                android:layout_height="200dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:src="@drawable/hamstrings_trimmed"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/pectoralsmoreinfo_anatomy"
-                android:layout_width="83dp"
-                android:layout_height="32dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginEnd="8dp"
-                android:onClick="anatomyinfo_ham"
-                android:background="@drawable/button_design_exercises2"
-                android:paddingLeft="4dp"
-                android:paddingRight="4dp"
-                android:text="ANATOMY"
-                android:textColor="#ffffff"
-                android:textSize="10sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/pectoralsmoreinfo_stretches" />
-
-            <Button
-                android:id="@+id/pectoralsmoreinfo_stretches"
-                android:layout_width="83dp"
-                android:layout_height="32dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:onClick="stretchinfo_ham"
-                android:background="@drawable/button_design_musclesworked2"
-                android:paddingLeft="4dp"
-                android:paddingRight="4dp"
-                android:text="stretching"
-                android:textColor="#ffffff"
-                android:textSize="10sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/pectoralsmoreinfo_extravideos"
-                android:layout_width="83dp"
-                android:layout_height="32dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginEnd="8dp"
-                android:onClick="extravideos_ham"
-                android:background="@drawable/button_design_advanced_exercises2"
-                android:paddingLeft="4dp"
-                android:paddingRight="4dp"
-                android:text="EXTRA VIDEOS"
-                android:textColor="#ffffff"
-                android:textSize="10sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/pectoralsmoreinfo_anatomy" />
-
-            <TextView
-                android:id="@+id/biceptext"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="12dp"
-                android:fontFamily="@font/trirong_light"
-                android:text="The muscles in the posterior compartment of the thigh are collectively known as the hamstrings. They consist of the biceps femoris, semitendinosus and semimembranosus, which form prominent tendons medially and laterally at the back of the knee."
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/bicep_mob_image" />
-
-
-
-            <TextView
-                android:id="@+id/biceptext2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="12dp"
-                android:fontFamily="@font/trirong_light"
-                android:text="As a group, these muscles act to extend at the hip, and flex at the knee. They are innervated by the sciatic nerve."
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/biceptext" />
-
-
-            <TextView
-                android:id="@+id/biceptext3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="40dp"
-                android:layout_marginEnd="12dp"
-                android:fontFamily="@font/trirong_light"
-                android:textStyle="bold"
-                android:textColor="#ffffff"
-                android:padding="5dp"
-                android:background="@drawable/button_design_videoshownbelow"
-                android:text="Example hamstrings stretches are shown in the video below:"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/biceptext2" />
-
-
-
-            <com.google.android.youtube.player.YouTubePlayerView
-                android:id="@+id/hamstringsmobility_youtubePlay"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginTop="120dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/biceptext2"
-                app:layout_constraintVertical_bias="1.0" />
-
-        </android.support.constraint.ConstraintLayout>
-
-        <android.support.constraint.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <Button
-                android:id="@+id/button_play_hamstringsmobility"
-                android:layout_width="66dp"
-                android:layout_height="47dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="8dp"
-                android:background="@drawable/youtube_logo_new"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="20dp"
-                android:text="Video Credit: Yoga With Adriene (Yoga For Hamstrings | Yoga With Adriene)"
-                android:textSize="10sp"
-                android:textStyle="italic"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/button_play_hamstringsmobility"
-                app:layout_constraintVertical_bias="0.0" />
-
-
-        </android.support.constraint.ConstraintLayout>
-
-
-        <!-- For setting website links from txtviews
         <TextView
-            android:id="@+id/website"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/linktowiki" />
-        -->
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/brawler"
+            android:text="Latin Name: Tabebuia avellanedae"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/brawler"
+            android:text="Also known as: Taheebo, Ipe roxo, Lapacho."
+            android:textSize="12sp"
+            android:textStyle="italic" />
 
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/brawler"
+            android:text="Pau d'arco has a long and well-documented history of use by the indigenous peoples of the rainforest. Use of Pau D'Arco may actually pre-date the Inca Empire. Tribes living thousands of miles apart have used Pau D'Arco for the same medicinal purposes for hundreds of years. Guarani and Tupi Indians call the Pau D'Arco tree tajy, which means 'to have strength and vigor'. The bark is used to treat many different conditions and as a tonic. The Inca are attributed with dubbing this tree as divine. Many plants have been credited with godlike status but, it is said that pau d'arco attracts alpha rays, which give human cells a positive electrical charge."
+            android:textSize="12sp"/>
 
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/brawler"
+            android:text="Candida is a common yeast which lives in the mouth and the intestines. It is needed in very small amounts to aid digestion and nutrient absorption. However, if the body’s Ph level is upset it can get out of control very quickly, resulting in Candida overgrowth – also known as Candidiasis. Powerfully antifungal, Pau d’arco is most well known for its Candida fighting abilities. It contains several classes of compounds; lapachol, xyloidone and other napthaquinones – the most important of these being lapachol. In an overview of lapachol research published in 2007, it was found that lapachol has a significant effect against Candida albicans and Candida tropicalis. Pau d’arco will also loosen the bowels – not enough to cause diarrhoea – but enough to wash out old faecal matter, exposing the Candida yeast. In this way, Pau d’arco offers a two-pronged attack against Candida overgrowth."
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/brawler"
+            android:text="Pau d’arco contains some powerful antioxidant compounds including; quercetin, flavonoids and carnosol. Quercetin in particular is a prolific free radical scavenger, helping to slow down the aging process and lessening the effects of oxidative stress. It also stimulates the digestive system to keep food moving through the body – especially the colon, which can be likened to the sewage tank of the body – needing to be cleaned, emptied and maintained to function properly. This allows any unhealthy debris, excess fats and toxins to be eliminated regularly, keeping the colon clean and healthy."
+            android:textSize="12sp"/>
 
 
     </LinearLayout>

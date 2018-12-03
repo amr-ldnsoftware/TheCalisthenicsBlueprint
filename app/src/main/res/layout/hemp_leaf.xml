@@ -28,187 +28,65 @@
 
         </android.support.v7.widget.Toolbar>
 
-        <android.support.constraint.ConstraintLayout
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:layout_editor_absoluteY="50dp">
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/hempleaf"/>
 
-            <ImageView
-                android:id="@+id/bicep_mob_image"
-                android:layout_width="89dp"
-                android:layout_height="200dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:src="@drawable/hamstrings_trimmed"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/pectoralsmoreinfo_anatomy"
-                android:layout_width="83dp"
-                android:layout_height="32dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginEnd="8dp"
-                android:onClick="anatomyinfo_ham"
-                android:background="@drawable/button_design_exercises2"
-                android:paddingLeft="4dp"
-                android:paddingRight="4dp"
-                android:text="ANATOMY"
-                android:textColor="#ffffff"
-                android:textSize="10sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/pectoralsmoreinfo_stretches" />
-
-            <Button
-                android:id="@+id/pectoralsmoreinfo_stretches"
-                android:layout_width="83dp"
-                android:layout_height="32dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:onClick="stretchinfo_ham"
-                android:background="@drawable/button_design_musclesworked2"
-                android:paddingLeft="4dp"
-                android:paddingRight="4dp"
-                android:text="stretching"
-                android:textColor="#ffffff"
-                android:textSize="10sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/pectoralsmoreinfo_extravideos"
-                android:layout_width="83dp"
-                android:layout_height="32dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginEnd="8dp"
-                android:onClick="extravideos_ham"
-                android:background="@drawable/button_design_advanced_exercises2"
-                android:paddingLeft="4dp"
-                android:paddingRight="4dp"
-                android:text="EXTRA VIDEOS"
-                android:textColor="#ffffff"
-                android:textSize="10sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/pectoralsmoreinfo_anatomy" />
-
-            <TextView
-                android:id="@+id/biceptext"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="12dp"
-                android:fontFamily="@font/trirong_light"
-                android:text="The muscles in the posterior compartment of the thigh are collectively known as the hamstrings. They consist of the biceps femoris, semitendinosus and semimembranosus, which form prominent tendons medially and laterally at the back of the knee."
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/bicep_mob_image" />
-
-
-
-            <TextView
-                android:id="@+id/biceptext2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="12dp"
-                android:fontFamily="@font/trirong_light"
-                android:text="As a group, these muscles act to extend at the hip, and flex at the knee. They are innervated by the sciatic nerve."
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/biceptext" />
-
-
-            <TextView
-                android:id="@+id/biceptext3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="40dp"
-                android:layout_marginEnd="12dp"
-                android:fontFamily="@font/trirong_light"
-                android:textStyle="bold"
-                android:textColor="#ffffff"
-                android:padding="5dp"
-                android:background="@drawable/button_design_videoshownbelow"
-                android:text="Example hamstrings stretches are shown in the video below:"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/biceptext2" />
-
-
-
-            <com.google.android.youtube.player.YouTubePlayerView
-                android:id="@+id/hamstringsmobility_youtubePlay"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginTop="120dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/biceptext2"
-                app:layout_constraintVertical_bias="1.0" />
-
-        </android.support.constraint.ConstraintLayout>
-
-        <android.support.constraint.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <Button
-                android:id="@+id/button_play_hamstringsmobility"
-                android:layout_width="66dp"
-                android:layout_height="47dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="8dp"
-                android:background="@drawable/youtube_logo_new"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="20dp"
-                android:text="Video Credit: Yoga With Adriene (Yoga For Hamstrings | Yoga With Adriene)"
-                android:textSize="10sp"
-                android:textStyle="italic"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/button_play_hamstringsmobility"
-                app:layout_constraintVertical_bias="0.0" />
-
-
-        </android.support.constraint.ConstraintLayout>
-
-
-        <!-- For setting website links from txtviews
         <TextView
-            android:id="@+id/website"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/linktowiki" />
-        -->
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/brawler"
+            android:text="Latin Name: Cannabis sativa"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/brawler"
+            android:text="Also known as: Hoenep, Hennep, Chanvre, Hanf, Hampu, Kender, Konopi, Banga, Cañamo, Canapa, Cây Gai, Kalamu, Rami &amp; Qanneb."
+            android:textSize="12sp"
+            android:textStyle="italic" />
 
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/brawler"
+            android:text="Hemp was first brought to Britain by the Romans 2000 years ago and growing it became commonplace, continuing into the mid-1940s. In 1533, Henry VIII made hemp cultivation the law of the land, for every 60 acres, farmers had to set aside one rood (about 1/4 acre) for flax or hemp. He mandated hemp cultivation in order to make more rope, sails, nets and other naval equipment. America's World War II slogan was 'Hemp for Victory' which encouraged farmers to help the war effort by sowing crops of hemp."
+            android:textSize="12sp"/>
 
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/brawler"
+            android:text="One of the most nutritionally complete foods in the world, hemp delivers complete protein (containing all 9 of the essential amino acids) in highly digestible form. The two main proteins are the high quality storage proteins edestin and albumin which are easily digested, contain nutritionally significant amounts of all the essential amino acids and are especially high in arginine. These storage proteins have a similar cellular structure to a protein manufactured in human blood which is why this hemp protein is so easily digestible, making the seeds an excellent source of plant based protein for vegetarians and vegans."
+            android:textSize="12sp"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/brawler"
+            android:text="In addition to the immuno supportive nutrients it contains, hemp is the premier plant-seed provider of globulin starting material — the precursor to immunoglobulins. These compounds are responsible for both the natural and acquired immunity that a person has to fight off foreign microbes. Eating hemp seeds will ensure the immune system has the reservoir of immunoglobulin resources needed to make disease-eradicating antibodies."
+            android:textSize="12sp"/>
 
     </LinearLayout>
 

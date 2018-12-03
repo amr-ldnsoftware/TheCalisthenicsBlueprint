@@ -27,21 +27,66 @@
         </android.support.v7.widget.Toolbar>
 
 
-        <android.support.constraint.ConstraintLayout
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="400dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/bmi_dialgauge"/>
 
+        <TextView
+            android:id="@+id/bmi_display_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="serif-monospace"
+            android:padding="10dp"
+            android:text=""
+            android:textAllCaps="false"
+            android:textColor="#595959"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
-         <TextView
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:text="BMI CALCULATOR"
-             android:textStyle="bold"
-             android:textSize="50sp"/>
+        <EditText
+            android:id="@+id/height_bmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/brawler"
+            android:hint="Enter your height (cm)"
+            android:inputType="numberDecimal"
+            android:paddingStart="0dp"
+            android:paddingEnd="10dp"
+            android:textSize="14sp" />
 
+        <EditText
+            android:id="@+id/weight_bmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/brawler"
+            android:hint="Enter your weight (kg)"
+            android:inputType="numberDecimal"
+            android:paddingStart="0dp"
+            android:paddingEnd="10dp"
+            android:textSize="14sp" />
 
-        </android.support.constraint.ConstraintLayout>
-
+        <Button
+            android:id="@+id/button_calculatebmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Calculate"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_design_mobilitybutton"
+            />
 
     </LinearLayout>
 </ScrollView>

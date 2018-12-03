@@ -23,7 +23,7 @@
             android:title="Health &amp; Nutrition"/>
         <item android:id="@+id/nav_myjourney"
             android:icon="@drawable/ic_myjourneynew"
-            android:title="My Journey"/>
+            android:title="My Notes"/>
         <item android:id="@+id/nav_parklocator"
             android:icon="@drawable/ic_parklocator"
             android:title="Park Locator"/>

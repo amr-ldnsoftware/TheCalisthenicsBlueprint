@@ -158,7 +158,7 @@ public class AdvLevel1Week1 extends Fragment implements CompoundButton.OnChecked
         mon_weightedpulls.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Youtube_Normal_Pullup.class);
+                Intent intent = new Intent(getActivity(), Youtube_Weightedpulls.class);
                 startActivity(intent);
             }
         });

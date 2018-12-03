@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private DrawerLayout drawer;
 
 
+
     //inflates the menu overflow on toolbar.   NOTE:Still need to create onclicks for items
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -59,7 +60,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         toolbar.setTitleTextColor(android.graphics.Color.WHITE);
 
 
+
     }
+
+
+
+
 
     //The coding below allows the Nav links to be clicked and connected to their respective fragment. Add here if you get more nav links.
     @Override
@@ -89,6 +95,16 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 getSupportActionBar().setTitle("HEALTH & NUTRITION");
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new Health_Nutrition_ProgramsFragment()).commit();
+                break;
+            case R.id.nav_parklocator:
+                getSupportActionBar().setTitle("PARK LOCATOR");
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new Park_Locator_Fragment()).commit();
+                break;
+            case R.id.nav_myjourney:
+                getSupportActionBar().setTitle("MY NOTES");
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new MyJourneyFragment()).commit();
                 break;
         }
 

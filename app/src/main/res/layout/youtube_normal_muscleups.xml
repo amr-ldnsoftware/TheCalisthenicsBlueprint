@@ -20,7 +20,7 @@
             android:background="#66c2ff"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:title="NORMAL MUSCLE UP"
+            app:title="MUSCLE UP"
             app:titleTextAppearance="@style/TabToolbar.TitleText"
             app:titleTextColor="@android:color/white">
 
