@@ -69,11 +69,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@drawable/button_design_macrosbutton3"
         android:onClick="saveNote"
-        android:src="@drawable/save_note_icon"
+        android:background="#ffffff"
+        android:src="@drawable/save_floppydisk"
         android:text="Save"
-        android:textColor="#ffffff"
         android:textSize="16sp" />
 
 

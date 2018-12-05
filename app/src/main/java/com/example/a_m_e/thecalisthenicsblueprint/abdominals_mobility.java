@@ -77,7 +77,7 @@ public class abdominals_mobility extends YouTubeBaseActivity {
     }
 
     public void extravideos_core(View view) {
-        Intent videos_intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=D-RW-8lqtnw"));
+        Intent videos_intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=z9svTmJ1LEY"));
         startActivity(videos_intent);
     }
 

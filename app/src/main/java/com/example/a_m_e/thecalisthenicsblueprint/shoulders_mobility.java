@@ -36,7 +36,7 @@ public class shoulders_mobility extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("6vfamrwD7ks");
+                youTubePlayer.loadVideo("kAQFQgS7P2A");
             }
 
             @Override
@@ -77,7 +77,7 @@ public class shoulders_mobility extends YouTubeBaseActivity {
     }
 
     public void extravideos_shoulders(View view) {
-        Intent videos_intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=KBLsNbolr_c"));
+        Intent videos_intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=ZFF0TdJcQ28"));
         startActivity(videos_intent);
     }
 

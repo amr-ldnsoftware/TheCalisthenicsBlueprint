@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#f2f2f2"
+    android:background="#ffffff"
     android:layout_height="match_parent"
     tools:context=".Youtube_Straddle_Levers">
 
@@ -17,7 +17,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="#66c2ff"
+            android:background="#008ae6"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay"
             app:title="STRADDLE FRONT/BACK LEVERS"

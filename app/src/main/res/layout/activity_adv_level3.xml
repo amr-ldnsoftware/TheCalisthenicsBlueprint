@@ -20,7 +20,7 @@
             android:id="@+id/toolbar_adv3"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="#66c2ff"
+            android:background="#008ae6"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay"
             app:title="ADVANCED - LEVEL 3"

@@ -58,11 +58,10 @@
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
             android:layout_marginTop="25dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Vitamin B1:  0.15mg   (13.55% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -70,12 +69,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Vitamin B3:  1.43mg   (8.93% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -83,12 +80,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Folate:  0.04mg   (20.00% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -96,12 +91,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Calcium:  14.20mg   (1.78% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -109,12 +102,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Phosphorus:  154.00mg   (22.00% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -122,12 +113,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Magnesium:  117.60mg  (31.36% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -135,12 +124,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Iron:  2.77mg   (19.80% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -148,12 +135,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Zinc:  1.89mg   (18.90% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -161,12 +146,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Copper:  0.07mg   (7.40% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -174,12 +157,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Manganese:  1.47mg   (73.50% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
 

@@ -50,11 +50,10 @@
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
             android:layout_marginTop="25dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Vitamin B1:  0.05mg   (4.14% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
 
@@ -64,12 +63,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Vitamin B3:  0.49mg   (3.06% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -77,12 +74,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Biotin:  0.08mg   (162.00% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -90,12 +85,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Calcium:  45.5mg   (5.69% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -103,12 +96,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Phosphorus:  56mg   (8.00% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -116,12 +107,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Magnesium:  28mg  (7.47% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -129,12 +118,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Iron:  0.51mg   (3.61% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -142,12 +129,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Zinc:  0.32mg   (3.15% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -155,12 +140,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Copper:  0.04mg   (3.68% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -168,12 +151,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Manganese:  0.04mg   (2.10% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -181,12 +162,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Selenium:  0.01mg   (10.27% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -194,12 +173,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Chromium:  0.03mg   (68.75% RDA)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
 

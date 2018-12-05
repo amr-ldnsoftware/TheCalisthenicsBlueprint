@@ -49,11 +49,10 @@
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
             android:layout_marginTop="25dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Energy (KJKcal): 1420KJ/336Kcal"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -61,12 +60,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Fat: 1.0g   (of which saturates - 0.5g)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -74,12 +71,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Protein: 65.9g"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -87,12 +82,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Carbohydrate: 13.1g   (of which sugars - 0.0g)"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -100,12 +93,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Dietary Fibre: 6.4g"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
         <TextView
@@ -113,12 +104,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button_design_macrosbutton2"
             android:fontFamily="@font/brawler"
             android:padding="8dp"
             android:text="Salt: 900mg"
-            android:textColor="#ffffff"
+            android:textColor="#404040"
             android:textSize="12sp" />
 
     </LinearLayout>

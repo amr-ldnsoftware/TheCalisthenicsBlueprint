@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f2f2f2"
+    android:background="#ffffff"
     tools:context=".biceps_mobility">
 
 
@@ -19,7 +19,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="#66c2ff"
+            android:background="#008ae6"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay"
             app:title="TRICEP STRETCHES"
@@ -183,7 +183,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="20dp"
-                android:text="Video Credit: Athlean-X (How to Stretch Your Tricep (AND HOW NOT TO))"
+                android:text="Video Credit: Alexkazam Gymnastics (Increase Overhead Mobility - Loaded Lat &amp; Tricep Stretch)"
                 android:textSize="10sp"
                 android:textStyle="italic"
                 app:layout_constraintBottom_toBottomOf="parent"

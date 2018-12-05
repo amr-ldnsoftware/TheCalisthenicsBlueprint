@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f2f2f2"
+    android:background="#ffffff"
     tools:context=".Hemp_Powder">
 
 
@@ -19,7 +19,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="#66c2ff"
+            android:background="#008ae6"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay"
             app:title="HEMP POWDER"
@@ -99,6 +99,36 @@
 
         </android.support.constraint.ConstraintLayout>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/brawler"
+            android:text="There seems to be a correlation throughout the world with the Hibiscus flower and feminine energy. In Hawaii/Polynesia if the woman wears a Hibiscus flower over her left ear then it means that she is in a relationship while wearing the flower over the right ear means that she is available or open to a relationship. In India the Hibiscus Flower is traditionally used as an offering to goddesses and traditional Southern Indian iconography of the Goddess Kali features Hibiscus flowers heavily. A variation in Greek mythology shows Hibiscus being a potent symbol of beauty where the god Adonis is transformed into a Hibiscus flower and then fought over by the goddesses Aphrodite and Persephone."
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/brawler"
+            android:text="Hemp seeds contain essential fatty acids in the ideal ratio to meet human nutritional needs, with a perfect balance of Omega 6 to Omega 3. Fatty acids make up the cell membrane and have an intimate role in hormonal responses throughout the body. The ideal ratio of Omega 6 to Omega 3 is between 1:1 to 4:1, the hemp seed ratio is 4:1 and it is this ratio that is critical to cellular health and systemic inflammatory levels. They also contain gamma linolenic acid (GLA), a powerful anti-inflammatory which converts into beneficial prostaglandins - lipid compounds that have a profound reduction on the impact of inflammation in cardiovascular disease, lung function, autoimmune conditions and metabolic abnormalities."
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/brawler"
+            android:text="In addition to the immuno supportive nutrients it contains, hemp is the premier plant-seed provider of globulin starting material — the precursor to immunoglobulins. These compounds are responsible for both the natural and acquired immunity that a person has to fight off foreign microbes. Eating hemp seeds will ensure the immune system has the reservoir of immunoglobulin resources needed to make disease-eradicating antibodies."
+            android:textSize="12sp"/>
 
     </LinearLayout>
 

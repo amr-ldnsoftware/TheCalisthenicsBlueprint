@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f2f2f2"
+    android:background="#ffffff"
     tools:context=".Pea_Protein_Powder">
 
 
@@ -19,7 +19,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="#66c2ff"
+            android:background="#008ae6"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay"
             app:title="PEA PROTEIN POWDER"
@@ -89,7 +89,36 @@
 
 
         </android.support.constraint.ConstraintLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/brawler"
+            android:text="Historical botanists are unsure of where the Pea might have originated from. A wide area is usually picked between the Middle East and Asia to designate its home continent. One of the oldest discoveries of peas in archaeological history were found in Thailand where carbon dating found samples to be in the region of 13,000 years old. The sample found was a wild variety and not domesticated pea. Other examples have been found in North Western Iraq and Switzerland with all being dated before the Common Era."
+            android:textSize="12sp"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/brawler"
+            android:text="Peas have been a traditional source of available nutrition for thousands of years. In many cultures both cultivated and wild varieties have been used to sustain and uphold the body through its wide range of nutritional benefits. This is displayed in the fact that wild peas were widely used by the Roman Legion to supplement their rations while on long marches through the Middle East. Additionally in sixteenth century England Peas were an abundant source of nutrition for thousands of people in times of hardship. This is where the old children’s nursery rhyme ‘Pease porridge hot’ originated pointing to the priority that peas had in a peasant’s diet. The other usefulness of the pea is that it can easily be dried and stored to be used later."
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/brawler"
+            android:text="Today modern science is able to extract the protein from peas resulting in powders that are low in sugar and fat and up to 80% protein. This makes pea protein powders an excellent choice for those wishing to lose weight and at the same time gain muscle mass. For Vegans, Vegetarians and elderly people pea protein can be added to the diet to increase protein intake, help with bone maintenance and boost energy levels."
+            android:textSize="12sp"/>
 
     </LinearLayout>
 

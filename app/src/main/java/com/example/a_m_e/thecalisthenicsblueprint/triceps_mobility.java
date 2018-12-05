@@ -36,7 +36,7 @@ public class triceps_mobility extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("yAvpW_zKJmI");
+                youTubePlayer.loadVideo("nxo1JJoFd1Q");
             }
 
             @Override

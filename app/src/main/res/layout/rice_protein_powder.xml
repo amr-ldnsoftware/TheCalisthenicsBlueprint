@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f2f2f2"
+    android:background="#ffffff"
     tools:context=".Rice_Protein_Powder">
 
 
@@ -19,7 +19,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="#66c2ff"
+            android:background="#008ae6"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay"
             app:title="RICE PROTEIN POWDER"
@@ -71,6 +71,20 @@
 
 
         </android.support.constraint.ConstraintLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/brawler"
+            android:text="Rice is an annual crop that is split into two adjoining sets; indica and japonica. These two are sometimes adjoined further with the two sub sets aromatic and glutinous. The number of varieties that have been cultivated in Asian countries is too many to list. In Thailand alone there is known to be 3,500 distinctly different Rice varieties. Wild rice, from which cultivated rice originated, exists in several different species given which continent they have hailed from. In the Americas alone there exists at least three different types of wild rice (Zizania palustris, Z. aquatic and Z. texana). These were harvested extensively by a number of Native American Indian tribes and became sacred components of their societies. Rice in Asia seems to have stemmed from the wild variety Z. latifolia or Manchurian Wild Rice coming from China."
+            android:textSize="12sp"/>
+
+
 
     </LinearLayout>
 
