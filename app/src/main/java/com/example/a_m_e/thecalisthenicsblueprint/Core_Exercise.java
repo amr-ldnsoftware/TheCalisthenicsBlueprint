@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 public class Core_Exercise extends AppCompatActivity {
 
@@ -33,6 +34,149 @@ public class Core_Exercise extends AppCompatActivity {
         ImageButton ab_rollouts = findViewById(R.id.abrollouts_imagebutton);
         ImageButton vsit = findViewById(R.id.vsit_imagebutton);
         ImageButton dragonflag = findViewById(R.id.dragonflags_imagebutton);
+
+
+
+        TextView situps_text = findViewById(R.id.pullup_normal_textview);
+        TextView romantwists_text = findViewById(R.id.chinup_textview);
+        TextView floorlegraises_text = findViewById(R.id.pull_closegrip_textview);
+        TextView windshieldwipers_text = findViewById(R.id.chin_closegrip_textview2);
+        TextView kneeraises_text = findViewById(R.id.pull_widegrip_textview);
+        TextView plank_text = findViewById(R.id.chin_widegrip_textview);
+        TextView sideplank_text = findViewById(R.id.bandpulls_textview3);
+        TextView barlegraises_text = findViewById(R.id.deadhang_textview);
+        TextView sideknee_raises_text = findViewById(R.id.isometric_textview);
+        TextView hollowhold_text = findViewById(R.id.austa_textview);
+        TextView lsit_text = findViewById(R.id.negative_textview);
+        TextView toestobar_text = findViewById(R.id.neutral_textview);
+        TextView ab_rollouts_text = findViewById(R.id.commando_textview);
+        TextView vsit_text = findViewById(R.id.highpull_textview);
+        TextView dragonflag_text = findViewById(R.id.neck_textview);
+
+
+
+
+        situps_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Situps.class);
+                startActivity(intent);
+            }
+        });
+
+        romantwists_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Romantwists.class);
+                startActivity(intent);
+            }
+        });
+
+        floorlegraises_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_FloorLegRaises.class);
+                startActivity(intent);
+            }
+        });
+
+        windshieldwipers_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Windshield_Wipers.class);
+                startActivity(intent);
+            }
+        });
+
+        kneeraises_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Barkneeraises.class);
+                startActivity(intent);
+            }
+        });
+
+        plank_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Plank.class);
+                startActivity(intent);
+            }
+        });
+
+        sideplank_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Sideplank.class);
+                startActivity(intent);
+            }
+        });
+
+        barlegraises_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Bar_Legraises.class);
+                startActivity(intent);
+            }
+        });
+
+        sideknee_raises_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Side_Kneeraises.class);
+                startActivity(intent);
+            }
+        });
+
+        hollowhold_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Hollowholds.class);
+                startActivity(intent);
+            }
+        });
+
+        lsit_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Lsit.class);
+                startActivity(intent);
+            }
+        });
+
+        toestobar_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Toestobar.class);
+                startActivity(intent);
+            }
+        });
+
+        ab_rollouts_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Ab_Rollouts.class);
+                startActivity(intent);
+            }
+        });
+
+        vsit_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Vsit.class);
+                startActivity(intent);
+            }
+        });
+
+        dragonflag_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Dragonflags.class);
+                startActivity(intent);
+            }
+        });
+
+
 
 
 

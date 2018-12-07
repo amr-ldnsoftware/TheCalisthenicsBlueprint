@@ -99,12 +99,60 @@ public class Park_Locator_Fragment extends Fragment implements OnMapReadyCallbac
         googleMap.addMarker(new MarkerOptions().position(new LatLng(51.535614, 0.064049)).title("Barking Road Recreation Ground, Barking, E6").snippet("Outdoor Fitness Gym"));
         googleMap.addMarker(new MarkerOptions().position(new LatLng(51.482136, -0.239311)).title("Castelnau Recreation Ground, Barnes, SW13").snippet("Outdoor Fitness Gym"));
 
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.544800, -0.197445)).title("Kilburn Grange Park, West Hampstead, NW6").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.536980, -0.157818)).title("Primrose Hill, London, NC1").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.498084, -0.116704)).title("Archbichops Park, Lambeth, SE1").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.529797, -0.191523)).title("Paddington Recreation Ground, Maida Vale, W9").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.534704, -0.208740)).title("Queens Park, London, NW6").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.556692, -0.156856)).title("Parliament Hill Fields, Gospel Oak, N19").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.546309, -0.009722)).title("East Village, Stratford, E20").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.539835, 0.017229)).title("West Ham Park, West Ham, E15").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.581932, -0.153087)).title("Highgate Woods, Highgate, N6").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.450738, -0.170507)).title("Wandsworth Common, London, SW18").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.539581, -0.031767)).title("Victoria Park, Hackney, E3").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.542958, -0.042448)).title("Well Street Common Park, Hackney, E9").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.538985, -0.059738)).title("London Fields East Side, Hackney, E8").snippet("Outdoor Fitness Gym"));
+
+
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.461100, -0.428396)).title("Bedfont Sports Club, Feltham, TW14").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.597121, -0.037137)).title("Higham Hill Park, Walthamstow, E17").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.500253, -0.202165)).title("Holland Park, Kensington, W8").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.523732, -0.220946)).title("Sunbeam Gardens, North Kensington, W10").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.572458, -0.413461)).title("Ruislip Manor Station, London, HA4").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.595022, -0.097976)).title("Russell Park, Wood Green, N22").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.441383, -0.332020)).title("Radinor Gardens, Strawberry Hill, TW1").snippet("Outdoor Fitness Gym"));
+
+        //Surrey and other counties
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.337080, -0.272896)).title("Court Recreation Ground, Epsom, KT19").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.593827, -1.702115)).title("Nightingale Woods Cycle Ride, Swindon, SN3").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.538530, -1.774985)).title("Pipers Way, North Wroughton, SN38").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.452168, -2.605830)).title("Brandon Hill, Bristol, BS1").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.550650, 0.595445)).title("Hadleigh Park, Benfleet, SS7").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.393401, 0.567060)).title("The Strand Leisure Park, Gillingham, ME7").snippet("Outdoor Fitness Gym"));
+
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.354390, 0.570284)).title("Hempstead Park, Gillingham, ME7").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.354390, 0.570284)).title("Langdon Playing Fields, Dover, ME7").snippet("Outdoor Fitness Gym"));
+
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(50.841969, -0.214601)).title("Easthill Park, Brighton and Hove, BN41").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(50.842571, -0.170798)).title("Hove Park, Brighton and Hove, BN3").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(50.826662, -0.197749)).title("Hove Lagoon, Brighton and Hove, BN3").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(50.823660, -1.081983)).title("Mountbatten Centre, Portsmouth, PO2").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(50.910577, -1.306288)).title("Hedge End, Southampton, SO30").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(50.927373, -1.407440)).title("Southampton Common, Southampton, SO15").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(50.866903, -1.863883)).title("Potterne Park, Verwood, BH21").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(50.615377, -3.412511)).title("Esplanade, Exmouth, EX8").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(50.631457, -4.358209)).title("Coronation Park, Launceston, PL15").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.288868, -2.481710)).title("West Clewes Recreation Ground, Radstock, BA3").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.288868, -2.481710)).title("West Clewes, Midsomer Norton, BA3").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.547012, -1.892854)).title("Longleaze Park, Wiltshire, SN4").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.264806, -1.062547)).title("Basing Lime Pits, Basingstoke, RG24").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.266619, -1.074660)).title("Eastrop Park, Basingstoke, RG21").snippet("Outdoor Fitness Gym"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.348484, -0.872446)).title("Eversley, Hampshire, RG27").snippet("Outdoor Fitness Gym"));
 
 
 
 
-
-        CameraPosition London = CameraPosition.builder().target(new LatLng(51.460422, -0.153757)).zoom(8).bearing(0).tilt(0).build();
+        CameraPosition London = CameraPosition.builder().target(new LatLng(51.460422, -0.153757)).zoom(4).bearing(0).tilt(0).build();
         googleMap.moveCamera(CameraUpdateFactory.newCameraPosition(London));
 
 

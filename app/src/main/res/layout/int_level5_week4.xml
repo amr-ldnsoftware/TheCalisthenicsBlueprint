@@ -1812,7 +1812,6 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="7dp"
             android:layout_marginRight="7dp"
-            android:layout_marginTop="20dp"
             android:background="@drawable/button_design_programs_colour4"
             android:fontFamily="@font/antic_didone"
             android:paddingBottom="5dp"

@@ -2192,20 +2192,11 @@
                 android:src="@drawable/chest_muscle" />
 
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="144dp"
-                android:contentDescription="chestVector"
-                android:src="@drawable/core_muscle" />
-
-            <ImageView
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="185dp"
+                android:layout_marginStart="140dp"
                 android:contentDescription="chestVector"
                 android:src="@drawable/legs_muscle" />
 

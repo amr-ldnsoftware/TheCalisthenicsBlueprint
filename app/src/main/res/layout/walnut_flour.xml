@@ -98,7 +98,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
-            android:layout_marginBottom="8dp"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/brawler"
             android:text="Walnuts contain several unique and powerful antioxidants that are available in only a few commonly eaten foods. These include the quinone juglone, the tannin tellimagrandin, and the flavonol morin. These antioxidants are so powerful at free radical scavenging that research has shown they may prevent chemically induced liver damage, improve lipid profile and reduce inflammation – the precursor to almost all chronic disease."

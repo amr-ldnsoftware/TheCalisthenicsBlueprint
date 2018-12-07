@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 public class Legs_Exercise extends AppCompatActivity {
 
@@ -38,6 +39,181 @@ public class Legs_Exercise extends AppCompatActivity {
         ImageButton calfraises = findViewById(R.id.calfraises_imagebutton);
         ImageButton oneleg_calfraises = findViewById(R.id.oneleg_calfraises_imagebutton);
         ImageButton boxjumps = findViewById(R.id.boxjumps_imagebutton);
+
+
+        TextView squats_text = findViewById(R.id.pullup_normal_textview);
+        TextView lunges_text = findViewById(R.id.chinup_textview);
+        TextView sidesquats_text = findViewById(R.id.pull_closegrip_textview);
+        TextView splitsquats_text = findViewById(R.id.chin_closegrip_textview2);
+        TextView wallsit_text = findViewById(R.id.pull_widegrip_textview);
+        TextView jumpingsquats_text = findViewById(R.id.chin_widegrip_textview);
+        TextView jumpinglunges_text = findViewById(R.id.bandpulls_textview3);
+        TextView weighted_squats_text = findViewById(R.id.deadhang_textview);
+        TextView weighted_lunges_text = findViewById(R.id.isometric_textview);
+        TextView broad_jumps_text = findViewById(R.id.austa_textview);
+        TextView assisted_pistol_text = findViewById(R.id.negative_textview);
+        TextView pistol_squats_text = findViewById(R.id.neutral_textview);
+        TextView glutehamraises_text = findViewById(R.id.commando_textview);
+        TextView frontsquats_text = findViewById(R.id.frontsquat_textview);
+        TextView glutebridges_text = findViewById(R.id.glutebridge_textview);
+        TextView oneleg_glutebridges_text = findViewById(R.id.oneleg_glutebridge_textview);
+        TextView calfraises_text = findViewById(R.id.calfraises_textview);
+        TextView oneleg_calfraises_text = findViewById(R.id.oneleg_calfraises_textview);
+        TextView boxjumps_text = findViewById(R.id.oneleg_glutebridge_textview2);
+
+
+        squats_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Squats.class);
+                startActivity(intent);
+            }
+        });
+
+        lunges_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Lunges.class);
+                startActivity(intent);
+            }
+        });
+
+        sidesquats_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Sidesquats.class);
+                startActivity(intent);
+            }
+        });
+
+        splitsquats_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Bulgarian.class);
+                startActivity(intent);
+            }
+        });
+
+        wallsit_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Wallsit.class);
+                startActivity(intent);
+            }
+        });
+
+        jumpingsquats_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Jumpingsquats.class);
+                startActivity(intent);
+            }
+        });
+
+        jumpinglunges_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Jumpinglunges.class);
+                startActivity(intent);
+            }
+        });
+
+        weighted_squats_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Weighted_Squats.class);
+                startActivity(intent);
+            }
+        });
+
+        weighted_lunges_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Weighted_Lunges.class);
+                startActivity(intent);
+            }
+        });
+
+        broad_jumps_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Broadjumps.class);
+                startActivity(intent);
+            }
+        });
+
+        assisted_pistol_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Assisted_Pistolsquats.class);
+                startActivity(intent);
+            }
+        });
+
+        pistol_squats_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Pistolsquats.class);
+                startActivity(intent);
+            }
+        });
+
+        glutehamraises_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_GHR.class);
+                startActivity(intent);
+            }
+        });
+
+        frontsquats_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_FrontSquats.class);
+                startActivity(intent);
+            }
+        });
+
+        glutebridges_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_GluteBridges.class);
+                startActivity(intent);
+            }
+        });
+
+        oneleg_glutebridges_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Oneleg_Glutebridges.class);
+                startActivity(intent);
+            }
+        });
+
+        calfraises_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Calfraises.class);
+                startActivity(intent);
+            }
+        });
+
+        oneleg_calfraises_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Oneleg_CalfRaises.class);
+                startActivity(intent);
+            }
+        });
+
+
+        boxjumps_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_BoxJumps.class);
+                startActivity(intent);
+            }
+        });
 
 
 

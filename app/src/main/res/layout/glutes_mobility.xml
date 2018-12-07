@@ -22,7 +22,7 @@
             android:background="#008ae6"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:title="GLUTES STRETCHES"
+            app:title="GLUTE STRETCHES"
             app:titleTextAppearance="@style/TabToolbar.TitleText"
             app:titleTextColor="@android:color/white">
 

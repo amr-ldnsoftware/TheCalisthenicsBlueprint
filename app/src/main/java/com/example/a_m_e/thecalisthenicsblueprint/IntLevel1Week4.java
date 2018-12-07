@@ -87,6 +87,7 @@ public class IntLevel1Week4 extends Fragment implements CompoundButton.OnChecked
         ImageButton wed_foamicon = view.findViewById(R.id.foamicon);
 
         ImageButton thurs_bandmuscleups = view.findViewById(R.id.thurs_bandedmuscleup);
+        ImageButton thurs_bandmuscleups2 = view.findViewById(R.id.thurs_bandedmuscleup2);
         ImageButton thurs_sbd = view.findViewById(R.id.thurs_sbd);
         ImageButton thurs_pullups = view.findViewById(R.id.thurs_pulls);
         ImageButton thurs_pushups = view.findViewById(R.id.thurs_pushups);
@@ -244,6 +245,15 @@ public class IntLevel1Week4 extends Fragment implements CompoundButton.OnChecked
                 startActivity(intent);
             }
         });
+
+        thurs_bandmuscleups2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Youtube_Banded_Muscleup.class);
+                startActivity(intent);
+            }
+        });
+
 
 
         thurs_leverraises.setOnClickListener(new View.OnClickListener() {

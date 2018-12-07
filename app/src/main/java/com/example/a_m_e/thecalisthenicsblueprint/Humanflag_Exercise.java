@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 public class Humanflag_Exercise extends AppCompatActivity {
 
@@ -22,6 +23,49 @@ public class Humanflag_Exercise extends AppCompatActivity {
         ImageButton kneetuck_flag = findViewById(R.id.kneetuck_flag_imagebutton);
         ImageButton negative_flag = findViewById(R.id.negtive_flag_imagebutton);
         ImageButton flag_pullups = findViewById(R.id.flag_pullups_imagebutton);
+
+
+        TextView humanflag_text = findViewById(R.id.pullup_normal_textview);
+        TextView kneetuck_flag_text = findViewById(R.id.chinup_textview);
+        TextView negative_flag_text = findViewById(R.id.pull_closegrip_textview);
+        TextView flag_pullups_text = findViewById(R.id.pull_widegrip_textview);
+
+
+        humanflag_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_HumanFlag.class);
+                startActivity(intent);
+            }
+        });
+
+        kneetuck_flag_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Kneetuck_Flag.class);
+                startActivity(intent);
+            }
+        });
+
+        negative_flag_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Negative_Flag.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+        flag_pullups_text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Youtube_Flag_Pullups.class);
+                startActivity(intent);
+            }
+        });
+
+
 
 
 
