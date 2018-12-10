@@ -4,7 +4,7 @@ apply plugin: 'com.google.gms.google-services'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.example.a_m_e.thecalisthenicsblueprint"
+        applicationId "com.londonsoftware.calisthenics.thecalisthenicsblueprint"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
@@ -40,6 +40,5 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:16.0.5'
     implementation 'com.google.firebase:firebase-core:16.0.5'
     implementation 'com.google.firebase:firebase-firestore:17.1.3'
-
 
 }

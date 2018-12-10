@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    tools:context="com.londonsoftware.calisthenics.calisthenics.AdvLevel5">
+    tools:context="com.londonsoftware.calisthenics.thecalisthenicsblueprint.AdvLevel5">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar_adv5"
