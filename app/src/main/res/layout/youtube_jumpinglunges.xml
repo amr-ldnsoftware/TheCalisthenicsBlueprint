@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:background="#ffffff"
     android:layout_height="match_parent"
-    tools:context=".Youtube_Jumpinglunges">
+    tools:context="com.londonsoftware.calisthenics.calisthenics.Youtube_Jumpinglunges">
 
     <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
