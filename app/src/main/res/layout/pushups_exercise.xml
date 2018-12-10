@@ -459,7 +459,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/isometric_textview"
                 app:layout_constraintVertical_bias="0.0"
                 app:layout_constraintWidth_percent="0.3"
-                app:srcCompat="@drawable/raised_pikes" />
+                app:srcCompat="@drawable/newpike_pushups" />
 
             <TextView
                 android:id="@+id/neutral_textview"

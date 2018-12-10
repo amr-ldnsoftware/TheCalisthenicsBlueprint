@@ -99,13 +99,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginEnd="12dp"
+                android:layout_marginEnd="8dp"
                 android:fontFamily="@font/trirong_light"
                 android:text="Pectoralis muscle, any of the muscles that connect the front walls of the chest with the bones of the upper arm and shoulder. There are two such muscles on each side of the sternum (breastbone) in the human body: pectoralis major and pectoralis minor."
+                android:textSize="12sp"
                 android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/bicep_mob_image" />
-
 
 
             <TextView
@@ -114,10 +115,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="8dp"
-                android:layout_marginEnd="12dp"
+                android:layout_marginEnd="8dp"
                 android:fontFamily="@font/trirong_light"
                 android:text="The pectoralis major, the larger and more superficial, originates at the clavicle (collarbone), the sternum, the ribs, and a tendinous extension of the external oblique abdominal muscle. The pectoralis major extends across the upper part of the chest and is attached to a ridge at the rear of the humerus (the bone of the upper arm). Its major actions are adduction, or depression, of the arm (in opposition to the action of the deltoideus muscle) and rotation of the arm forward about the axis of the body."
+                android:textSize="12sp"
                 android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/biceptext" />
 
@@ -127,14 +130,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginEnd="12dp"
-                android:fontFamily="@font/trirong_light"
-                android:textStyle="bold"
-                android:textColor="#ffffff"
-                android:padding="5dp"
                 android:background="@drawable/button_design_videoshownbelow"
+                android:fontFamily="@font/trirong_light"
+                android:padding="5dp"
                 android:text="Example pectoral stretches are shown in the video below:"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/biceptext2" />
 
@@ -144,12 +149,12 @@
                 android:id="@+id/pectoralsmobility_youtubePlay"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
-                android:layout_marginTop="120dp"
+                android:layout_marginTop="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/biceptext2"
+                app:layout_constraintTop_toBottomOf="@+id/biceptext3"
                 app:layout_constraintVertical_bias="1.0" />
 
         </android.support.constraint.ConstraintLayout>
@@ -183,7 +188,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="20dp"
-                android:text="Video Credit: Criticalbench (Best 3 Yoga Poses for Your TIGHT Chest (Opens Up Your Pecs!))"
+                android:text="Video Credit: Anabolic Aliens (5 Minute Chest Static Stretching Routine | Cool Down)"
                 android:textSize="10sp"
                 android:textStyle="italic"
                 app:layout_constraintBottom_toBottomOf="parent"

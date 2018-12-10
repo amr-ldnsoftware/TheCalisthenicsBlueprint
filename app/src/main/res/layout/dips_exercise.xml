@@ -83,7 +83,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0"
                 app:layout_constraintWidth_percent="0.30"
-                app:srcCompat="@drawable/sbd" />
+                app:srcCompat="@drawable/sbdips_new_exercise" />
 
             <TextView
                 android:id="@+id/chinup_textview"
@@ -121,7 +121,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0"
                 app:layout_constraintWidth_percent="0.30"
-                app:srcCompat="@drawable/benchdips" />
+                app:srcCompat="@drawable/benchdips_newexercise" />
 
             <TextView
                 android:id="@+id/pull_closegrip_textview"
@@ -164,7 +164,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/chinup_textview"
                 app:layout_constraintVertical_bias="0.002"
                 app:layout_constraintWidth_percent="0.3"
-                app:srcCompat="@drawable/slowdips" />
+                app:srcCompat="@drawable/dips_new_exercise" />
 
             <TextView
                 android:id="@+id/pull_widegrip_textview"

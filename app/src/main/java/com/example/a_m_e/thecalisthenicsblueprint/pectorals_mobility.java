@@ -36,7 +36,7 @@ public class pectorals_mobility extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
 
-                youTubePlayer.loadVideo("xcxqJgPZSxM");
+                youTubePlayer.loadVideo("aR-u_PRGZkY");
             }
 
             @Override

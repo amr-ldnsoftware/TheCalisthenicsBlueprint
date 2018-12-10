@@ -39,25 +39,11 @@
             app:duration="18000"
             app:imageSrc="@drawable/clouds"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHeight_percent="0.15"
+            app:layout_constraintHeight_percent="0.07"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/sun" />
 
-
-        <com.cunoraz.continuouscrollable.ContinuousScrollableImageView
-            android:id="@+id/aircraft"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_below="@+id/sun"
-            app:direction="left"
-            app:duration="16000"
-            app:imageSrc="@drawable/aircraft_real"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHeight_percent="0.02"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/sun" />
 
 
         <ImageView
@@ -79,12 +65,12 @@
             android:id="@+id/pullupcartoon"
             android:layout_width="170dp"
             android:layout_height="223dp"
-            android:layout_marginBottom="72dp"
+            android:layout_marginBottom="100dp"
             android:src="@drawable/pullup_cartoon"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHeight_percent="0.4"
-            app:layout_constraintHorizontal_bias="0.78"
+            app:layout_constraintHorizontal_bias="0.893"
             app:layout_constraintStart_toStartOf="parent" />
 
 

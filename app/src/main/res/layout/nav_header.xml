@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="200dp"
+    android:layout_height="185dp"
     android:background="#008ae6"
     android:gravity="bottom"
     android:orientation="vertical"
@@ -12,16 +12,16 @@
 
     <!-- This controls the appearance of the items in the navbar heading such as icons and text -->
     <ImageView
-        android:layout_width="57dp"
-        android:layout_height="51dp"
-        android:src="@mipmap/ic_appicon" />
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher_new_inapp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="serif"
         android:paddingTop="8dp"
-        android:text="The Calisthenics Blueprint"
+        android:text="Calisthenics"
         android:textAlignment="viewStart"
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="8dp"
-        android:text="The Complete Training Guide"
+        android:text="Blueprint Guide"
         android:textAllCaps="true"
         android:textSize="10sp" />
 

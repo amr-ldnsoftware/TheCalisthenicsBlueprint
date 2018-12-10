@@ -99,13 +99,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginEnd="12dp"
+                android:layout_marginEnd="8dp"
                 android:fontFamily="@font/trirong_light"
                 android:text="The muscles in the posterior compartment of the thigh are collectively known as the hamstrings. They consist of the biceps femoris, semitendinosus and semimembranosus, which form prominent tendons medially and laterally at the back of the knee."
+                android:textSize="12sp"
                 android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/bicep_mob_image" />
-
 
 
             <TextView
@@ -114,10 +115,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="8dp"
-                android:layout_marginEnd="12dp"
+                android:layout_marginEnd="8dp"
                 android:fontFamily="@font/trirong_light"
                 android:text="As a group, these muscles act to extend at the hip, and flex at the knee. They are innervated by the sciatic nerve."
+                android:textSize="12sp"
                 android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/biceptext" />
 
@@ -127,14 +130,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginEnd="12dp"
-                android:fontFamily="@font/trirong_light"
-                android:textStyle="bold"
-                android:textColor="#ffffff"
-                android:padding="5dp"
                 android:background="@drawable/button_design_videoshownbelow"
+                android:fontFamily="@font/trirong_light"
+                android:padding="5dp"
                 android:text="Example hamstrings stretches are shown in the video below:"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/biceptext2" />
 
@@ -144,12 +149,12 @@
                 android:id="@+id/hamstringsmobility_youtubePlay"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
-                android:layout_marginTop="120dp"
+                android:layout_marginTop="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/biceptext2"
+                app:layout_constraintTop_toBottomOf="@+id/biceptext3"
                 app:layout_constraintVertical_bias="1.0" />
 
         </android.support.constraint.ConstraintLayout>

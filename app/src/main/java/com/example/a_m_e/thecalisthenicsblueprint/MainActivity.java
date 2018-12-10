@@ -1,5 +1,6 @@
 package com.example.a_m_e.thecalisthenicsblueprint;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -23,8 +24,28 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         super.onCreateOptionsMenu(menu);
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.overflow_menu,menu);
+
         return true;
+
     }
+
+    //make share button send email to share app
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.share_button_menu) {
+            Intent sendIntent = new Intent();
+            sendIntent.setAction(Intent.ACTION_SEND);
+            sendIntent.putExtra(Intent.EXTRA_TEXT,
+                    "Hey check out my app at: https://play.google.com/store/apps/details?id=com.google.android.apps.plus");
+            sendIntent.setType("text/plain");
+            startActivity(sendIntent);
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
 
 
     @Override
@@ -105,6 +126,16 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 getSupportActionBar().setTitle("MY NOTES");
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new MyJourneyFragment()).commit();
+                break;
+            case R.id.nav_about:
+                getSupportActionBar().setTitle("ABOUT");
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new AboutFragment()).commit();
+                break;
+            case R.id.nav_contact:
+                getSupportActionBar().setTitle("CONTACT");
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new ContactFragment()).commit();
                 break;
         }
 

@@ -27,9 +27,7 @@
         <item android:id="@+id/nav_parklocator"
             android:icon="@drawable/ic_parklocator"
             android:title="Park Locator"/>
-        <item android:id="@+id/nav_personaltrainers"
-            android:icon="@drawable/ic_personaltrainers"
-            android:title="Personal Trainers"/>
+
 
     </group>
 
@@ -37,13 +35,10 @@
         <menu>
             <item android:id="@+id/nav_about"
                 android:icon="@drawable/ic_about"
-                android:title="About TCB"/>
+                android:title="About"/>
             <item android:id="@+id/nav_contact"
                 android:icon="@drawable/ic_contact"
                 android:title="Contact"/>
-            <item android:id="@+id/nav_share"
-                android:icon="@drawable/ic_share"
-                android:title="Share"/>
         </menu>
     </item>
 

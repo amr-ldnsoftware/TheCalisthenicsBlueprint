@@ -99,13 +99,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginEnd="12dp"
+                android:layout_marginEnd="8dp"
                 android:fontFamily="@font/trirong_light"
                 android:text="The scapula, also known as the shoulder blade, is a flat triangular bone located at the back of the trunk and resides over the posterior surface of ribs two to seven."
+                android:textSize="12sp"
                 android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/bicep_mob_image" />
-
 
 
             <TextView
@@ -114,10 +115,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="8dp"
-                android:layout_marginEnd="12dp"
+                android:layout_marginEnd="8dp"
                 android:fontFamily="@font/trirong_light"
                 android:text="The scapula, along with the clavicle and the manubrium of the sternum, make up the pectoral (shoulder) girdle which connects the upper limb of the appendicular skeleton to the axial skeleton."
+                android:textSize="12sp"
                 android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/biceptext" />
 
@@ -127,14 +130,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginEnd="12dp"
-                android:fontFamily="@font/trirong_light"
-                android:textStyle="bold"
-                android:textColor="#ffffff"
-                android:padding="5dp"
                 android:background="@drawable/button_design_videoshownbelow"
+                android:fontFamily="@font/trirong_light"
+                android:padding="5dp"
                 android:text="Example scapula stretches are shown in the video below:"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/biceptext2" />
 
@@ -144,12 +149,12 @@
                 android:id="@+id/scapulamobility_youtubePlay"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
-                android:layout_marginTop="120dp"
+                android:layout_marginTop="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/biceptext2"
+                app:layout_constraintTop_toBottomOf="@+id/biceptext3"
                 app:layout_constraintVertical_bias="1.0" />
 
         </android.support.constraint.ConstraintLayout>

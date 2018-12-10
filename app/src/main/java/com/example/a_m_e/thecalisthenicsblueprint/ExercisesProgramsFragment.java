@@ -41,12 +41,12 @@ public class ExercisesProgramsFragment extends Fragment {
 
     public void getFitnessCards() {
         exerciseList.add(new ExercisesCardViewItem(R.drawable.pullups_exercises, "PULL UPS", "Bar and Ring variations", "Explore"));
-        exerciseList.add(new ExercisesCardViewItem(R.drawable.dips_exercise, "DIPS", "Bar and Ring variations", "Explore"));
+        exerciseList.add(new ExercisesCardViewItem(R.drawable.ring_dips_new_exercises, "DIPS", "Bar and Ring variations", "Explore"));
         exerciseList.add(new ExercisesCardViewItem(R.drawable.pushups_exercises, "PUSH UPS", "Floor, Bar and Ring variations", "Explore"));
         exerciseList.add(new ExercisesCardViewItem(R.drawable.core_exercises, "CORE", "Floor, Bar and Ring variations", "Explore"));
-        exerciseList.add(new ExercisesCardViewItem(R.drawable.squats_exercises, "LEGS", "Bodyweight and Weighted variations", "Explore"));
+        exerciseList.add(new ExercisesCardViewItem(R.drawable.squats_new_exercise, "LEGS", "Bodyweight and Weighted variations", "Explore"));
         exerciseList.add(new ExercisesCardViewItem(R.drawable.muscleup_main, "MUSCLE UPS", "Bar and Ring variations", "Explore"));
-        exerciseList.add(new ExercisesCardViewItem(R.drawable.flag_exercises, "HUMAN FLAG", "Different variations", "Explore"));
+        exerciseList.add(new ExercisesCardViewItem(R.drawable.flag_new_exercise, "HUMAN FLAG", "Different variations", "Explore"));
         exerciseList.add(new ExercisesCardViewItem(R.drawable.levers_exercise, "LEVERS", "Front and Back variations", "Explore"));
         exerciseList.add(new ExercisesCardViewItem(R.drawable.handstands_exercises, "HANDSTANDS", "Different variations", "Explore"));
         exerciseList.add(new ExercisesCardViewItem(R.drawable.planche_exercises, "PLANCHE/MALTESE", "Straddle and Full variations", "Explore"));

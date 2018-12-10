@@ -401,7 +401,7 @@
             android:layout_marginRight="17dp"
             android:fontFamily="@font/antic_didone"
             android:padding="5dp"
-            android:text="The Beginner Program has been written for anyone to undertake - regardless of gender and weight. The minimum age is 15 years old. "
+            android:text="There are many different calisthenics exercises and styles of training that one can adopt to improve their technical ability in the sport. The Fitness Programs is an example guide, that can be adjusted and built upon over time as your experience grows."
             android:textAlignment="viewStart"
             android:textColor="#000000"
             android:textSize="11sp"
@@ -417,41 +417,12 @@
             android:layout_marginRight="17dp"
             android:fontFamily="@font/antic_didone"
             android:padding="5dp"
-            android:text="However, for the Intermediate and Advanced Programs, this has been designed for people ideally weighing 65kg and above.  "
+            android:text="For weighted exercises, you should  (if necessary) lower or increase the weight accordingly and always be mindful of potential injuries when choosing heavier loads."
             android:textAlignment="viewStart"
             android:textColor="#000000"
             android:textSize="11sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textView_Equipment222"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="17dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginRight="17dp"
-            android:fontFamily="@font/antic_didone"
-            android:padding="5dp"
-            android:text="With regards to performing certain intense exercises - such as weighted squats, weighted pull ups etc., you should lower or increase the weight to suit your body mass as necessary. For example, do not attempt 100kg squats if you can barely do 60kg squats."
-            android:textAlignment="viewStart"
-            android:textColor="#000000"
-            android:textSize="11sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView_Equipment22w2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="17dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginRight="17dp"
-            android:fontFamily="@font/antic_didone"
-            android:padding="5dp"
-            android:text="These workouts are a guideline and will be suitable for some individuals. If they’re not suitable for you, you should make the necessary adjustments and judge the situation accordingly."
-            android:textAlignment="viewStart"
-            android:textColor="#000000"
-            android:textSize="11sp"
-            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView_Equipment22ww2"
@@ -460,29 +431,14 @@
             android:layout_marginLeft="17dp"
             android:layout_marginTop="15dp"
             android:layout_marginRight="17dp"
+            android:layout_marginBottom="8dp"
             android:fontFamily="@font/antic_didone"
             android:padding="5dp"
-            android:text="We do not take responsibility for any injuries sustained in the process."
+            android:text="We do not take responsibility for any injuries you may sustain during your training whilst using this application."
             android:textAlignment="viewStart"
             android:textColor="#ff0000"
             android:textSize="11sp"
             android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView_Equipment22wew2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="17dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginRight="17dp"
-            android:fontFamily="@font/antic_didone"
-            android:padding="5dp"
-            android:text="If you need any assistance, feel free to message us using the Contact Form in the side navigation drawer."
-            android:textAlignment="viewStart"
-            android:textColor="#000000"
-            android:textSize="11sp"
-            android:textStyle="bold" />
-
 
 
 

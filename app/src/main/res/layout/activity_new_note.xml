@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/brawler"
-        android:hint="Title (E.g. My first pull up)"
+        android:hint="Title (E.g. My first muscle up)"
         android:inputType="text"
         android:textSize="14sp" />
 
@@ -30,8 +30,9 @@
         android:id="@+id/edit_text_description"
         android:layout_width="match_parent"
         android:layout_height="87dp"
+        android:gravity="start|top"
         android:fontFamily="@font/brawler"
-        android:hint="Description (E.g. Not bad, but need to improve the form)"
+        android:hint="Description (E.g. Not bad, but need to improve on the form)"
         android:inputType="textMultiLine"
         android:textSize="14sp" />
 
@@ -42,7 +43,8 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/brawler"
         android:text="Priority:"
-        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textSize="14sp"
+        android:padding="5dp"
         android:textColor="#003380" />
 
     <TextView
@@ -68,11 +70,11 @@
             android:layout_marginTop="28dp"
             android:layout_marginBottom="45dp"
             android:fontFamily="@font/brawler"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
+           android:padding="5dp"
+        android:background="@drawable/button_design_macrosbutton3"
             android:text="Select Date:"
-            android:textColor="#003380"
-            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
             app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton

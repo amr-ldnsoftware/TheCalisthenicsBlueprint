@@ -99,13 +99,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginEnd="12dp"
+                android:layout_marginEnd="8dp"
                 android:fontFamily="@font/trirong_light"
                 android:text="The gluteus maximus is the largest of the three glute muscles. It attaches to the side of the sacrum and thighbone, or femur, and draws the femur into the hip socket."
+                android:textSize="12sp"
                 android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/bicep_mob_image" />
-
 
 
             <TextView
@@ -114,10 +115,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="8dp"
-                android:layout_marginEnd="12dp"
+                android:layout_marginEnd="8dp"
                 android:fontFamily="@font/trirong_light"
                 android:text="Glute max also works to kick your leg behind you and in external rotation, in addition to supporting upright, standing postures. If the gluteus maximus is weak, muscles along the lower spine, in addition to the hamstrings, will often overcompensate, potentially causing back tension and spinal misalignment."
+                android:textSize="12sp"
                 android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/biceptext" />
 
@@ -127,29 +130,30 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginEnd="12dp"
-                android:fontFamily="@font/trirong_light"
-                android:textStyle="bold"
-                android:textColor="#ffffff"
-                android:padding="5dp"
                 android:background="@drawable/button_design_videoshownbelow"
+                android:fontFamily="@font/trirong_light"
+                android:padding="5dp"
                 android:text="Example glute stretches are shown in the video below:"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/biceptext2" />
-
 
 
             <com.google.android.youtube.player.YouTubePlayerView
                 android:id="@+id/glutemobility_youtubePlay"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
-                android:layout_marginTop="120dp"
+                android:layout_marginTop="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/biceptext2"
+                app:layout_constraintTop_toBottomOf="@id/biceptext3"
                 app:layout_constraintVertical_bias="1.0" />
 
         </android.support.constraint.ConstraintLayout>
