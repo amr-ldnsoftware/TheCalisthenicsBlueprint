@@ -33,6 +33,21 @@
 
 
     <TextView
+        android:id="@+id/biceptext22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/trirong_light"
+        android:text="The app is completely ad free."
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bicep_mob_image" />
+
+    <TextView
         android:id="@+id/biceptext2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -54,7 +69,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/trirong_light"
         android:text="The purpose of the Health &amp; Nutrition section is to display nutritional information only. Any individual wishing to consume herbal products should consult a doctor or a medical professional beforehand."

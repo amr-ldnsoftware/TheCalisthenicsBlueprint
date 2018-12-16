@@ -6,7 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 public class Legs_Exercise extends AppCompatActivity {
 
@@ -60,6 +63,65 @@ public class Legs_Exercise extends AppCompatActivity {
         TextView calfraises_text = findViewById(R.id.calfraises_textview);
         TextView oneleg_calfraises_text = findViewById(R.id.oneleg_calfraises_textview);
         TextView boxjumps_text = findViewById(R.id.oneleg_glutebridge_textview2);
+
+
+
+        ImageView next_exercise_dips = findViewById(R.id.forwardarrow_dips);
+        ImageView back_exercise_dips = findViewById(R.id.backarrow_dips);
+
+        CircleImageView nextexercise_dips = findViewById(R.id.dips_exercise_nextimage);
+        CircleImageView backexercise_dips = findViewById(R.id.dips_exercise_backimage);
+
+        ImageView openfrag = findViewById(R.id.pull_exercise_tofragment_button);
+
+
+        openfrag.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+        nextexercise_dips.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Muscleups_Exercise.class);
+                startActivity(intent);
+            }
+        });
+
+        backexercise_dips.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Core_Exercise.class);
+                startActivity(intent);
+            }
+        });
+
+
+        next_exercise_dips.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Muscleups_Exercise.class);
+                startActivity(intent);
+            }
+        });
+
+        back_exercise_dips.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Core_Exercise.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+
+
 
 
         squats_text.setOnClickListener(new View.OnClickListener() {

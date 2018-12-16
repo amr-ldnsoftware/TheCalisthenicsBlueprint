@@ -379,6 +379,112 @@
 
         </android.support.constraint.ConstraintLayout>
 
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/dips_exercise_nextimage"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="55dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="25dp"
+                android:src="@drawable/humanflag"
+                app:civ_border_color="#e62e00"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/brawler"
+                android:text="Human Flag"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/dips_exercise_nextimage"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="8dp"
+                android:id="@+id/forwardarrow_dips"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/forward_arrow_exercise"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/dips_exercise_nextimage" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/dips_exercise_backimage"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="55dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="25dp"
+                android:src="@drawable/squats_exercises"
+                app:civ_border_color="#e62e00"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/brawler"
+                android:text="Legs"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/dips_exercise_backimage"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="30dp"
+                android:id="@+id/backarrow_dips"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/backwards_arrow_exercise"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/dips_exercise_backimage" />
+
+            <ImageView
+                android:id="@+id/pull_exercise_tofragment_button"
+                android:layout_width="47dp"
+                android:layout_height="47dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="35dp"
+                android:background="@drawable/homepage_icon_png"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/dips_exercise_nextimage"
+                app:layout_constraintStart_toEndOf="@+id/dips_exercise_backimage"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+
+        </android.support.constraint.ConstraintLayout>
+
 
     </LinearLayout>
 </ScrollView>

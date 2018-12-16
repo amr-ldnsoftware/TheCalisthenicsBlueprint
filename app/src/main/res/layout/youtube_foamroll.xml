@@ -212,15 +212,17 @@
 
             <TextView
                 android:id="@+id/textView9"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="54dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
                 android:fontFamily="@font/trirong_light"
                 android:text="Foam Rollers (Basic Soft, Advanced Hard, Trigger Point Roller, Hand Held)"
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -282,16 +284,19 @@
 
             <TextView
                 android:id="@+id/textView11"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
                 android:fontFamily="@font/trirong_light"
                 android:text="Pick the appropiate foam roller for your needs and target the necessary muscle groups. If you experience severe pain whilst using them, then stop immediately until you are able to do so."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
-                android:layout_marginEnd="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView10" />
 

@@ -16,7 +16,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyC1x1x-ohMoRpSI1VZq74d1z5Rwu9PAmLM" />
@@ -24,10 +23,9 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.MainActivity"
-
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,844 +33,839 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
-
-
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.BegLevel1"
+            android:name=".BegLevel1"
             android:label="@string/title_activity_beg_level1"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.BegLevel2"
+            android:name=".BegLevel2"
             android:label="@string/BegLevel2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.BegLevel3"
+            android:name=".BegLevel3"
             android:label="@string/title_activity_beg_level3"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.BegLevel4"
+            android:name=".BegLevel4"
             android:label="@string/title_activity_beg_level4"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.BegLevel5"
+            android:name=".BegLevel5"
             android:label="@string/title_activity_beg_level5"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.IntLevel1"
+            android:name=".IntLevel1"
             android:label="@string/title_activity_int_level1"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.IntLevel2"
+            android:name=".IntLevel2"
             android:label="@string/title_activity_int_level2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.IntLevel3"
+            android:name=".IntLevel3"
             android:label="@string/title_activity_int_level3"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.IntLevel4"
+            android:name=".IntLevel4"
             android:label="@string/title_activity_int_level4"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.IntLevel5"
+            android:name=".IntLevel5"
             android:label="@string/title_activity_int_level5"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.AdvLevel1"
+            android:name=".AdvLevel1"
             android:label="@string/title_activity_adv_level1"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.AdvLevel2"
+            android:name=".AdvLevel2"
             android:label="@string/title_activity_adv_level2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.AdvLevel3"
+            android:name=".AdvLevel3"
             android:label="@string/title_activity_adv_level3"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.AdvLevel4"
+            android:name=".AdvLevel4"
             android:label="@string/title_activity_adv_level4"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.AdvLevel5"
+            android:name=".AdvLevel5"
             android:label="@string/title_activity_adv_level5"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Pullups_Exercise"
+            android:name=".Pullups_Exercise"
             android:label="pullups_exercise"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Dips_Exercise"
+            android:name=".Dips_Exercise"
             android:label="dips_exercise"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Pushups_Exercise"
+            android:name=".Pushups_Exercise"
             android:label="pushups_exercise"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Core_Exercise"
+            android:name=".Core_Exercise"
             android:label="core_exercise"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Legs_Exercise"
+            android:name=".Legs_Exercise"
             android:label="legs_exercise"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Muscleups_Exercise"
+            android:name=".Muscleups_Exercise"
             android:label="muscleups_exercise"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Humanflag_Exercise"
+            android:name=".Humanflag_Exercise"
             android:label="humanflag_exercise"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Levers_Exercise"
+            android:name=".Levers_Exercise"
             android:label="levers_exercise"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Handstands_Exercise"
+            android:name=".Handstands_Exercise"
             android:label="handstands_exercise"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Planche_Exercise"
+            android:name=".Planche_Exercise"
             android:label="planche_exercise"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Normal_Pullup"
+            android:name=".Youtube_Normal_Pullup"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Normal_Chinup"
+            android:name=".Youtube_Normal_Chinup"
             android:label="chinuppullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Normal_Closegrip_Pull"
+            android:name=".Youtube_Normal_Closegrip_Pull"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Normal_Closegrip_Chin"
+            android:name=".Youtube_Normal_Closegrip_Chin"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Widegrip_Pull"
+            android:name=".Youtube_Widegrip_Pull"
             android:label="chinuppullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Widegrip_Chin"
+            android:name=".Youtube_Widegrip_Chin"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Bandpulls"
+            android:name=".Youtube_Bandpulls"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Deadhang"
+            android:name=".Youtube_Deadhang"
             android:label="chinuppullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Isometrics"
+            android:name=".Youtube_Isometrics"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Aussie"
+            android:name=".Youtube_Aussie"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Negative"
+            android:name=".Youtube_Negative"
             android:label="chinuppullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Neutral"
+            android:name=".Youtube_Neutral"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Commando"
+            android:name=".Youtube_Commando"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Highpull"
+            android:name=".Youtube_Highpull"
             android:label="chinuppullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Behindtheneck"
+            android:name=".Youtube_Behindtheneck"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Typewriters"
+            android:name=".Youtube_Typewriters"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Archer"
+            android:name=".Youtube_Archer"
             android:label="chinuppullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Clapping"
+            android:name=".Youtube_Clapping"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Lsit_Chinup"
+            android:name=".Youtube_Lsit_Chinup"
             android:label="chinuppullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Scapula"
+            android:name=".Youtube_Scapula"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Weightedpulls"
+            android:name=".Youtube_Weightedpulls"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Onearm"
+            android:name=".Youtube_Onearm"
             android:label="chinuppullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Ringpulls"
+            android:name=".Youtube_Ringpulls"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_PushUp"
+            android:name=".Youtube_PushUp"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Situps"
+            android:name=".Youtube_Situps"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Romantwists"
+            android:name=".Youtube_Romantwists"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Plank"
+            android:name=".Youtube_Plank"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Barkneeraises"
+            android:name=".Youtube_Barkneeraises"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Squats"
+            android:name=".Youtube_Squats"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Lunges"
+            android:name=".Youtube_Lunges"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Jumpingsquats"
+            android:name=".Youtube_Jumpingsquats"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Jumpinglunges"
+            android:name=".Youtube_Jumpinglunges"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Sidesquats"
+            android:name=".Youtube_Sidesquats"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Sideplank"
+            android:name=".Youtube_Sideplank"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Foamroll"
+            android:name=".Youtube_Foamroll"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Widepushup"
+            android:name=".Youtube_Widepushup"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_FloorLegRaises"
+            android:name=".Youtube_FloorLegRaises"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Wallsit"
+            android:name=".Youtube_Wallsit"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Bulgarian"
+            android:name=".Youtube_Bulgarian"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_KneePushups"
+            android:name=".Youtube_KneePushups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_ClosePosition"
+            android:name=".Youtube_ClosePosition"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Diamond_Pushups"
+            android:name=".Youtube_Diamond_Pushups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Spiderman_Pushups"
+            android:name=".Youtube_Spiderman_Pushups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Straightbar_Pushups"
+            android:name=".Youtube_Straightbar_Pushups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Russian_Pushups"
+            android:name=".Youtube_Russian_Pushups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Hindu_Pushups"
+            android:name=".Youtube_Hindu_Pushups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Clapping_Pushups"
+            android:name=".Youtube_Clapping_Pushups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Pike_Pushups"
+            android:name=".Youtube_Pike_Pushups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Raised_Pike_Pushups"
+            android:name=".Youtube_Raised_Pike_Pushups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Paral_Pushups"
+            android:name=".Youtube_Paral_Pushups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Weighted_Pushups"
+            android:name=".Youtube_Weighted_Pushups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Archer_Pushups"
+            android:name=".Youtube_Archer_Pushups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Slow_Pushups"
+            android:name=".Youtube_Slow_Pushups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Raised_Decline_Pushups"
+            android:name=".Youtube_Raised_Decline_Pushups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Pseudo"
+            android:name=".Youtube_Pseudo"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Tuckedplanche_pushups"
+            android:name=".Youtube_Tuckedplanche_pushups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Handstand_Pushups"
+            android:name=".Youtube_Handstand_Pushups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Planche_Pushups"
+            android:name=".Youtube_Planche_Pushups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Ringpushups"
+            android:name=".Youtube_Ringpushups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Dips"
+            android:name=".Youtube_Dips"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Benchdips"
+            android:name=".Youtube_Benchdips"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_SB_Dips"
+            android:name=".Youtube_SB_Dips"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Russian_Dips"
+            android:name=".Youtube_Russian_Dips"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_SlowDips"
+            android:name=".Youtube_SlowDips"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_ImpossibleDips"
+            android:name=".Youtube_ImpossibleDips"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Trans_Dips"
+            android:name=".Youtube_Trans_Dips"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Korean_Dips"
+            android:name=".Youtube_Korean_Dips"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Weighted_Dips"
+            android:name=".Youtube_Weighted_Dips"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Ring_Dips"
+            android:name=".Youtube_Ring_Dips"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Bar_Legraises"
+            android:name=".Youtube_Bar_Legraises"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Side_Kneeraises"
+            android:name=".Youtube_Side_Kneeraises"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Hollowholds"
+            android:name=".Youtube_Hollowholds"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Toestobar"
+            android:name=".Youtube_Toestobar"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Lsit"
+            android:name=".Youtube_Lsit"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Ab_Rollouts"
+            android:name=".Youtube_Ab_Rollouts"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Vsit"
+            android:name=".Youtube_Vsit"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Dragonflags"
+            android:name=".Youtube_Dragonflags"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Weighted_Squats"
+            android:name=".Youtube_Weighted_Squats"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Weighted_Lunges"
+            android:name=".Youtube_Weighted_Lunges"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Broadjumps"
+            android:name=".Youtube_Broadjumps"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Assisted_Pistolsquats"
+            android:name=".Youtube_Assisted_Pistolsquats"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Pistolsquats"
+            android:name=".Youtube_Pistolsquats"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_GHR"
+            android:name=".Youtube_GHR"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_BoxJumps"
+            android:name=".Youtube_BoxJumps"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Normal_Muscleups"
+            android:name=".Youtube_Normal_Muscleups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Banded_Muscleup"
+            android:name=".Youtube_Banded_Muscleup"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Slow_Muscleup"
+            android:name=".Youtube_Slow_Muscleup"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Closegrip_Muscleup"
+            android:name=".Youtube_Closegrip_Muscleup"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Widegrip_Muscleup"
+            android:name=".Youtube_Widegrip_Muscleup"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Xgrip_Muscleup"
+            android:name=".Youtube_Xgrip_Muscleup"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Lsit_Muscleup"
+            android:name=".Youtube_Lsit_Muscleup"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Ring_Muscleup"
+            android:name=".Youtube_Ring_Muscleup"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Weighted_Muscleup"
+            android:name=".Youtube_Weighted_Muscleup"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_HumanFlag"
+            android:name=".Youtube_HumanFlag"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Kneetuck_Flag"
+            android:name=".Youtube_Kneetuck_Flag"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Negative_Flag"
+            android:name=".Youtube_Negative_Flag"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Flag_Pullups"
+            android:name=".Youtube_Flag_Pullups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Frontlever"
+            android:name=".Youtube_Frontlever"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Backlever"
+            android:name=".Youtube_Backlever"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Frontlever_Kneetucks"
+            android:name=".Youtube_Frontlever_Kneetucks"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Backlever_Kneetucks"
+            android:name=".Youtube_Backlever_Kneetucks"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Banded_Levers"
+            android:name=".Youtube_Banded_Levers"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Kneetuck_Raises"
+            android:name=".Youtube_Kneetuck_Raises"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Oneleg_frontlever"
+            android:name=".Youtube_Oneleg_frontlever"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Icecream_Makers"
+            android:name=".Youtube_Icecream_Makers"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Straddle_Levers"
+            android:name=".Youtube_Straddle_Levers"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Lever_Pullups"
+            android:name=".Youtube_Lever_Pullups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Handstands_Floor_Var"
+            android:name=".Youtube_Handstands_Floor_Var"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Wall_Handstands"
+            android:name=".Youtube_Wall_Handstands"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Tigerbend_Handstands"
+            android:name=".Youtube_Tigerbend_Handstands"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_NinetyDeg_Handstand"
+            android:name=".Youtube_NinetyDeg_Handstand"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Planche"
+            android:name=".Youtube_Planche"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Straddle_Planche"
+            android:name=".Youtube_Straddle_Planche"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Planche_Tucks"
+            android:name=".Youtube_Planche_Tucks"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Maltese"
+            android:name=".Youtube_Maltese"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Windshield_Wipers"
+            android:name=".Youtube_Windshield_Wipers"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_FrontSquats"
+            android:name=".Youtube_FrontSquats"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_GluteBridges"
+            android:name=".Youtube_GluteBridges"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Oneleg_Glutebridges"
+            android:name=".Youtube_Oneleg_Glutebridges"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Calfraises"
+            android:name=".Youtube_Calfraises"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Oneleg_CalfRaises"
+            android:name=".Youtube_Oneleg_CalfRaises"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_Onearm_Pushups"
+            android:name=".Youtube_Onearm_Pushups"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_SkullCrushers"
+            android:name=".Youtube_SkullCrushers"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Youtube_BackExtensions"
+            android:name=".Youtube_BackExtensions"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Fitnessprograms_Disclaimer"
+            android:name=".Fitnessprograms_Disclaimer"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.biceps_mobility"
+            android:name=".biceps_mobility"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.triceps_mobility"
+            android:name=".triceps_mobility"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.pectorals_mobility"
+            android:name=".pectorals_mobility"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.shoulders_mobility"
+            android:name=".shoulders_mobility"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.scapula_mobility"
+            android:name=".scapula_mobility"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.lats_mobility"
+            android:name=".lats_mobility"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.neck_mobility"
+            android:name=".neck_mobility"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.abdominals_mobility"
+            android:name=".abdominals_mobility"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.quads_mobility"
+            android:name=".quads_mobility"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.hamstrings_mobility"
+            android:name=".hamstrings_mobility"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.calves_mobility"
+            android:name=".calves_mobility"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.glutes_mobility"
+            android:name=".glutes_mobility"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Vegan_Protein_Sources"
+            android:name=".Vegan_Protein_Sources"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Herbal_Powders"
+            android:name=".Herbal_Powders"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Hemp_Powder"
+            android:name=".Hemp_Powder"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Pumpkin_Seed_Powder"
+            android:name=".Pumpkin_Seed_Powder"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Chia_Seed_Powder"
+            android:name=".Chia_Seed_Powder"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Pea_Protein_Powder"
+            android:name=".Pea_Protein_Powder"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Rice_Protein_Powder"
+            android:name=".Rice_Protein_Powder"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Walnut_Flour"
+            android:name=".Walnut_Flour"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Herbal_Teas"
+            android:name=".Herbal_Teas"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.BMI_Calculator"
+            android:name=".BMI_Calculator"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Spirilunia"
+            android:name=".Spirilunia"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Chlorella"
+            android:name=".Chlorella"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Wheat_Grass"
+            android:name=".Wheat_Grass"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Barley_Grass"
+            android:name=".Barley_Grass"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Cacao"
+            android:name=".Cacao"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Milk_Thistle"
+            android:name=".Milk_Thistle"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Acerola_Cherry"
+            android:name=".Acerola_Cherry"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Siberian_Ginseng"
+            android:name=".Siberian_Ginseng"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Black_maca"
+            android:name=".Black_maca"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Dong_Quai"
+            android:name=".Dong_Quai"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Purpose_root"
+            android:name=".Purpose_root"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Ginkgo"
+            android:name=".Ginkgo"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Maitake_Mushroom"
+            android:name=".Maitake_Mushroom"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Nettle_Root"
+            android:name=".Nettle_Root"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Ashwaghanda"
+            android:name=".Ashwaghanda"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Neem"
+            android:name=".Neem"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Shatvari"
+            android:name=".Shatvari"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Triphala"
+            android:name=".Triphala"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Peppermint_Tea"
+            android:name=".Peppermint_Tea"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Damiana"
+            android:name=".Damiana"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Dandelion"
+            android:name=".Dandelion"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Chamomile"
+            android:name=".Chamomile"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Elderberry"
+            android:name=".Elderberry"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Velarian"
+            android:name=".Velarian"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Lemon_Ver"
+            android:name=".Lemon_Ver"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Liqurice"
+            android:name=".Liqurice"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Matcha"
+            android:name=".Matcha"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Pau"
+            android:name=".Pau"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Raspberry"
+            android:name=".Raspberry"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Hemp_Leaf"
+            android:name=".Hemp_Leaf"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Hawthorn_Berries"
+            android:name=".Hawthorn_Berries"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Hibiscus"
+            android:name=".Hibiscus"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Lavender"
+            android:name=".Lavender"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.MyJourneyClass"
+            android:name=".MyJourneyClass"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
-            android:name="com.londonsoftware.calisthenics.thecalisthenicsblueprint.NewNoteActivity"
+            android:name=".NewNoteActivity"
             android:label="normalpullup"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
 
     </application>
 

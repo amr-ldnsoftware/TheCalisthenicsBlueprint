@@ -6,7 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 public class Dips_Exercise extends AppCompatActivity {
 
@@ -41,6 +44,64 @@ public class Dips_Exercise extends AppCompatActivity {
         TextView korean_text = findViewById(R.id.deadhang_textview);
         TextView weighteddips_text = findViewById(R.id.negative_textview);
         TextView ringdips_text = findViewById(R.id.austa_textview);
+
+
+        ImageView next_exercise_dips = findViewById(R.id.forwardarrow_dips);
+        ImageView back_exercise_dips = findViewById(R.id.backarrow_dips);
+
+        CircleImageView nextexercise_dips = findViewById(R.id.dips_exercise_nextimage);
+        CircleImageView backexercise_dips = findViewById(R.id.dips_exercise_backimage);
+
+        ImageView openfrag = findViewById(R.id.pull_exercise_tofragment_button);
+
+
+
+        openfrag.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+        nextexercise_dips.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Pushups_Exercise.class);
+                startActivity(intent);
+            }
+        });
+
+        backexercise_dips.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Pullups_Exercise.class);
+                startActivity(intent);
+            }
+        });
+
+
+        next_exercise_dips.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Pushups_Exercise.class);
+                startActivity(intent);
+            }
+        });
+
+        back_exercise_dips.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Pullups_Exercise.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+
 
 
         normaldips_text.setOnClickListener(new View.OnClickListener() {
