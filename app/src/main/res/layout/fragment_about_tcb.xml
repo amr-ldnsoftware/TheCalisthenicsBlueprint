@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context="com.londonsoftware.calisthenics.thecalisthenicsblueprint.AboutFragment">
+    tools:context="com.londonsoftware.calisthenics.calisthenics.AboutFragment">
 
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -24,7 +24,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/trirong_light"
-        android:text="The Calisthenics Blueprint Guide is a platform for individuals of any ability to learn effective methods in mastering their own bodyweight. "
+        android:text="This app is a platform for individuals of any ability willing to learn how to master their own bodyweight through calisthenics. The app provides a comprehensive list of calisthenics exercises, as well as a challenging fitness routine for users to follow."
         android:textSize="12sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,7 +40,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/trirong_light"
-        android:text="The app is completely ad free."
+        android:text="For a better user experience, we have avoided using ads throughout the application."
         android:textSize="12sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -111,8 +111,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/biceptext" />
 
-
-
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ldn_logo" />
 
 </LinearLayout>
 </ScrollView>

@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context="com.londonsoftware.calisthenics.thecalisthenicsblueprint.Fitnessprograms_Disclaimer"
+        tools:context="com.londonsoftware.calisthenics.calisthenics.Fitnessprograms_Disclaimer"
         android:fitsSystemWindows="true"
         android:orientation="vertical">
 
