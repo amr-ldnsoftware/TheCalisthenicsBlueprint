@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:background="#ffffff"
     android:layout_height="match_parent"
-    tools:context="com.londonsoftware.calisthenics.calisthenics.Youtube_Vsit">
+    tools:context="com.londonsoftware.calisthenics_.calisthenics.Youtube_Vsit">
 
     <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
@@ -156,7 +156,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:fontFamily="@font/trirong_light"
-                android:text="L-Sit Hold, Toes to Bar. Excellent Hip Flexor, Quadricep and Hamstring mobility"
+                android:text="L-Sit Hold, Toes to Bar. Excellent Hip Flexor, Quadricep and Hamstring mobility."
                 android:textColor="#333333"
                 android:textSize="12sp"
                 android:textStyle="bold"
