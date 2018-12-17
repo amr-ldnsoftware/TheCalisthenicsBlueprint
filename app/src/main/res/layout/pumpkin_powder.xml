@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context="com.londonsoftware.calisthenics_.calisthenics.Pumpkin_Seed_Powder">
+    tools:context="com.londonsoftware.calisthenics.calisthenics.Pumpkin_Seed_Powder">
 
 
 
